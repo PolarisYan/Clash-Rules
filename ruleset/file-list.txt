@@ -1,0 +1,28 @@
+// hosts
+https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt,./ruleset/anudeepND/origin/hosts.txt
+https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt,./ruleset/AdAway/origin/hosts.txt
+// domain
+https://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext&hostformat=plain,./ruleset/Peter_Lowe/origin/domain.txt
+https://cdn.jsdelivr.net/gh/badmojr/1Hosts@master/Lite/domains.wildcards,./ruleset/1Host_Lite/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/light-onlydomains.txt,./ruleset/HaGeZi_Multi_LIGHT/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/multi-onlydomains.txt,./ruleset/HaGeZi_Multi_NORMAL/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/pro-onlydomains.txt,./ruleset/HaGeZi_Multi_PRO/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/pro.mini-onlydomains.txt,./ruleset/HaGeZi_Multi_PRO_MINI/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/tif-onlydomains.txt,./ruleset/HaGeZi_Threat/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/tif.medium-onlydomains.txt,./ruleset/HaGeZi_Threat_MEDIUM/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/tif.mini-onlydomains.txt,./ruleset/HaGeZi_Threat_MINI/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/gambling-onlydomains.txt,./ruleset/HaGeZi_Gambling/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/gambling.medium-onlydomains.txt,./ruleset/HaGeZi_Gambling_MEDIUM/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/gambling.mini-onlydomains.txt,./ruleset/HaGeZi_Gambling_MINI/origin/domain.txt
+https://small.oisd.nl/domainswild2,./ruleset/OISD/origin/domain.txt
+https://nsfw-small.oisd.nl/domainswild2,./ruleset/OISD_NSFW/origin/domain.txt
+// domain yml
+https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt,./ruleset/Loyalsoldier_gfw/origin/domain.yml
+https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt,./ruleset/Loyalsoldier_proxy/origin/domain.yml
+https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt,./ruleset/Loyalsoldier_tld-not-cn/origin/domain.yml
+// classical yml
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml,./ruleset/blackmatrix7_GlobalMedia/origin/classical.yml
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/Game.yaml,./ruleset/blackmatrix7_Game/origin/classical.yml
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml,./ruleset/blackmatrix7_Google/origin/classical.yml
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/IPTVOther/IPTVOther.yaml,./ruleset/blackmatrix7_IPTVOther/origin/classical.yml
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml,./ruleset/blackmatrix7_Microsoft/origin/classical.yml

@@ -304,3 +304,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+.yarnrc.yml

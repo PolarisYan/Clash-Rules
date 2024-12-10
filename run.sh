@@ -1,0 +1,1 @@
+bash -c "nohup sh -c 'yarn node script.js' > ../output.log 2>&1 &"
