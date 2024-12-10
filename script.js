@@ -173,6 +173,15 @@ async function writeFile(filePath, content) {
   await fs.promises.writeFile(filePath, content, 'utf8');
   console.log(`File created: ${filePath}`);
 
+  const dir = path.dirname(filePath);
+  const files = await fs.promises.readdir(dir);
+  for (const file of files) {
+    if (/_\d+\./.test(file)) {
+      const filePath = path.join(dir, file);
+      await fs.promises.unlink(filePath);
+      console.log(`Deleted file: ${filePath}`);
+    }
+  }
   const lines = content.split('\n');
   const lineCountsPerFile = 99999;
   if (lines.length > lineCountsPerFile) {
