@@ -131,41 +131,66 @@ async function copyFileToClashDir(src) {
         classicalContentStash
       } = splitClassicalToDifferentContentTypes(fileContent);
       if (domainContentClash) {
-        await fs.promises.writeFile(clashDest, domainContentClash, 'utf8');
+        await writeFile(clashDest, domainContentClash);
         console.log(`File copied and modified successfully to ${clashDest}`);
       }
       if (domainContentStash) {
-        await fs.promises.writeFile(stashDest, domainContentStash, 'utf8');
+        await writeFile(stashDest, domainContentStash);
         console.log(`File copied and modified successfully to ${stashDest}`);
       }
       if (ipcidrContent) {
         const ipcidrDir = path.join(parentDir, 'ipcidr');
         const ipcidrDest = path.join(ipcidrDir, 'text_ipcidr.txt');
         await ensureDirectoryExists(ipcidrDir);
-        await fs.promises.writeFile(ipcidrDest, ipcidrContent, 'utf8');
+        await writeFile(ipcidrDest, ipcidrContent);
         console.log(`File copied and modified successfully to ${ipcidrDest}`);
       }
       if (classicalContentClash) {
         const classicalClashDest = path.join(clashDir, 'text_classical.txt');
-        await fs.promises.writeFile(classicalClashDest, classicalContentClash, 'utf8');
+        await writeFile(classicalClashDest, classicalContentClash);
         console.log(`File copied and modified successfully to ${classicalClashDest}`);
       }
       if (classicalContentStash) {
         const classicalStashDest = path.join(stashDir, 'text_classical.txt');
-        await fs.promises.writeFile(classicalStashDest, classicalContentStash, 'utf8');
+        await writeFile(classicalStashDest, classicalContentStash);
         console.log(`File copied and modified successfully to ${classicalStashDest}`);
       }
     } else {
       const modifiedContentClash = modifyFileContentForClash(fileContent);
-      await fs.promises.writeFile(clashDest, modifiedContentClash, 'utf8');
+      await writeFile(clashDest, modifiedContentClash);
       console.log(`File copied and modified successfully to ${clashDest}`);
 
       const modifiedContentStash = modifyFileContentForStash(fileContent);
-      await fs.promises.writeFile(stashDest, modifiedContentStash, 'utf8');
+      await writeFile(stashDest, modifiedContentStash);
       console.log(`File copied and modified successfully to ${stashDest}`);
     }
   } catch (error) {
     console.error(`Error copying or modifying file to clash directory from ${src}:`, error);
+  }
+}
+
+async function writeFile(filePath, content) {
+  await fs.promises.writeFile(filePath, content, 'utf8');
+  console.log(`File created: ${filePath}`);
+
+  const lines = content.split('\n');
+  const lineCountsPerFile = 99999;
+  if (lines.length > lineCountsPerFile) {
+    const dir = path.dirname(filePath);
+    const extname = path.extname(filePath);
+    const baseName = path.basename(filePath, extname);
+    let newFilePath = dir;
+    let counter = 0;
+
+    for (let i = 0; i < lines.length; i++) {
+      if (i % lineCountsPerFile === 0 && (newFilePath = path.join(dir, `${baseName}_${counter}${extname}`))) {
+        let end = i + lineCountsPerFile > lines.length ? lines.length : i + lineCountsPerFile;
+        content = lines.slice(i, end).join('\n');
+        await fs.promises.writeFile(newFilePath, content, 'utf8');
+        console.log(`File created: ${newFilePath}`);
+        counter++;
+      }
+    }
   }
 }
 
