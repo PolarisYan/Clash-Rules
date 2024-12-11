@@ -371,5 +371,10 @@ async function main() {
   }
 }
 
-main();
-setInterval(main, 24 * 60 * 60 * 1000);
+(async () => {
+  try {
+    await main();
+  } catch (error) {
+    console.error('Failed to execute main function:', error);
+  }
+})();
