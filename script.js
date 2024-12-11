@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
-const simpleGit = require('simple-git');
+const { simpleGit, GitConfigScope } = require('simple-git');
 
 const git = simpleGit();
 const listFilePath = './ruleset/file-list.txt';
@@ -299,6 +299,9 @@ async function readDownloadList(filePath) {
 async function gitCommitAndPush(commitMessage, branchName, repoUrl, username, token) {
   try {
     const authRepoUrlWithCreds = `https://${username}:${token}@${repoUrl.replace(/^https?:\/\//, '')}`;
+
+    await git.addConfig('user.name', 'Polaris', false, GitConfigScope.local);
+    await git.addConfig('user.email', 'PolarisYan02@outlook.com', false, GitConfigScope.local);
 
     await git.add('./ruleset');
     console.log('Files in ./ruleset directory added to staging area.');
