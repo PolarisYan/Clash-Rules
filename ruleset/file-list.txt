@@ -1,6 +1,7 @@
 // hosts
 https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt,./ruleset/anudeepND/origin/hosts.txt
 https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt,./ruleset/AdAway/origin/hosts.txt
+https://raw.githubusercontent.com/FiltersHeroes/KADhosts/master/KADhosts.txt,./ruleset/KADhosts/origin/hosts.txt
 // domain
 https://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext&hostformat=plain,./ruleset/Peter_Lowe/origin/domain.txt
 https://cdn.jsdelivr.net/gh/badmojr/1Hosts@master/Lite/domains.wildcards,./ruleset/1Host_Lite/origin/domain.txt
@@ -29,3 +30,4 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml,./ruleset/blackmatrix7_Google/origin/classical.yml
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/IPTVOther/IPTVOther.yaml,./ruleset/blackmatrix7_IPTVOther/origin/classical.yml
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml,./ruleset/blackmatrix7_Microsoft/origin/classical.yml
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml,./ruleset/blackmatrix7_ChinaMax/origin/classical.yml
