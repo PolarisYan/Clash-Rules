@@ -156,11 +156,11 @@ async function copyFileToClashDir(src) {
         console.log(`File copied and modified successfully to ${classicalStashDest}`);
       }
     } else {
-      const modifiedContentClash = modifyFileContentForClash(fileContent);
+      const modifiedContentClash = modifyFileContentWithWildcard(fileContent, "+.");
       await writeFile(clashDest, modifiedContentClash);
       console.log(`File copied and modified successfully to ${clashDest}`);
 
-      const modifiedContentStash = modifyFileContentForStash(fileContent);
+      const modifiedContentStash = modifyFileContentWithWildcard(fileContent, ".");
       await writeFile(stashDest, modifiedContentStash);
       console.log(`File copied and modified successfully to ${stashDest}`);
     }
@@ -213,8 +213,8 @@ function splitClassicalToDifferentContentTypes(content) {
     .split('\n')
     .map(line => line.replace(/\s+/g, ''))
     .filter(line => line.length > 0 && !line.startsWith('#') && !line.startsWith('payload:'))
-    .map(line => line.startsWith('-') ? line.substring(1) : line)
     .forEach(line => {
+      line = line.startsWith('-') ? line.substring(1) : line
       const matchedRule = classicalRules.find(rule => line.startsWith(rule.rule + ","))
       if (!matchedRule) {
         return;
@@ -247,57 +247,34 @@ function splitClassicalToDifferentContentTypes(content) {
   return { domainContentClash, domainContentStash, ipcidrContent, classicalContentClash, classicalContentStash }
 }
 
-function modifyFileContentForClash(content) {
+function modifyFileContentWithWildcard(content, wildcard) {
   return content
     .split('\n')
     .map(line => line.replace(/\s+/g, ''))
-    .filter(line => line.length > 0 && !line.startsWith('#') && !line.startsWith('payload:'))
-    .filter(line => !localHost.includes(line))
+    .filter(line => line.length > 0 && !line.startsWith('#') && !line.startsWith('payload:') && !localHost.includes(line))
     .map(line => {
       if (line.startsWith("0.0.0.0")) {
         line = line.substring("0.0.0.0".length);
       } else if (line.startsWith("127.0.0.1")) {
         line = line.substring("127.0.0.1".length);
       }
-      return line;
-    })
-    .map(line => {
       if (line.startsWith("-'") && line.endsWith("'")) {
         line = line.substring(2, line.length - 1);
       }
-      return line;
-    })
-    .map(line => line.startsWith('+.') ? line : `+.${line}`)
-    .join('\n');
-}
-
-function modifyFileContentForStash(content) {
-  return content
-    .split('\n')
-    .map(line => line.replace(/\s+/g, ''))
-    .filter(line => line.length > 0 && !line.startsWith('#') && !line.startsWith('payload:'))
-    .filter(line => !localHost.includes(line))
-    .map(line => {
-      if (line.startsWith("0.0.0.0")) {
-        line = line.substring("0.0.0.0".length);
-      } else if (line.startsWith("127.0.0.1")) {
-        line = line.substring("127.0.0.1".length);
-      }
-      return line;
-    })
-    .map(line => {
-      if (line.startsWith("-'") && line.endsWith("'")) {
-        line = line.substring(2, line.length - 1);
-      }
-      return line;
-    })
-    .map(line => {
-      if (line.startsWith("+")) {
+      if (line.startsWith(wildcard)) {
+      } else if (line.startsWith("+.") || line.startsWith("*.")) {
+        line = line.substring(2, line.length);
+      } else if (line.startsWith(".") || line.startsWith("*")) {
         line = line.substring(1, line.length);
       }
-      return line;
+      if (/\b((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\/(3[0-2]|[12]?[0-9]))?\b/.test(line)) {
+        return line;
+      } else if (/\b(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))(\/(12[0-8]|1[01][0-9]|[1-9]?[0-9]))?\b/.test(line)) {
+        return line;
+      } else {
+        return line.startsWith(wildcard) ? line : `${wildcard}${line}`
+      }
     })
-    .map(line => line.startsWith('.') ? line : `.${line}`)
     .join('\n');
 }
 
