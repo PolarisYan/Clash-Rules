@@ -18,6 +18,6 @@ fi
 
 echo "$REMOTE_URL"
 
-git pull "$REMOTE_URL" main
+git pull -f "$REMOTE_URL" main
 
 yarn node script.js > ../output.log 2>&1

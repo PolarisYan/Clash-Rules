@@ -9,6 +9,7 @@ const localHost = ['127.0.0.1localhost', '::1localhost']
 const commitMessage = "Automatically update the rule file";
 const branchName = "main";
 const gitUserFilePath = path.join(__dirname, 'git_user.json');
+const mergeRulesFilePath = './ruleset/merge-rules.json';
 const classicalRules = [
   { rule: "DOMAIN", reformatTo: "domain", stashClassical: false },
   { rule: "DOMAIN-SUFFIX", reformatTo: "domain", stashClassical: false },
@@ -169,25 +170,28 @@ async function copyFileToClashDir(src) {
   }
 }
 
-async function writeFile(filePath, content) {
-  await fs.promises.writeFile(filePath, content, 'utf8');
-  console.log(`File created: ${filePath}`);
-
-  const dir = path.dirname(filePath);
+async function deleteSplitFiles(dir, baseName) {
   const files = await fs.promises.readdir(dir);
   for (const file of files) {
-    if (/_\d+\./.test(file)) {
+    if (/_\d+\./.test(file) && file.includes(baseName)) {
       const filePath = path.join(dir, file);
       await fs.promises.unlink(filePath);
       console.log(`Deleted file: ${filePath}`);
     }
   }
+}
+
+async function writeFile(filePath, content) {
+  await fs.promises.writeFile(filePath, content, 'utf8');
+  console.log(`File created: ${filePath}`);
+
+  const dir = path.dirname(filePath);
+  const extname = path.extname(filePath);
+  const baseName = path.basename(filePath, extname);
+  await deleteSplitFiles(dir, baseName);
   const lines = content.split('\n');
   const lineCountsPerFile = 99999;
   if (lines.length > lineCountsPerFile) {
-    const dir = path.dirname(filePath);
-    const extname = path.extname(filePath);
-    const baseName = path.basename(filePath, extname);
     let newFilePath = dir;
     let counter = 0;
 
@@ -326,7 +330,7 @@ async function readGitUserCredentials() {
     console.log(`Parsed git user credentials data:`, parsedData);
     return parsedData;
   } catch (error) {
-    console.error(`Error reading gituser.json from ${gitUserFilePath}:`, error);
+    console.error(`Error reading git user credentials data from ${gitUserFilePath}:`, error);
     throw error;
   }
 }
@@ -348,6 +352,71 @@ async function getRemoteUrl() {
   }
 }
 
+async function mergeRules() {
+  let mergeRulesList;
+  try {
+    console.log(`Attempting to read merge rules from ${mergeRulesFilePath}`);
+    const data = await fs.promises.readFile(mergeRulesFilePath, 'utf8');
+    console.log(`Successfully read merge rules from ${mergeRulesFilePath}`);
+    mergeRulesList = JSON.parse(data);
+    console.log(`Parsed merge rules  data:`, mergeRulesList);
+  } catch (error) {
+    console.error(`Error reading merge rules from ${mergeRulesFilePath}:`, error);
+    throw error;
+  }
+
+  for (let i in mergeRulesList) {
+    const each = mergeRulesList[i];
+    const clashPlusWildcardTargetFile = each?.targetFiles?.clashPlusWildcard;
+    console.log(`clashPlusWildcardTargetFile:`, clashPlusWildcardTargetFile);
+    const stashDotWildcardTargetFile = each?.targetFiles?.stashDotWildcard;
+    console.log(`stashDotWildcardTargetFile:`, stashDotWildcardTargetFile);
+    const sourceDomainFiles = each?.sourceDomainFiles;
+    console.log(`sourceDomainFiles:`, sourceDomainFiles);
+
+    const linesSet = new Set();
+    for (let i2 in sourceDomainFiles) {
+      const eachSourceDomainFile = sourceDomainFiles[i2];
+      console.log(`eachSourceDomainFile:`, eachSourceDomainFile);
+      const fileContent = await fs.promises.readFile(eachSourceDomainFile, 'utf8');
+      const lines = fileContent.split('\n')
+        .map(line => line.startsWith(".") ? line.substring(1, line.length) : line);
+      lines.forEach(line => {
+        let need = true;
+        for (let i in linesSet) {
+          if (line.endsWith(linesSet[i])) {
+            need = false;
+            break;
+          } else if (linesSet[i].endsWith(line)) {
+            linesSet[i] = line;
+            need = false;
+            break;
+          }
+        }
+        if (need) {
+          linesSet.add(line);
+        }
+      });
+    }
+    const uniqueLines = Array.from(linesSet).sort();
+    uniqueLines.sort((a, b) => a.length - b.length);
+
+    if (stashDotWildcardTargetFile) {
+      const target = path.join(__dirname, stashDotWildcardTargetFile);
+      const destDir = path.dirname(target);
+      await ensureDirectoryExists(destDir);
+      await writeFile(target, uniqueLines.map(line => ".".concat(line)).join('\n'));
+    }
+    if (clashPlusWildcardTargetFile) {
+      const target = path.join(__dirname, clashPlusWildcardTargetFile);
+      const destDir = path.dirname(target);
+      await ensureDirectoryExists(destDir);
+      await writeFile(target, uniqueLines.map(line => "+.".concat(line)).join('\n'));
+    }
+  }
+}
+
+
 async function main() {
   try {
     const downloadList = await readDownloadList(listFilePath);
@@ -366,6 +435,8 @@ async function main() {
       }
       console.log(``);
     }
+    console.log(`\n\n\n`);
+    await mergeRules();
     console.log(`\n\n\n`);
     await gitCommitAndPush(commitMessage, branchName, repoUrl, username, token);
     console.log(`\n\n\n`);
