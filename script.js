@@ -379,8 +379,7 @@ async function mergeRules() {
       const eachSourceDomainFile = sourceDomainFiles[i2];
       console.log(`eachSourceDomainFile:`, eachSourceDomainFile);
       const fileContent = await fs.promises.readFile(eachSourceDomainFile, 'utf8');
-      const lines = fileContent.split('\n')
-        .map(line => line.startsWith(".") ? line.substring(1, line.length) : line);
+      const lines = fileContent.split('\n');
       lines.forEach(line => {
         let need = true;
         for (let i in linesSet) {
@@ -398,8 +397,10 @@ async function mergeRules() {
         }
       });
     }
-    const uniqueLines = Array.from(linesSet).sort();
-    uniqueLines.sort((a, b) => a.length - b.length);
+    const uniqueLines = Array.from(linesSet)
+      .sort((a, b) => a.length - b.length)
+
+      .map(line => line.startsWith(".") ? line.substring(1, line.length) : line);
 
     if (stashDotWildcardTargetFile) {
       const target = path.join(__dirname, stashDotWildcardTargetFile);
