@@ -447,17 +447,18 @@ async function mergeFile(targetFiles, sourceFiles, mergeFunc, sortFunc, mergedCl
     console.log(`Start merge source:`, eachSourceFile);
     lines.forEach(line => {
       let needAdd = true;
-      for (let i = 0; i < mergedLines.length; i++) {
-        const result = mergeFunc(line, mergedLines[i]);
-        needAdd = result.needAdd;
-        const needReplace = result.needReplace;
-        if (needReplace) {
-          mergedLines[i] = line;
-        }
-        if (!needAdd) {
-          break;
-        }
-      }
+      // TODO: Too slow
+      // for (let i = 0; i < mergedLines.length; i++) {
+      //   const result = mergeFunc(line, mergedLines[i]);
+      //   needAdd = result.needAdd;
+      //   const needReplace = result.needReplace;
+      //   if (needReplace) {
+      //     mergedLines[i] = line;
+      //   }
+      //   if (!needAdd) {
+      //     break;
+      //   }
+      // }
       if (needAdd) {
         mergedLines.push(line);
       }
