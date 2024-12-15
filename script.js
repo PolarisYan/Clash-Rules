@@ -444,6 +444,7 @@ async function mergeFile(targetFiles, sourceFiles, mergeFunc, sortFunc, mergedCl
     }
     const lines = fileContent.split('\n')
       .map(cleanLine);
+    console.log(`Start merge source:`, eachSourceFile);
     lines.forEach(line => {
       let needAdd = true;
       for (let i = 0; i < mergedLines.length; i++) {
@@ -461,7 +462,9 @@ async function mergeFile(targetFiles, sourceFiles, mergeFunc, sortFunc, mergedCl
         mergedLines.push(line);
       }
     });
+    console.log(`Merge complete source:`, eachSourceFile);
   }
+  console.log(`Merge complete all sources`);
   const uniqueLinesSet = new Set(mergedLines);
   const uniqueLines = Array.from(uniqueLinesSet)
     .filter(line => !includeInClassical(line, mergedClassical))
@@ -471,6 +474,7 @@ async function mergeFile(targetFiles, sourceFiles, mergeFunc, sortFunc, mergedCl
     if (!eachTargetFile?.targetFile) {
       continue;
     }
+    console.log(`Start write target: `, eachTargetFile?.targetFile);
     const target = path.join(__dirname, eachTargetFile?.targetFile);
     const destDir = path.dirname(target);
     await ensureDirectoryExists(destDir);
