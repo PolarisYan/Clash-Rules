@@ -461,10 +461,10 @@ async function mergeFile(targetFiles, sourceFiles, mergeFunc, sortFunc, mergedCl
     if (!eachTargetFile?.targetFile) {
       continue;
     }
-    const target = path.join(__dirname, eachTargetFile);
+    const target = path.join(__dirname, eachTargetFile?.targetFile);
     const destDir = path.dirname(target);
     await ensureDirectoryExists(destDir);
-    const wildcard = eachTargetFile.wildcard ?? "";
+    const wildcard = eachTargetFile?.wildcard ?? "";
     await writeFile(target, uniqueLines.map(line => wildcard.concat(line)).join('\n'));
   }
   return uniqueLines;
@@ -520,27 +520,27 @@ function mergeIpcidr(newLine, existingLine) {
 
 async function main() {
   try {
-    const downloadList = await readDownloadList(listFilePath);
-    const repoUrl = await getRemoteUrl();
-    const { username, token } = await readGitUserCredentials();
-    console.log(`\n\n\n`);
-
-    for (const { url, dest } of downloadList) {
-      console.log(`Downloading file from ${url} to ${dest}`);
-      const downloadedFilePath = await downloadFile(url, dest);
-      if (downloadedFilePath) {
-        console.log(`Copying and modifying file from ${downloadedFilePath}`);
-        await copyFileToClashDir(downloadedFilePath);
-      } else {
-        console.error(`Failed to download file from ${url} to ${dest}`);
-      }
-      console.log(``);
-    }
-    console.log(`\n\n\n`);
+    // const downloadList = await readDownloadList(listFilePath);
+    // const repoUrl = await getRemoteUrl();
+    // const { username, token } = await readGitUserCredentials();
+    // console.log(`\n\n\n`);
+    //
+    // for (const { url, dest } of downloadList) {
+    //   console.log(`Downloading file from ${url} to ${dest}`);
+    //   const downloadedFilePath = await downloadFile(url, dest);
+    //   if (downloadedFilePath) {
+    //     console.log(`Copying and modifying file from ${downloadedFilePath}`);
+    //     await copyFileToClashDir(downloadedFilePath);
+    //   } else {
+    //     console.error(`Failed to download file from ${url} to ${dest}`);
+    //   }
+    //   console.log(``);
+    // }
+    // console.log(`\n\n\n`);
     await mergeRules();
-    console.log(`\n\n\n`);
-    await gitCommitAndPush(commitMessage, branchName, repoUrl, username, token);
-    console.log(`\n\n\n`);
+    // console.log(`\n\n\n`);
+    // await gitCommitAndPush(commitMessage, branchName, repoUrl, username, token);
+    // console.log(`\n\n\n`);
   } catch (error) {
     console.error('Failed to process download list:', error);
   }
