@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
+const ipaddr = require('ipaddr.js');
 const { simpleGit, GitConfigScope } = require('simple-git');
 
 const git = simpleGit();
@@ -11,37 +12,37 @@ const branchName = "main";
 const gitUserFilePath = path.join(__dirname, 'git_user.json');
 const mergeRulesFilePath = './ruleset/merge-rules.json';
 const classicalRules = [
-  { rule: "DOMAIN", reformatTo: "domain", stashClassical: false },
-  { rule: "DOMAIN-SUFFIX", reformatTo: "domain", stashClassical: false },
-  { rule: "DOMAIN-KEYWORD", reformatTo: "classical", stashClassical: true },
-  { rule: "DOMAIN-REGEX", reformatTo: "classical", stashClassical: false },
-  { rule: "GEOSITE", reformatTo: "classical", stashClassical: true },
-  { rule: "IP-CIDR", reformatTo: "ipcidr", stashClassical: false },
-  { rule: "IP-CIDR6", reformatTo: "ipcidr", stashClassical: false },
-  { rule: "IP-SUFFIX", reformatTo: "classical", stashClassical: false },
-  { rule: "IP-ASN", reformatTo: "classical", stashClassical: true },
-  { rule: "GEOIP", reformatTo: "classical", stashClassical: true },
-  { rule: "SRC-GEOIP", reformatTo: "classical", stashClassical: false },
-  { rule: "SRC-IP-ASN", reformatTo: "classical", stashClassical: false },
-  { rule: "SRC-IP-CIDR", reformatTo: "classical", stashClassical: false },
-  { rule: "SRC-IP-SUFFIX", reformatTo: "classical", stashClassical: false },
-  { rule: "DST-PORT", reformatTo: "classical", stashClassical: true },
-  { rule: "SRC-PORT", reformatTo: "classical", stashClassical: false },
-  { rule: "IN-PORT", reformatTo: "classical", stashClassical: false },
-  { rule: "IN-TYPE", reformatTo: "classical", stashClassical: false },
-  { rule: "IN-USER", reformatTo: "classical", stashClassical: false },
-  { rule: "IN-NAME", reformatTo: "classical", stashClassical: false },
-  { rule: "PROCESS-PATH", reformatTo: "classical", stashClassical: true },
-  { rule: "PROCESS-PATH-REGEX", reformatTo: "classical", stashClassical: false },
-  { rule: "PROCESS-NAME", reformatTo: "classical", stashClassical: true },
-  { rule: "PROCESS-NAME-REGEX", reformatTo: "classical", stashClassical: false },
-  { rule: "UID", reformatTo: "classical", stashClassical: false },
-  { rule: "NETWORK", reformatTo: "classical", stashClassical: false },
-  { rule: "DSCP", reformatTo: "classical", stashClassical: false },
-  { rule: "RULE-SET", reformatTo: "classical", stashClassical: true },
-  { rule: "AND & OR & NOT", reformatTo: "classical", stashClassical: false },
-  { rule: "SUB-RULE", reformatTo: "classical", stashClassical: false },
-  { rule: "MATCH", reformatTo: "classical", stashClassical: false },
+  { rule: "DOMAIN", reformatTo: "domain", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "DOMAIN-SUFFIX", reformatTo: "domain", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "DOMAIN-KEYWORD", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "DOMAIN-REGEX", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "GEOSITE", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IP-CIDR", reformatTo: "ipcidr", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IP-CIDR6", reformatTo: "ipcidr", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IP-SUFFIX", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IP-ASN", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "GEOIP", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "SRC-GEOIP", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "SRC-IP-ASN", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "SRC-IP-CIDR", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "SRC-IP-SUFFIX", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "DST-PORT", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "SRC-PORT", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IN-PORT", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IN-TYPE", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IN-USER", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IN-NAME", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "PROCESS-PATH", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "PROCESS-PATH-REGEX", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "PROCESS-NAME", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "PROCESS-NAME-REGEX", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "UID", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "NETWORK", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "DSCP", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "RULE-SET", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "AND & OR & NOT", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "SUB-RULE", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "MATCH", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
 ]
 
 async function ensureDirectoryExists(dirPath) {
@@ -257,29 +258,33 @@ function modifyFileContentWithWildcard(content, wildcard) {
     .map(line => line.replace(/\s+/g, ''))
     .filter(line => line.length > 0 && !line.startsWith('#') && !line.startsWith('payload:') && !localHost.includes(line))
     .map(line => {
-      if (line.startsWith("0.0.0.0")) {
-        line = line.substring("0.0.0.0".length);
-      } else if (line.startsWith("127.0.0.1")) {
-        line = line.substring("127.0.0.1".length);
-      }
-      if (line.startsWith("-'") && line.endsWith("'")) {
-        line = line.substring(2, line.length - 1);
-      }
-      if (line.startsWith(wildcard)) {
-      } else if (line.startsWith("+.") || line.startsWith("*.")) {
-        line = line.substring(2, line.length);
-      } else if (line.startsWith(".") || line.startsWith("*")) {
-        line = line.substring(1, line.length);
-      }
+      line = cleanLine(line);
       if (/\b((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\/(3[0-2]|[12]?[0-9]))?\b/.test(line)) {
         return line;
       } else if (/\b(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))(\/(12[0-8]|1[01][0-9]|[1-9]?[0-9]))?\b/.test(line)) {
         return line;
       } else {
-        return line.startsWith(wildcard) ? line : `${wildcard}${line}`
+        return `${wildcard}${line}`
       }
     })
     .join('\n');
+}
+
+function cleanLine(line) {
+  if (line.startsWith("0.0.0.0")) {
+    line = line.substring("0.0.0.0".length);
+  } else if (line.startsWith("127.0.0.1")) {
+    line = line.substring("127.0.0.1".length);
+  }
+  if (line.startsWith("-'") && line.endsWith("'")) {
+    line = line.substring(2, line.length - 1);
+  }
+  if (line.startsWith("+.") || line.startsWith("*.")) {
+    line = line.substring(2, line.length);
+  } else if (line.startsWith(".") || line.startsWith("*")) {
+    line = line.substring(1, line.length);
+  }
+  return line;
 }
 
 async function readDownloadList(filePath) {
@@ -366,6 +371,7 @@ async function mergeRules() {
   }
 
   for (let i in mergeRulesList) {
+    console.log()
     const each = mergeRulesList[i];
     const clashPlusWildcardTargetFile = each?.targetFiles?.clashPlusWildcard;
     console.log(`clashPlusWildcardTargetFile:`, clashPlusWildcardTargetFile);
@@ -373,48 +379,142 @@ async function mergeRules() {
     console.log(`stashDotWildcardTargetFile:`, stashDotWildcardTargetFile);
     const sourceDomainFiles = each?.sourceDomainFiles;
     console.log(`sourceDomainFiles:`, sourceDomainFiles);
+    console.log()
+    const ipcidrTargetFile = each?.targetFiles?.ipcidr;
+    console.log(`ipcidrTargetFile:`, ipcidrTargetFile);
+    const sourceIpcidrFiles = each?.sourceIpcidrFiles;
+    console.log(`sourceIpcidrFiles:`, sourceIpcidrFiles);
+    console.log()
+    const classicalTargetFile = each?.targetFiles?.classical;
+    console.log(`classicalTargetFile:`, classicalTargetFile);
+    const sourceClassicalFiles = each?.sourceClassicalFiles;
+    console.log(`sourceClassicalFiles:`, sourceClassicalFiles);
 
-    const linesSet = new Set();
-    for (let i2 in sourceDomainFiles) {
-      const eachSourceDomainFile = sourceDomainFiles[i2];
-      console.log(`eachSourceDomainFile:`, eachSourceDomainFile);
-      const fileContent = await fs.promises.readFile(eachSourceDomainFile, 'utf8');
-      const lines = fileContent.split('\n');
-      lines.forEach(line => {
-        let need = true;
-        for (let i in linesSet) {
-          if (line.endsWith(linesSet[i])) {
-            need = false;
-            break;
-          } else if (linesSet[i].endsWith(line)) {
-            linesSet[i] = line;
-            need = false;
-            break;
-          }
-        }
-        if (need) {
-          linesSet.add(line);
-        }
-      });
+    function defaultSort() {
+      return (a, b) => a.length === b.length ? a.localeCompare(b) : a.length - b.length
     }
-    const uniqueLines = Array.from(linesSet)
-      .sort((a, b) => a.length - b.length)
 
-      .map(line => line.startsWith(".") ? line.substring(1, line.length) : line);
-
-    if (stashDotWildcardTargetFile) {
-      const target = path.join(__dirname, stashDotWildcardTargetFile);
-      const destDir = path.dirname(target);
-      await ensureDirectoryExists(destDir);
-      await writeFile(target, uniqueLines.map(line => ".".concat(line)).join('\n'));
+    let mergedClassical
+    if (sourceClassicalFiles && classicalTargetFile) {
+      mergedClassical = await mergeFile([{ targetFile: ipcidrTargetFile }],
+        sourceIpcidrFiles, mergeClassical, (a, b) => a.localeCompare(b));
     }
-    if (clashPlusWildcardTargetFile) {
-      const target = path.join(__dirname, clashPlusWildcardTargetFile);
-      const destDir = path.dirname(target);
-      await ensureDirectoryExists(destDir);
-      await writeFile(target, uniqueLines.map(line => "+.".concat(line)).join('\n'));
+    if (sourceDomainFiles && (clashPlusWildcardTargetFile || stashDotWildcardTargetFile)) {
+      await mergeFile([{ targetFile: clashPlusWildcardTargetFile, wildcard: "+." },
+          { targetFile: stashDotWildcardTargetFile, wildcard: "." }],
+        sourceDomainFiles, mergeDomain, defaultSort(),
+        mergedClassical);
+    }
+    if (sourceIpcidrFiles && ipcidrTargetFile) {
+      await mergeFile([{ targetFile: ipcidrTargetFile }],
+        sourceIpcidrFiles, mergeIpcidr, defaultSort(),
+        mergedClassical);
     }
   }
+}
+
+async function mergeFile(targetFiles, sourceFiles, mergeFunc, sortFunc, mergedClassical) {
+  const mergedLines = [];
+  for (let i in sourceFiles) {
+    const eachSourceFile = sourceFiles[i];
+    if (!eachSourceFile) {
+      continue;
+    }
+    console.log(`eachSourceFile:`, eachSourceFile);
+    let fileContent;
+    try {
+      fileContent = await fs.promises.readFile(eachSourceFile, 'utf8');
+    } catch (error) {
+      if (error.code === 'ENOENT') {
+        console.warn(`File not found: ${eachSourceFile}. Skipping...`);
+      } else {
+        console.error(`Error reading file ${eachSourceFile}:`, error);
+      }
+      continue;
+    }
+    const lines = fileContent.split('\n')
+      .map(cleanLine);
+    lines.forEach(line => {
+      let needAdd = true;
+      for (let i = 0; i < mergedLines.length; i++) {
+        const result = mergeFunc(line, mergedLines[i]);
+        needAdd = result.needAdd;
+        const needReplace = result.needReplace;
+        if (needReplace) {
+          mergedLines[i] = line;
+        }
+        if (!needAdd) {
+          break;
+        }
+      }
+      if (needAdd) {
+        mergedLines.push(line);
+      }
+    });
+  }
+  const uniqueLinesSet = new Set(mergedLines);
+  const uniqueLines = Array.from(uniqueLinesSet)
+    .filter(line => !includeInClassical(line, mergedClassical))
+    .sort(sortFunc);
+
+  for (const eachTargetFile of targetFiles) {
+    if (!eachTargetFile?.targetFile) {
+      continue;
+    }
+    const target = path.join(__dirname, eachTargetFile);
+    const destDir = path.dirname(target);
+    await ensureDirectoryExists(destDir);
+    const wildcard = eachTargetFile.wildcard ?? "";
+    await writeFile(target, uniqueLines.map(line => wildcard.concat(line)).join('\n'));
+  }
+  return uniqueLines;
+}
+
+function mergeClassical(newLine, existingLine) {
+  // TODO:
+  return ""
+}
+
+function includeInClassical(line, classicalLines) {
+  // TODO:
+  return false;
+}
+
+function mergeDomain(newLine, existingLine) {
+  let needAdd = true;
+  let needReplace = false;
+  if (newLine.endsWith(".".concat(existingLine))) {
+    needAdd = false;
+  } else if (existingLine.endsWith(".".concat(newLine))) {
+    needReplace = true;
+    needAdd = false;
+  }
+  return { needAdd, needReplace };
+}
+
+function mergeIpcidr(newLine, existingLine) {
+  let needAdd = true;
+  let needReplace = false;
+
+  function isSubnetOf(cidr1, cidr2) {
+    const cidr1Addr = ipaddr.parseCIDR(cidr1);
+    const cidr2Addr = ipaddr.parseCIDR(cidr2);
+
+    if (cidr1Addr[1] <= cidr2Addr[1]) {
+      return false;
+    }
+
+    return cidr1Addr[0].match(cidr2Addr);
+  }
+
+  if (isSubnetOf(newLine, existingLine)) {
+    needAdd = false;
+  } else if (isSubnetOf(existingLine, newLine)) {
+    needReplace = true;
+    needAdd = false;
+  }
+
+  return { needAdd, needReplace };
 }
 
 

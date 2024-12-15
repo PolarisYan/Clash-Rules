@@ -44,6 +44,7 @@ __metadata:
   resolution: "clash-rules@workspace:."
   dependencies:
     axios: "npm:^1.7.9"
+    ipaddr.js: "npm:^2.2.0"
     node-fetch: "npm:^3.3.2"
     simple-git: "npm:^3.27.0"
   languageName: unknown
@@ -121,6 +122,13 @@ __metadata:
   dependencies:
     fetch-blob: "npm:^3.1.2"
   checksum: 10c0/5392ec484f9ce0d5e0d52fb5a78e7486637d516179b0eb84d81389d7eccf9ca2f663079da56f761355c0a65792810e3b345dc24db9a8bbbcf24ef3c8c88570c6
+  languageName: node
+  linkType: hard
+
+"ipaddr.js@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "ipaddr.js@npm:2.2.0"
+  checksum: 10c0/e4ee875dc1bd92ac9d27e06cfd87cdb63ca786ff9fd7718f1d4f7a8ef27db6e5d516128f52d2c560408cbb75796ac2f83ead669e73507c86282d45f84c5abbb6
   languageName: node
   linkType: hard
 

@@ -20,4 +20,5 @@ echo "$REMOTE_URL"
 
 git pull -f "$REMOTE_URL" main
 
+yarn install
 yarn node script.js > ../output.log 2>&1

@@ -1,23 +1,8 @@
 [
   {
     "targetFiles": {
-      "stashDotWildcard": "/ruleset/PolarisMerged/blacklist_stash/text_domain_dot_wildcard.txt"
-    },
-    "sourceDomainFiles": [
-      "./ruleset/anudeepND/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/AdAway/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/KADhosts/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/Peter_Lowe/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/1Host_Lite/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/HaGeZi_Multi_PRO/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/HaGeZi_Threat_MEDIUM/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/HaGeZi_Gambling_MEDIUM/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/OISD/stash/text_domain_dot_wildcard.txt"
-    ]
-  },
-  {
-    "targetFiles": {
-      "clashPlusWildcard": "/ruleset/PolarisMerged/blacklist/text_domain_plus_wildcard.txt"
+      "clashPlusWildcard": "/ruleset/PolarisMerged/blacklist/text_domain_plus_wildcard.txt",
+      "stashDotWildcard": "/ruleset/PolarisMerged/blacklist/text_domain_dot_wildcard.txt"
     },
     "sourceDomainFiles": [
       "./ruleset/anudeepND/stash/text_domain_dot_wildcard.txt",
@@ -28,7 +13,109 @@
       "./ruleset/HaGeZi_Multi_PRO/stash/text_domain_dot_wildcard.txt",
       "./ruleset/HaGeZi_Threat/stash/text_domain_dot_wildcard.txt",
       "./ruleset/HaGeZi_Gambling/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/OISD/stash/text_domain_dot_wildcard.txt"
+      "./ruleset/OISD/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
+    ]
+  },
+  {
+    "targetFiles": {
+      "clashPlusWildcard": "/ruleset/PolarisMerged/blacklist_medium/text_domain_plus_wildcard.txt",
+      "stashDotWildcard": "/ruleset/PolarisMerged/blacklist_medium/text_domain_dot_wildcard.txt"
+    },
+    "sourceDomainFiles": [
+      "./ruleset/anudeepND/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/AdAway/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/KADhosts/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Peter_Lowe/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/1Host_Lite/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Multi_PRO/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Threat_MEDIUM/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Gambling_MEDIUM/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/OISD/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
+    ]
+  },
+  {
+    "targetFiles": {
+      "clashPlusWildcard": "/ruleset/PolarisMerged/blacklist_mini/text_domain_plus_wildcard.txt",
+      "stashDotWildcard": "/ruleset/PolarisMerged/blacklist_mini/text_domain_dot_wildcard.txt"
+    },
+    "sourceDomainFiles": [
+      "./ruleset/anudeepND/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/AdAway/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/KADhosts/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Peter_Lowe/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/1Host_Lite/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Multi_PRO_MINI/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Threat_MINI/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Gambling_MINI/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/OISD/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
+    ]
+  },
+  {
+    "targetFiles": {
+      "ipcidr": "/ruleset/PolarisMerged/usuallyDirect/text_ipcidr.txt",
+      "clashPlusWildcard": "/ruleset/PolarisMerged/usuallyDirect/text_domain_plus_wildcard.txt",
+      "stashDotWildcard": "/ruleset/PolarisMerged/usuallyDirect/text_domain_dot_wildcard.txt"
+    },
+    "sourceIpcidrFiles": [
+      "./ruleset/blackmatrix7_ChinaMax/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_ChinaMedia/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_CloudCN/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_IPTVMainland/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_NTPService/ipcidr/text_ipcidr.txt",
+      "./ruleset/Loyalsoldier_cncidr/stash/text_domain_dot_wildcard.txt"
+    ],
+    "sourceDomainFiles": [
+      "./ruleset/blackmatrix7_ChinaMax/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_ChinaMedia/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_CloudCN/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_IPTVMainland/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_NTPService/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Loyalsoldier_direct/stash/text_domain_dot_wildcard.txt"
+    ]
+  },
+  {
+    "targetFiles": {
+      "ipcidr": "/ruleset/PolarisMerged/usuallyProxy/text_ipcidr.txt",
+      "clashPlusWildcard": "/ruleset/PolarisMerged/usuallyProxy/text_domain_plus_wildcard.txt",
+      "stashDotWildcard": "/ruleset/PolarisMerged/usuallyProxy/text_domain_dot_wildcard.txt"
+    },
+    "sourceIpcidrFiles": [
+      "./ruleset/blackmatrix7_CloudGlobal/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_Global/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_GlobalScholar/ipcidr/text_ipcidr.txt",
+      "./ruleset/Loyalsoldier_gfw/ipcidr/text_ipcidr.txt",
+      "./ruleset/Loyalsoldier_proxy/ipcidr/text_ipcidr.txt",
+      "./ruleset/Loyalsoldier_tld-not-cn/ipcidr/text_ipcidr.txt"
+    ],
+    "sourceDomainFiles": [
+      "./ruleset/blackmatrix7_CloudGlobal/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_Global/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_GlobalScholar/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Loyalsoldier_gfw/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Loyalsoldier_proxy/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Loyalsoldier_tld-not-cn/stash/text_domain_dot_wildcard.txt"
+    ]
+  },
+  {
+    "targetFiles": {
+      "ipcidr": "/ruleset/PolarisMerged/globalMedia/text_ipcidr.txt",
+      "clashPlusWildcard": "/ruleset/PolarisMerged/globalMedia/text_domain_plus_wildcard.txt",
+      "stashDotWildcard": "/ruleset/PolarisMerged/globalMedia/text_domain_dot_wildcard.txt"
+    },
+    "sourceIpcidrFiles": [
+      "./ruleset/blackmatrix7_GlobalMedia/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_IPTVOther/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_Telegram/ipcidr/text_ipcidr.txt",
+      "./ruleset/Loyalsoldier_telegramcidr/ipcidr/text_ipcidr.txt"
+    ],
+    "sourceDomainFiles": [
+      "./ruleset/blackmatrix7_GlobalMedia/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_IPTVOther/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_Telegram/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Loyalsoldier_telegramcidr/stash/text_domain_dot_wildcard.txt"
     ]
   }
 ]
