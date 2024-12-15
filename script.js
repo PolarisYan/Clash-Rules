@@ -396,16 +396,26 @@ async function mergeRules() {
 
     let mergedClassical
     if (sourceClassicalFiles && classicalTargetFile) {
+      console.log();
+      console.log(`sourceClassicalFiles:`, sourceClassicalFiles);
+      console.log(`classicalTargetFile:`, classicalTargetFile);
       mergedClassical = await mergeFile([{ targetFile: ipcidrTargetFile }],
         sourceIpcidrFiles, mergeClassical, (a, b) => a.localeCompare(b));
     }
     if (sourceDomainFiles && (clashPlusWildcardTargetFile || stashDotWildcardTargetFile)) {
+      console.log();
+      console.log(`sourceDomainFiles:`, sourceDomainFiles);
+      console.log(`clashPlusWildcardTargetFile:`, clashPlusWildcardTargetFile);
+      console.log(`stashDotWildcardTargetFile:`, stashDotWildcardTargetFile);
       await mergeFile([{ targetFile: clashPlusWildcardTargetFile, wildcard: "+." },
           { targetFile: stashDotWildcardTargetFile, wildcard: "." }],
         sourceDomainFiles, mergeDomain, defaultSort(),
         mergedClassical);
     }
     if (sourceIpcidrFiles && ipcidrTargetFile) {
+      console.log();
+      console.log(`sourceIpcidrFiles:`, sourceIpcidrFiles);
+      console.log(`ipcidrTargetFile:`, ipcidrTargetFile);
       await mergeFile([{ targetFile: ipcidrTargetFile }],
         sourceIpcidrFiles, mergeIpcidr, defaultSort(),
         mergedClassical);
