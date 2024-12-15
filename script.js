@@ -493,7 +493,9 @@ function includeInClassical(line, classicalLines) {
 function mergeDomain(newLine, existingLine) {
   let needAdd = true;
   let needReplace = false;
-  if (newLine.endsWith(".".concat(existingLine))) {
+  if (newLine === existingLine) {
+    needAdd = false;
+  } else if (newLine.endsWith(".".concat(existingLine))) {
     needAdd = false;
   } else if (existingLine.endsWith(".".concat(newLine))) {
     needReplace = true;
