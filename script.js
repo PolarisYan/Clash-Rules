@@ -191,7 +191,7 @@ async function writeFile(filePath, content) {
   const baseName = path.basename(filePath, extname);
   await deleteSplitFiles(dir, baseName);
   const lines = content.split('\n');
-  const lineCountsPerFile = 175000;
+  const lineCountsPerFile = 200000;
   if (lines.length > lineCountsPerFile) {
     let newFilePath = dir;
     let counter = 0;
