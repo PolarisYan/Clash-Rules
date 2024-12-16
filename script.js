@@ -271,9 +271,9 @@ function modifyFileContentWithWildcard(content, wildcard) {
 }
 
 function cleanLine(line) {
-  if (line.startsWith("0.0.0.0")) {
+  if (line.startsWith("0.0.0.0") && !line.includes("/")) {
     line = line.substring("0.0.0.0".length);
-  } else if (line.startsWith("127.0.0.1")) {
+  } else if (line.startsWith("127.0.0.1") && !line.includes("/")) {
     line = line.substring("127.0.0.1".length);
   }
   if (line.startsWith("-'") && line.endsWith("'")) {
@@ -468,7 +468,7 @@ async function mergeFile(targetFiles, sourceFiles, mergeFunc, sortFunc, mergedCl
   console.log(`Merge complete all sources`);
   const uniqueLinesSet = new Set(mergedLines);
   const uniqueLines = Array.from(uniqueLinesSet)
-    .filter(line => !includeInClassical(line, mergedClassical))
+    .filter(line => line && !includeInClassical(line, mergedClassical))
     .sort(sortFunc);
 
   for (const eachTargetFile of targetFiles) {
