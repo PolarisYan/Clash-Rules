@@ -399,8 +399,8 @@ async function mergeRules() {
       console.log();
       console.log(`sourceClassicalFiles:`, sourceClassicalFiles);
       console.log(`classicalTargetFile:`, classicalTargetFile);
-      mergedClassical = await mergeFile([{ targetFile: ipcidrTargetFile }],
-        sourceIpcidrFiles, mergeClassical, (a, b) => a.localeCompare(b));
+      mergedClassical = await mergeFile([{ targetFile: classicalTargetFile }],
+        sourceClassicalFiles, mergeClassical, (a, b) => a.localeCompare(b));
     }
     if (sourceDomainFiles && (clashPlusWildcardTargetFile || stashDotWildcardTargetFile)) {
       console.log();
