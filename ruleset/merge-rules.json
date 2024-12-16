@@ -65,7 +65,6 @@
       "./ruleset/blackmatrix7_ChinaMedia/ipcidr/text_ipcidr.txt",
       "./ruleset/blackmatrix7_CloudCN/ipcidr/text_ipcidr.txt",
       "./ruleset/blackmatrix7_IPTVMainland/ipcidr/text_ipcidr.txt",
-      "./ruleset/blackmatrix7_NTPService/ipcidr/text_ipcidr.txt",
       "./ruleset/Loyalsoldier_cncidr/stash/text_domain_dot_wildcard.txt"
     ],
     "sourceDomainFiles": [
@@ -73,7 +72,6 @@
       "./ruleset/blackmatrix7_ChinaMedia/stash/text_domain_dot_wildcard.txt",
       "./ruleset/blackmatrix7_CloudCN/stash/text_domain_dot_wildcard.txt",
       "./ruleset/blackmatrix7_IPTVMainland/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/blackmatrix7_NTPService/stash/text_domain_dot_wildcard.txt",
       "./ruleset/Loyalsoldier_direct/stash/text_domain_dot_wildcard.txt"
     ],
     "sourceClassicalFiles": [
@@ -81,7 +79,6 @@
       "./ruleset/blackmatrix7_ChinaMedia/clash/text_classical.txt",
       "./ruleset/blackmatrix7_CloudCN/clash/text_classical.txt",
       "./ruleset/blackmatrix7_IPTVMainland/clash/text_classical.txt",
-      "./ruleset/blackmatrix7_NTPService/clash/text_classical.txt"
     ]
   },
   {
