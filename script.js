@@ -487,7 +487,9 @@ async function mergeFile(targetFiles, sourceFiles, mergeFunc, sortFunc, mergedCl
 
 function mergeClassical(newLine, existingLine) {
   // TODO:
-  return ""
+  let needAdd = true;
+  let needReplace = false;
+  return { needAdd, needReplace };
 }
 
 function includeInClassical(line, classicalLines) {

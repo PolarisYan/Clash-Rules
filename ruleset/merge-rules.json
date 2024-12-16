@@ -57,7 +57,8 @@
     "targetFiles": {
       "ipcidr": "/ruleset/PolarisMerged/usuallyDirect/text_ipcidr.txt",
       "clashPlusWildcard": "/ruleset/PolarisMerged/usuallyDirect/text_domain_plus_wildcard.txt",
-      "stashDotWildcard": "/ruleset/PolarisMerged/usuallyDirect/text_domain_dot_wildcard.txt"
+      "stashDotWildcard": "/ruleset/PolarisMerged/usuallyDirect/text_domain_dot_wildcard.txt",
+      "classical": "/ruleset/PolarisMerged/usuallyDirect/text_classical.txt"
     },
     "sourceIpcidrFiles": [
       "./ruleset/blackmatrix7_ChinaMax/ipcidr/text_ipcidr.txt",
@@ -74,13 +75,21 @@
       "./ruleset/blackmatrix7_IPTVMainland/stash/text_domain_dot_wildcard.txt",
       "./ruleset/blackmatrix7_NTPService/stash/text_domain_dot_wildcard.txt",
       "./ruleset/Loyalsoldier_direct/stash/text_domain_dot_wildcard.txt"
+    ],
+    "sourceClassicalFiles": [
+      "./ruleset/blackmatrix7_ChinaMax/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_ChinaMedia/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_CloudCN/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_IPTVMainland/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_NTPService/clash/text_classical.txt"
     ]
   },
   {
     "targetFiles": {
       "ipcidr": "/ruleset/PolarisMerged/usuallyProxy/text_ipcidr.txt",
       "clashPlusWildcard": "/ruleset/PolarisMerged/usuallyProxy/text_domain_plus_wildcard.txt",
-      "stashDotWildcard": "/ruleset/PolarisMerged/usuallyProxy/text_domain_dot_wildcard.txt"
+      "stashDotWildcard": "/ruleset/PolarisMerged/usuallyProxy/text_domain_dot_wildcard.txt",
+      "classical": "/ruleset/PolarisMerged/usuallyProxy/text_classical.txt"
     },
     "sourceIpcidrFiles": [
       "./ruleset/blackmatrix7_CloudGlobal/ipcidr/text_ipcidr.txt",
@@ -97,13 +106,19 @@
       "./ruleset/Loyalsoldier_gfw/stash/text_domain_dot_wildcard.txt",
       "./ruleset/Loyalsoldier_proxy/stash/text_domain_dot_wildcard.txt",
       "./ruleset/Loyalsoldier_tld-not-cn/stash/text_domain_dot_wildcard.txt"
+    ],
+    "sourceClassicalFiles": [
+      "./ruleset/blackmatrix7_CloudGlobal/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_Global/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_GlobalScholar/clash/text_classical.txt"
     ]
   },
   {
     "targetFiles": {
       "ipcidr": "/ruleset/PolarisMerged/globalMedia/text_ipcidr.txt",
       "clashPlusWildcard": "/ruleset/PolarisMerged/globalMedia/text_domain_plus_wildcard.txt",
-      "stashDotWildcard": "/ruleset/PolarisMerged/globalMedia/text_domain_dot_wildcard.txt"
+      "stashDotWildcard": "/ruleset/PolarisMerged/globalMedia/text_domain_dot_wildcard.txt",
+      "classical": "/ruleset/PolarisMerged/globalMedia/text_classical.txt"
     },
     "sourceIpcidrFiles": [
       "./ruleset/blackmatrix7_GlobalMedia/ipcidr/text_ipcidr.txt",
@@ -116,6 +131,11 @@
       "./ruleset/blackmatrix7_IPTVOther/stash/text_domain_dot_wildcard.txt",
       "./ruleset/blackmatrix7_Telegram/stash/text_domain_dot_wildcard.txt",
       "./ruleset/Loyalsoldier_telegramcidr/stash/text_domain_dot_wildcard.txt"
+    ],
+    "sourceClassicalFiles": [
+      "./ruleset/blackmatrix7_GlobalMedia/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_IPTVOther/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_Telegram/clash/text_classical.txt"
     ]
   }
 ]
