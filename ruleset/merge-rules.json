@@ -91,6 +91,24 @@
   },
   {
     "targetFiles": {
+      "clashPlusWildcard": "/ruleset/PolarisMerged/blacklist_mini/text_domain_plus_wildcard.txt",
+      "stashDotWildcard": "/ruleset/PolarisMerged/blacklist_mini/text_domain_dot_wildcard.txt"
+    },
+    "sourceDomainFiles": [
+      "./ruleset/anudeepND/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/AdAway/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/KADhosts/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Peter_Lowe/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/1Host_MINI/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Multi_PRO_MINI/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Threat_MINI/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Gambling_MINI/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/OISD/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
+    ]
+  },
+  {
+    "targetFiles": {
       "ipcidr": "/ruleset/PolarisMerged/usuallyDirect/text_ipcidr.txt",
       "clashPlusWildcard": "/ruleset/PolarisMerged/usuallyDirect/text_domain_plus_wildcard.txt",
       "stashDotWildcard": "/ruleset/PolarisMerged/usuallyDirect/text_domain_dot_wildcard.txt",
