@@ -21,6 +21,7 @@
 +.00.pe
 +.02.cm
 +.08.sk
++.0b.vc
 +.0e.si
 +.0i.is
 +.0i.pm
@@ -126,12 +127,14 @@
 +.9r.sk
 +.9y.si
 +.a0.pm
++.a0.si
 +.a1.am
 +.a4.tl
 +.ad.gt
 +.ad.mg
 +.ai.me
 +.ao.pe
++.ap.sd
 +.at.nu
 +.b9.pm
 +.bc.co
@@ -153,6 +156,7 @@
 +.d6.tf
 +.da.sg
 +.dd.mt
++.dd.sa
 +.dj.tt
 +.dl.sv
 +.dm.gg
@@ -183,6 +187,7 @@
 +.hk.rs
 +.hm.ru
 +.hs.vc
++.hz.cz
 +.hz.sk
 +.i0.wf
 +.i1.pm
@@ -207,6 +212,7 @@
 +.k8.io
 +.ki.je
 +.kn.pl
++.ks.cn
 +.l0.wf
 +.ln.is
 +.lp.vg
@@ -410,6 +416,7 @@
 +.1fd.me
 +.1fx.us
 +.1gb.me
++.1gb.ua
 +.1gq.ru
 +.1j0.cc
 +.1kt.eu
@@ -429,6 +436,7 @@
 +.1r4.pl
 +.1rx.io
 +.1se.ru
++.1st.ge
 +.1st.yt
 +.1tg.us
 +.1ti.ru
@@ -496,6 +504,7 @@
 +.310.su
 +.333.cc
 +.345.ie
++.345.pl
 +.360.hn
 +.364.pl
 +.365.rs
@@ -532,7 +541,7 @@
 +.3q.app
 +.3q3.de
 +.3ri.cc
-+.3sg.tn
++.3va.in
 +.3vp.fr
 +.3y0.cc
 +.3ye.cc
@@ -587,6 +596,7 @@
 +.5ii.pl
 +.5ir.cc
 +.5l.com
++.5ma.ir
 +.5mp.eu
 +.5my.ru
 +.5ok.ca
@@ -605,7 +615,6 @@
 +.676.su
 +.6a0.cc
 +.6ax.nl
-+.6ca.tw
 +.6d0.cc
 +.6fl.me
 +.6fs.me
@@ -695,8 +704,6 @@
 +.8pg.io
 +.8pu.sh
 +.8si.ru
-+.8tm.us
-+.8to.us
 +.8vs.co
 +.8w0.cc
 +.8y3.cc
@@ -753,6 +760,7 @@
 +.a1a.pl
 +.a3c.in
 +.a3h.de
++.a4z.in
 +.a6.com
 +.a6x.de
 +.a7.bet
@@ -767,6 +775,7 @@
 +.abp.cc
 +.abp.ru
 +.abr.ge
++.abt.hu
 +.acq.io
 +.ad.net
 +.ad1.ru
@@ -786,8 +795,10 @@
 +.afp.ai
 +.afp.ph
 +.ag.bet
++.agv.mk
 +.ahk.jp
 +.ai.net
++.aij.be
 +.aij.hk
 +.aiv.pl
 +.ajo.cc
@@ -830,6 +841,7 @@
 +.bay.pl
 +.bbc.co
 +.bbc.tf
++.bbk.iq
 +.bbn.by
 +.bbp.cx
 +.bbs.ws
@@ -846,6 +858,7 @@
 +.bhb.ba
 +.bhf.vc
 +.bif.kg
++.bij.pl
 +.biu.ac
 +.bk7.me
 +.bk7.pw
@@ -886,6 +899,7 @@
 +.c99.me
 +.c9z.in
 +.ca9.ca
++.cae.ge
 +.cb0.cc
 +.cbc.am
 +.cbn.li
@@ -900,6 +914,7 @@
 +.cgm.ru
 +.chy.jp
 +.cia.tf
++.cid.mr
 +.cif.su
 +.cir.io
 +.cj.com
@@ -966,11 +981,13 @@
 +.djp.bz
 +.dl8.me
 +.dlb.lk
++.dld.ae
 +.dmo.re
 +.dmw.bz
 +.dmw.cc
 +.don.ro
 +.dpf.fm
++.dpp.hn
 +.dr.bet
 +.drr.pl
 +.ds0.cc
@@ -978,6 +995,7 @@
 +.dsi.mk
 +.dsp.io
 +.dst.gg
++.dti.lk
 +.dts.ge
 +.du0.jp
 +.dvo.cc
@@ -987,15 +1005,18 @@
 +.dyd.ir
 +.dyj.pl
 +.dza.cc
++.dzt.hr
 +.dzw.fr
 +.e-m.fr
 +.e0l.cc
 +.e0y.cc
 +.e1e.io
 +.e52.ru
++.eac.mx
 +.eae.sx
 +.eay.jp
 +.ebz.io
++.ecc.tn
 +.ect.my
 +.eds.eu
 +.ee.bet
@@ -1013,6 +1034,7 @@
 +.eny.pl
 +.epu.sh
 +.erq.io
++.est.sy
 +.etc.in
 +.euf.dk
 +.ew3.io
@@ -1068,6 +1090,7 @@
 +.gar.mn
 +.gc.bet
 +.gcx.pl
++.gdi.ge
 +.gdm.cc
 +.ge.net
 +.ge1.ca
@@ -1080,6 +1103,7 @@
 +.gi8.us
 +.gis.gi
 +.gj7.ru
++.gjq.io
 +.gkp.pk
 +.gli.sh
 +.gms.gi
@@ -1097,12 +1121,15 @@
 +.grr.la
 +.gsb.ug
 +.gsv.de
++.gtf.rs
 +.guj.jp
 +.guw.jp
 +.gv2.cc
++.gvm.am
 +.gw3.io
 +.gz3.nl
 +.gzk.by
++.h-i.mx
 +.h16.ru
 +.h1l.cc
 +.h1n.ru
@@ -1122,6 +1149,7 @@
 +.hif.to
 +.hit.bg
 +.hit.ua
++.hjc.rs
 +.hkg.gg
 +.hkk.io
 +.hmp.me
@@ -1136,6 +1164,7 @@
 +.htn.it
 +.huj.pl
 +.huq.io
++.hvg.si
 +.hvh.pl
 +.hvr.me
 +.hvt.li
@@ -1182,6 +1211,7 @@
 +.int.kg
 +.iny.me
 +.iol.io
++.ipy.pw
 +.irb.dk
 +.irr.ru
 +.is.com
@@ -1193,8 +1223,8 @@
 +.ivc.br
 +.ivr.me
 +.ivy.it
-+.ixc.cx
 +.izi.us
++.izr.fr
 +.j1.vip
 +.j5q.cc
 +.j6.app
@@ -1207,6 +1237,7 @@
 +.jdf.pl
 +.je.bet
 +.jg9.uk
++.jge.cl
 +.jii.li
 +.jir.su
 +.jiu.hu
@@ -1256,6 +1287,7 @@
 +.kb.com
 +.kbh.io
 +.kdt.es
++.kec.cz
 +.kei.su
 +.kfc.tf
 +.kg.bet
@@ -1269,6 +1301,7 @@
 +.koy.jp
 +.krm.ac
 +.ks.bet
++.ks1.in
 +.kto.me
 +.ku.com
 +.ku.vin
@@ -1319,6 +1352,7 @@
 +.mbn.su
 +.mcc.pe
 +.mdb.nu
++.mdf.ma
 +.me2.do
 +.me2.kr
 +.med.sc
@@ -1326,6 +1360,7 @@
 +.mfq.ai
 +.mfq.ca
 +.mg.bet
++.mge.cl
 +.mhp.su
 +.mil.gg
 +.mim.io
@@ -1338,6 +1373,7 @@
 +.mm.vip
 +.mma.lc
 +.mmx.co
++.mnp.mr
 +.mol.ru
 +.mov.mn
 +.mox.tv
@@ -1345,8 +1381,10 @@
 +.mpl.us
 +.mqn.fr
 +.mr.bet
++.mrn.ps
 +.msl.ua
 +.msm.to
++.mso.af
 +.msw.ph
 +.mt5.us
 +.mtf.re
@@ -1367,6 +1405,7 @@
 +.n9j.cc
 +.n9x.cc
 +.naj.sk
++.nbx.ro
 +.nc0.co
 +.ncl.co
 +.ndg.io
@@ -1381,6 +1420,7 @@
 +.nlb.lk
 +.nmd.su
 +.nn.vip
++.nn2.pw
 +.nnl.io
 +.nnn.ru
 +.non.li
@@ -1430,6 +1470,7 @@
 +.oo3.co
 +.ook.gg
 +.or5.cc
++.ora.ci
 +.ord.gg
 +.ord.sx
 +.orh.in
@@ -1439,8 +1480,10 @@
 +.osb.me
 +.oso.pl
 +.osq.cc
++.ost.tn
 +.otx.ca
 +.ouj.cc
++.owa.kz
 +.oxg.cc
 +.oy.fyi
 +.oyo.pl
@@ -1465,11 +1508,11 @@
 +.paf.se
 +.par.es
 +.pay.ru
-+.pba.ph
 +.pbm.sg
 +.pc1.io
 +.pci.sh
 +.pf8.ru
++.pfc.ps
 +.pg.bet
 +.pg.vip
 +.pgs.io
@@ -1544,6 +1587,7 @@
 +.rbg.in
 +.rbx.co
 +.rce.ee
++.rcp.si
 +.reg.pw
 +.rf5.ca
 +.rfv.pl
@@ -1567,6 +1611,7 @@
 +.rtp.cx
 +.ruu.kr
 +.rwc.tw
++.ryl.rs
 +.rze.fr
 +.rzm.es
 +.s05.io
@@ -1590,18 +1635,23 @@
 +.say.ac
 +.sb8.co
 +.sc2.sc
++.scl.tn
 +.sct.kz
 +.scu.ad
 +.sdf.it
++.sds.pe
 +.sdx.pl
 +.sed.ca
 +.sef.ec
 +.sez.jp
 +.sfc.bz
 +.sfg.jp
++.sfl.hu
 +.sge.su
++.shg.ph
 +.sht.ac
 +.sia.cv
++.sia.dz
 +.sir.uz
 +.sjb.pm
 +.skl.de
@@ -1666,6 +1716,7 @@
 +.tle.ru
 +.tmo.cx
 +.toc.io
++.too.kg
 +.top.lv
 +.tor.vc
 +.tpc.hu
@@ -1676,10 +1727,14 @@
 +.trx.la
 +.tta.jo
 +.ttu.cc
++.tu7.cl
++.tuc.mx
 +.twm.pw
 +.two.in
 +.tx2.ru
 +.txt.eu
++.txt.st
++.tyg.cl
 +.u.town
 +.u1x.co
 +.u1y.ru
@@ -1704,6 +1759,7 @@
 +.umo.io
 +.uni.su
 +.upb.cc
++.upr.lk
 +.uqd.io
 +.ur0.jp
 +.url.re
@@ -1724,6 +1780,7 @@
 +.vba.ru
 +.vbp.cc
 +.vbu.cc
++.vdf.in
 +.vdo.ai
 +.vdx.tv
 +.vet.hr
@@ -1766,6 +1823,7 @@
 +.wep.wf
 +.weq.me
 +.wgh.ag
++.wgz.cz
 +.wh.bet
 +.whf.bz
 +.win.cc
@@ -1801,6 +1859,7 @@
 +.x10.bz
 +.x2m.cc
 +.x2p.us
++.x3u.pw
 +.x3x.uk
 +.x41.me
 +.x45.se
@@ -1824,6 +1883,7 @@
 +.xyz.fr
 +.xz8.ru
 +.xzo.jp
++.xzz.dk
 +.y0e.cc
 +.y26.yt
 +.y6.com
@@ -1841,7 +1901,6 @@
 +.yta.mx
 +.yu3.io
 +.yuq.me
-+.yw9.us
 +.z0a.de
 +.z0o.cc
 +.z1c.cc
@@ -1863,6 +1922,7 @@
 +.zdi.ru
 +.zf0.cc
 +.zff.co
++.zik.ai
 +.zjc.bz
 +.zk4.me
 +.zkd.ca
@@ -1884,6 +1944,7 @@
 +.0006.uk
 +.000q.cc
 +.001.sbs
++.0048.pl
 +.005.xyz
 +.0058.ru
 +.0059.ws
@@ -2130,7 +2191,6 @@
 +.1yj.icu
 +.1yy.bet
 +.1zz.bet
-+.2-be.ch
 +.2-o.org
 +.2007.cm
 +.2009.ws
@@ -2192,6 +2252,7 @@
 +.2kmp.nl
 +.2krn.sb
 +.2mic.ma
++.2mo.com
 +.2nn.bet
 +.2o7.net
 +.2p9.com
@@ -2258,6 +2319,7 @@
 +.3a-e.ru
 +.3aym.cn
 +.3c5.com
++.3ces.pt
 +.3day.us
 +.3df.bet
 +.3egp.pw
@@ -2324,10 +2386,12 @@
 +.4d0m.cn
 +.4d13.co
 +.4d5.net
++.4deg.no
 +.4dex.io
 +.4df.bet
 +.4dno.co
 +.4fan.cz
++.4fly.su
 +.4hat.hu
 +.4hu.org
 +.4i1.icu
@@ -2339,6 +2403,7 @@
 +.4k2.lol
 +.4k3.lol
 +.4pu.com
++.4sec.es
 +.4sq.icu
 +.4uad.eu
 +.4vp.xyz
@@ -2391,6 +2456,7 @@
 +.59y.com
 +.5c3.org
 +.5co.com
++.5cq.com
 +.5df.bet
 +.5g88.ws
 +.5i2.net
@@ -2414,7 +2480,6 @@
 +.5yau.cn
 +.5z6.vip
 +.6-a.com
-+.6-me.me
 +.600s.ru
 +.603.net
 +.609.bet
@@ -2474,7 +2539,6 @@
 +.6ty.com
 +.6wd.org
 +.6x.work
-+.6xbe.gq
 +.6z.zone
 +.6z6.vip
 +.6z6.xyz
@@ -2688,6 +2752,7 @@
 +.9263.pl
 +.9292.cm
 +.92vm.cc
++.9348.cn
 +.939m.cn
 +.93ky.me
 +.93o.com
@@ -2752,6 +2817,7 @@
 +.9s5d.cc
 +.9sao.me
 +.9ss.xyz
++.9ten.in
 +.9url.de
 +.9uu.bet
 +.9v3.com
@@ -2764,7 +2830,6 @@
 +.a.ad.gt
 +.a.mt.ru
 +.a.sj.se
-+.a05i.cn
 +.a1q1.pw
 +.a1r.lat
 +.a1r.xyz
@@ -2773,6 +2838,7 @@
 +.a22.pro
 +.a23.com
 +.a2ip.ru
++.a4e.top
 +.a4g.com
 +.a58.bet
 +.a59k.cc
@@ -2802,6 +2868,7 @@
 +.aakb.ru
 +.aald.ru
 +.aapu.at
++.aave.at
 +.aax.com
 +.aba8.cc
 +.abal.ru
@@ -2833,6 +2900,7 @@
 +.acow.cc
 +.acrh.be
 +.acsa.md
++.acsm.sg
 +.acy.com
 +.ad-v.jp
 +.ad.3.cn
@@ -2895,7 +2963,6 @@
 +.aem.com
 +.aeru.tv
 +.aeth.lu
-+.aex.com
 +.aex.ink
 +.af-a.jp
 +.af-z.jp
@@ -2920,10 +2987,10 @@
 +.agra.cc
 +.agrr.fr
 +.agt.net
-+.ahd.lat
 +.ahoo.ca
 +.ahp.top
 +.aibo.me
++.aiff.jo
 +.aiir.in
 +.aill.nl
 +.aimp.pm
@@ -2952,6 +3019,7 @@
 +.alda.cc
 +.aldl.ru
 +.alec.ru
++.alef.ps
 +.ali.ski
 +.all.app
 +.ally.so
@@ -2975,7 +3043,6 @@
 +.ambi.cc
 +.ambt.co
 +.amg.one
-+.amgo.cc
 +.amia.cc
 +.amol.cz
 +.amon.su
@@ -2990,6 +3057,7 @@
 +.an1.fun
 +.ancc.us
 +.ancd.us
++.anee.ee
 +.angp.in
 +.ankh.me
 +.anna.me
@@ -3002,6 +3070,7 @@
 +.aoa.com
 +.apas.fr
 +.apat.ir
++.apex.ps
 +.apmf.eu
 +.apmf.fr
 +.appe.fr
@@ -3011,11 +3080,14 @@
 +.apxl.io
 +.apys.me
 +.aqvi.cn
++.ar-d.jp
++.arge.pt
 +.argu.io
 +.arjr.cn
 +.arka.in
 +.arna.kz
 +.arsa.me
++.artf.cg
 +.arza.us
 +.arzi.de
 +.arzo.ge
@@ -3035,6 +3107,7 @@
 +.atid.me
 +.atm.bet
 +.atm2.us
++.atou.mg
 +.atsg.me
 +.atso.pt
 +.atss.cc
@@ -3055,6 +3128,7 @@
 +.awjm.cc
 +.awjm.me
 +.awl.red
++.awmc.ge
 +.awn.net
 +.awus.cn
 +.axa3.cn
@@ -3105,6 +3179,8 @@
 +.bag.win
 +.balg.in
 +.ball.ru
++.bams.co
++.bamx.me
 +.bank.si
 +.bape.at
 +.baqs.io
@@ -3132,6 +3208,7 @@
 +.bch8.cc
 +.bclf.ru
 +.bcns.ai
++.bcpr.mr
 +.bcr.bet
 +.bcs.dev
 +.bdda.ru
@@ -3141,7 +3218,9 @@
 +.bdns.nu
 +.bdsm.pl
 +.bdv5.cc
++.beak.in
 +.beca.ru
++.becg.mr
 +.beee.me
 +.bega.me
 +.beit.in
@@ -3171,7 +3250,6 @@
 +.bfio.io
 +.bfkc.ru
 +.bfw.lol
-+.bget.ru
 +.bgfi.in
 +.bgo.com
 +.bgp.one
@@ -3183,6 +3261,7 @@
 +.bia.bet
 +.bid.run
 +.bidr.io
++.biet.in
 +.bigg.pw
 +.bild.ws
 +.bile.ru
@@ -3196,6 +3275,7 @@
 +.binm.gq
 +.binm.tk
 +.binq.fr
++.bios.pe
 +.bip.nyc
 +.bipp.io
 +.bito.ws
@@ -3224,7 +3304,6 @@
 +.blk.ceo
 +.blnk.in
 +.blt8.co
-+.bltr.me
 +.blz.bet
 +.bm.game
 +.bm9.com
@@ -3269,6 +3348,7 @@
 +.bov.org
 +.bov.win
 +.box6.eu
++.boya.cl
 +.bpbi.nl
 +.bpcn.jp
 +.bpit.us
@@ -3362,13 +3442,13 @@
 +.cafj.fr
 +.cagi.ru
 +.cahl.io
-+.cake.me
 +.cakk.us
 +.cali.de
 +.cam4.fr
 +.cam5.fr
 +.cama.it
 +.can4.fr
++.cana.vn
 +.canv.fr
 +.card.co
 +.carl.pm
@@ -3479,8 +3559,10 @@
 +.cm96.cc
 +.cm98.cc
 +.cmcl.ma
++.cmme.it
 +.cn2f.cn
 +.cnc.bet
++.cncs.lk
 +.cndj.ci
 +.cnew.fr
 +.cnhv.co
@@ -3511,6 +3593,7 @@
 +.cope.it
 +.copm.co
 +.corg.co
++.cots.vn
 +.cp24.pl
 +.cpa6.ru
 +.cpcd.pl
@@ -3575,6 +3658,7 @@
 +.cuty.io
 +.cuya.fr
 +.cvd.icu
++.cves.sh
 +.cvix.cc
 +.cvn.icu
 +.cvsd.in
@@ -3612,6 +3696,7 @@
 +.dap.com
 +.dark.pe
 +.datt.in
++.daud.ae
 +.daum.et
 +.dawg.tf
 +.daxt.io
@@ -3633,7 +3718,6 @@
 +.ddcc.bf
 +.ddex.io
 +.ddg.bet
-+.ddkn.cc
 +.ddns.us
 +.ddp.bet
 +.ddsl.me
@@ -3674,8 +3758,10 @@
 +.di5.biz
 +.diia.me
 +.dilo.id
++.dinh.dk
 +.dirp.me
 +.diu.win
++.divd.it
 +.dj-w.nl
 +.dji.lat
 +.djj.bet
@@ -3711,6 +3797,7 @@
 +.doxy.ws
 +.dpav.cc
 +.dpkr.cc
++.dpls.ir
 +.dpml.cm
 +.dpmy.eu
 +.dpsz.ua
@@ -3763,6 +3850,7 @@
 +.dz0.top
 +.dzd9.cn
 +.dzss.in
++.e-4e.pl
 +.e.tw.cx
 +.e1r.net
 +.e37z.cn
@@ -3799,6 +3887,7 @@
 +.ecda.pl
 +.eclu.pl
 +.econ.gg
++.ecox.pt
 +.edaa.eu
 +.edaa.ru
 +.edal.cc
@@ -3822,15 +3911,19 @@
 +.efaa.ru
 +.efka.ru
 +.eflb.ru
++.efsi.cn
 +.egb.com
 +.egba.eu
 +.egbp.hu
 +.egh.xyz
 +.egie.fr
++.egii.ro
 +.egk.bet
 +.ehum.hk
++.ei7.icu
 +.eimg.jp
 +.eipl.cc
++.eiso.co
 +.ekac.ru
 +.eko9.co
 +.eldo.in
@@ -3838,6 +3931,7 @@
 +.elom.su
 +.eltr.eu
 +.emas.cc
++.emkd.ru
 +.emms.ro
 +.emuz.me
 +.emzt.pl
@@ -3878,7 +3972,6 @@
 +.etm.com
 +.etop.ro
 +.etps.ly
-+.etr.lat
 +.ets2.gr
 +.ett.bet
 +.etv.lol
@@ -3898,15 +3991,16 @@
 +.exaf.jp
 +.exe.bid
 +.exey.io
-+.exit.si
 +.exmo.me
 +.exx.com
 +.eyes.by
++.eyu.net
 +.ezl.com
 +.ezsy.io
 +.f0x.dad
 +.f12.bet
 +.f24.fun
++.f2f.org
 +.f40.lol
 +.f43.lol
 +.f44.lol
@@ -3934,6 +4028,7 @@
 +.facb.ru
 +.faec.ru
 +.faek.ru
++.faif.in
 +.fajn.tv
 +.falf.ru
 +.fame.ws
@@ -3991,6 +4086,7 @@
 +.file.cr
 +.fili.cc
 +.fin.ovh
++.fipl.ng
 +.firo.ru
 +.fisa.me
 +.fje.com
@@ -4070,12 +4166,14 @@
 +.g9r.top
 +.ga88.co
 +.gaax.fr
++.gaci.ge
 +.gad.bet
 +.gagy.fr
 +.gail.co
 +.galc.in
 +.galx.eu
 +.gam4.fr
++.ganp.ng
 +.gat.lol
 +.gatu.pl
 +.gaug.es
@@ -4111,9 +4209,11 @@
 +.gg66.tv
 +.gg8.bet
 +.gg9.bet
++.ggep.us
 +.ggj.icu
 +.gglx.me
 +.ggmx.fr
++.ggse.us
 +.ggwp.in
 +.ggym.ru
 +.gi0.icu
@@ -4157,6 +4257,7 @@
 +.go99.bz
 +.go99.tv
 +.goat.cx
++.gob1.cc
 +.gobf.ru
 +.goem.pl
 +.gogl.fr
@@ -4172,9 +4273,7 @@
 +.gouv.ac
 +.gouv.fm
 +.gove.ma
-+.govm.tk
 +.govn.cc
-+.govu.ml
 +.gpba.eu
 +.gpg.bet
 +.gpgy.cn
@@ -4189,6 +4288,7 @@
 +.grfz.de
 +.grok.ms
 +.grok.vg
++.grpt.ca
 +.grsm.io
 +.grtc.cc
 +.gruv.io
@@ -4220,6 +4320,7 @@
 +.h988.tw
 +.h99.bet
 +.ha.cash
++.hadt.vn
 +.halu.us
 +.hamb.pl
 +.hank.si
@@ -4240,6 +4341,7 @@
 +.hdsk.yt
 +.hdv.one
 +.he11.cn
++.heko.ro
 +.hen.bio
 +.hep.com
 +.herv.be
@@ -4281,19 +4383,20 @@
 +.hoct.cc
 +.holm.ru
 +.honk.hk
++.hop.fyi
 +.hopi.hr
 +.hot.bet
 +.hovg.de
 +.howl.gg
 +.hoyo.hk
 +.hpde.io
-+.hpko.cc
 +.hqae.cn
 +.hqs.xyz
 +.hqt.one
 +.hrbt.io
 +.hros.co
 +.hsfi.us
++.hsgt.nl
 +.hsia.fr
 +.hsx.vip
 +.ht55.cn
@@ -4301,6 +4404,7 @@
 +.hth.com
 +.htl.bid
 +.htm1.ch
++.htma.ae
 +.htsv.pm
 +.htt.com
 +.htvp.nl
@@ -4309,6 +4413,7 @@
 +.hudb.pl
 +.huhj.cc
 +.hung.ch
++.husk.ro
 +.hut.bio
 +.hut1.ru
 +.hut4.ru
@@ -4324,6 +4429,7 @@
 +.i-io.io
 +.i-no.ru
 +.i.po.st
++.i.qw.lc
 +.i1c.xyz
 +.i2ad.jp
 +.i2i.com
@@ -4341,7 +4447,6 @@
 +.ian.net
 +.ianw.ms
 +.ibpl.in
-+.ic.fail
 +.ic0.app
 +.ic24.lt
 +.iccf.ca
@@ -4359,6 +4464,7 @@
 +.idvd.su
 +.ie8q.cn
 +.iecc.id
++.ieet.pt
 +.ieff.us
 +.ifac.me
 +.ifbs.uk
@@ -4368,7 +4474,7 @@
 +.iftf.at
 +.ig24.me
 +.ig77.me
-+.igg.biz
++.igaz.ro
 +.igrs.ca
 +.ihct.mx
 +.ii3.icu
@@ -4419,21 +4525,25 @@
 +.ipi9.fr
 +.ipko.us
 +.ipoo.io
++.ippm.dk
 +.ips.com
 +.ipzd.pl
 +.iqbt.ru
 +.iqcc.io
 +.iqm.com
 +.iqok.ru
++.ir4.icu
 +.ir6.com
 +.irha.jp
 +.iris.tv
 +.irmo.fr
 +.irss.de
++.isec.pw
 +.isfu.ru
 +.isho.jp
 +.isu.lol
 +.it3k.us
++.itax.ke
 +.itdc.ru
 +.itim.vn
 +.itnt.fr
@@ -4442,6 +4552,7 @@
 +.itra.cn
 +.itv.lol
 +.iucc.yt
++.iuic.de
 +.iv24.pl
 +.iw8.com
 +.iwin.us
@@ -4468,6 +4579,7 @@
 +.jads.cc
 +.jads.co
 +.jane.in
++.jani.hu
 +.jari.gg
 +.jaxx.ru
 +.jaxx.su
@@ -4490,6 +4602,7 @@
 +.jeus.fr
 +.jeux.fm
 +.jgms.fr
++.jgs.fyi
 +.jhgy.yt
 +.jili.ph
 +.jink.de
@@ -4504,7 +4617,6 @@
 +.jkr.net
 +.jl9.bet
 +.jlgc.pk
-+.jlza.cc
 +.jnjn.jp
 +.jo4.icu
 +.jofo.me
@@ -4527,6 +4639,7 @@
 +.js8.bet
 +.js88.ag
 +.jsix.de
++.jsmg.in
 +.jta.vin
 +.jual.me
 +.juat.me
@@ -4603,6 +4716,7 @@
 +.kc9.com
 +.kc9.lol
 +.kckb.st
++.kcrn.sk
 +.kcrw.de
 +.kd4d.me
 +.kd6.app
@@ -4626,6 +4740,7 @@
 +.kfc.pet
 +.kfri.in
 +.kg88.in
++.kgsn.su
 +.khgj.cn
 +.khzj.cc
 +.kiat.by
@@ -4692,7 +4807,6 @@
 +.kvcg.yt
 +.kvqa.in
 +.kwas.me
-+.kwfw.me
 +.kx6.top
 +.kxx.com
 +.ky29.cn
@@ -4763,6 +4877,7 @@
 +.lhac.cn
 +.lhub.to
 +.lhxu.cn
++.lhzo.cn
 +.li8.app
 +.li8.com
 +.liaz.fr
@@ -4816,6 +4931,7 @@
 +.lu3g.it
 +.lu88.co
 +.luxv.cn
++.lv8.fun
 +.lvli.jp
 +.lwex.fr
 +.lwip.re
@@ -4853,9 +4969,12 @@
 +.ma88.me
 +.mad.bet
 +.mads.bz
++.mafg.ro
++.mag5.in
 +.maha.in
 +.maio.jp
 +.makg.ru
++.malc.sa
 +.mamj.ru
 +.man.fun
 +.man.tel
@@ -4899,6 +5018,7 @@
 +.meki.me
 +.memo.co
 +.mepl.ca
++.mesc.ae
 +.meu.bet
 +.mewt.us
 +.mexv.ru
@@ -4932,7 +5052,6 @@
 +.mit3.de
 +.mixi.mn
 +.mj88.uk
-+.mjzo.me
 +.mk3.ooo
 +.mkm.bet
 +.mkwt.pl
@@ -4974,11 +5093,11 @@
 +.mpio.io
 +.mpo4.me
 +.mps2.fr
-+.mpsi.cc
 +.mqmb.cc
 +.mr-b.ca
 +.mrep.kr
 +.mrq.com
++.mrsz.ir
 +.mrt.bet
 +.mrwu.at
 +.msas.ws
@@ -5021,6 +5140,7 @@
 +.mucu.jp
 +.mugu.pl
 +.muse.io
++.mutt.gg
 +.muzu.re
 +.mv9.fun
 +.mvd.lol
@@ -5051,7 +5171,6 @@
 +.n05.pro
 +.n06.biz
 +.n07.biz
-+.n11.vip
 +.n12.ltd
 +.n17.biz
 +.n19.biz
@@ -5071,6 +5190,7 @@
 +.na2.lol
 +.na2.pro
 +.na4u.ru
++.nado.ca
 +.nads.io
 +.nafe.cc
 +.nagi.be
@@ -5108,6 +5228,7 @@
 +.nexi.fr
 +.next.io
 +.nfmc.ir
++.nfpa.kz
 +.ng77.co
 +.ng77.tv
 +.nger.de
@@ -5116,6 +5237,7 @@
 +.nhat.it
 +.nich.it
 +.nidu.ir
++.niel.in
 +.nig.com
 +.nike.pm
 +.nike.re
@@ -5146,7 +5268,6 @@
 +.nora.ca
 +.norr.pl
 +.not.lat
-+.nots.ie
 +.nozs.nl
 +.nrfm.lk
 +.nrg.bet
@@ -5161,6 +5282,7 @@
 +.nt16.in
 +.nt17.in
 +.nt3.xyz
++.ntl.com
 +.ntlm.ca
 +.ntro.fr
 +.nufi.io
@@ -5189,6 +5311,7 @@
 +.oacc.om
 +.oah.icu
 +.oao.com
++.oast.ir
 +.oast.me
 +.obcl.uk
 +.obhg.ca
@@ -5241,6 +5364,7 @@
 +.ola.com
 +.ole7.io
 +.olhe.me
++.oliv.tw
 +.olux.to
 +.olx.ceo
 +.olx.moe
@@ -5270,9 +5394,12 @@
 +.oq8.top
 +.oqex.io
 +.orc.bet
++.orca.id
 +.oren.in
++.orge.pl
 +.oria.be
 +.orrw.cc
++.orvx.pw
 +.osfa.al
 +.oshi.io
 +.oshp.io
@@ -5287,7 +5414,6 @@
 +.oup.lol
 +.ourl.me
 +.out.bet
-+.ouzp.me
 +.oval.az
 +.ovea.pl
 +.oviv.ca
@@ -5318,6 +5444,7 @@
 +.p7q.xyz
 +.p84.bet
 +.p88.bet
++.pack.ma
 +.pads.se
 +.paf.com
 +.pai.bet
@@ -5330,6 +5457,7 @@
 +.pbbl.co
 +.pblc.me
 +.pcae.de
++.pcce.eu
 +.pcex.io
 +.pcge.ir
 +.pctc.us
@@ -5354,6 +5482,7 @@
 +.pgad.ir
 +.pgam.io
 +.pgci.ir
++.pgdm.my
 +.pgkf.cc
 +.pgt.com
 +.pgth.cc
@@ -5393,7 +5522,6 @@
 +.pk88.pw
 +.pk89.me
 +.pkia.fr
-+.pkil.me
 +.pkm.lol
 +.pko.bet
 +.pkr8.me
@@ -5449,6 +5577,7 @@
 +.prd2.co
 +.prd3.co
 +.prin.be
++.pros.cm
 +.prre.ru
 +.prvc.io
 +.pryz.io
@@ -5473,8 +5602,8 @@
 +.pusk.ua
 +.puta.es
 +.pvsz.cc
++.pwn.bar
 +.pxi.pub
-+.pxkt.me
 +.pzrk.ru
 +.q79.com
 +.q8q.icu
@@ -5494,13 +5623,16 @@
 +.qkk.bet
 +.qkly.co
 +.qm2.icu
++.qmix.fr
 +.qori.ir
 +.qouv.fr
 +.qptr.ru
++.qq00.cc
 +.qq45.cn
 +.qqsu.cn
 +.qqww.eu
 +.qqzx.cc
++.qskn.al
 +.quik.fr
 +.quyn.de
 +.qwex.ru
@@ -5533,6 +5665,7 @@
 +.ra2.biz
 +.ra5.xyz
 +.ra88.me
++.raas.pk
 +.raaw.se
 +.rael.cc
 +.raia.pw
@@ -5551,10 +5684,12 @@
 +.rcpt.at
 +.rdek.ru
 +.rdfm.cc
++.rdmd.lk
 +.rdtk.io
 +.re2l.in
 +.red7.me
 +.redf.fr
++.redr.me
 +.reez.io
 +.remm.fr
 +.remp.pl
@@ -5569,6 +5704,7 @@
 +.rgfh.cc
 +.rhmc.ae
 +.riau.fr
++.ricc.in
 +.rick.vn
 +.rifi.cc
 +.rifo.ru
@@ -5582,6 +5718,7 @@
 +.rikk.us
 +.riky.pl
 +.risu.be
++.riwg.in
 +.rizk.hr
 +.rjil.in
 +.rjk2.de
@@ -5595,7 +5732,6 @@
 +.rnac.fr
 +.rng.bet
 +.ro2.biz
-+.ro3.biz
 +.ro4.biz
 +.ro5.biz
 +.ro6.biz
@@ -5614,6 +5750,7 @@
 +.rpni.ca
 +.rpp.net
 +.rree.fr
++.rref.su
 +.rreg.us
 +.rs42.at
 +.rs6.net
@@ -5640,6 +5777,7 @@
 +.s-ly.me
 +.s.po.st
 +.s07.pro
++.s0s.xyz
 +.s11.ltd
 +.s26.lol
 +.s3.army
@@ -5659,6 +5797,7 @@
 +.sabk.eu
 +.safu.us
 +.sag.ceo
++.salp.cc
 +.salu.gq
 +.samc.ae
 +.sao.win
@@ -5669,6 +5808,7 @@
 +.saxo.cc
 +.saya.ga
 +.sb24.tv
++.sbb.ink
 +.sbet.ph
 +.sbet.ro
 +.sbfm.co
@@ -5678,7 +5818,6 @@
 +.sc0m.co
 +.sche.de
 +.scnv.jp
-+.scob.me
 +.scrr.me
 +.scru.bz
 +.scru.cn
@@ -5686,6 +5825,7 @@
 +.sdf2.cc
 +.sdkm.gr
 +.sdlp.ie
++.sdtp.lt
 +.se1f.cc
 +.se4.top
 +.se99.us
@@ -5694,6 +5834,7 @@
 +.sefy.ru
 +.segs.jp
 +.set.com
++.sevy.in
 +.sew.lol
 +.sfbx.io
 +.sfge.jp
@@ -5718,21 +5859,25 @@
 +.shok.am
 +.shot.la
 +.shr.lol
-+.shre.su
 +.shtu.be
 +.shz.lol
 +.si.baby
 +.sidh.fr
 +.sift.co
++.siis.in
++.sipo.ru
 +.sipp.pl
 +.site.ru
 +.siyi.hk
 +.siz2.nl
 +.sizi.pl
++.sjme.pk
 +.sjpf.io
 +.sk1n.fr
 +.sk8t.fr
++.skbm.ba
 +.skim.yt
++.skkl.in
 +.sklk.cc
 +.sklz.us
 +.skoa.li
@@ -5761,6 +5906,7 @@
 +.sntt.de
 +.soa.lol
 +.sob.bet
++.socx.ly
 +.socy.es
 +.soet.in
 +.soha.jp
@@ -5768,6 +5914,7 @@
 +.sono.ge
 +.sono.pw
 +.soom.la
++.soon.ae
 +.sopa.vg
 +.sorg.cc
 +.sou.run
@@ -5783,6 +5930,7 @@
 +.splv.jp
 +.spnx.jp
 +.spot.tn
++.sppe.pt
 +.sprl.in
 +.sprw.io
 +.spst.in
@@ -5792,9 +5940,11 @@
 +.sq59.cn
 +.sqoo.co
 +.src.com
++.srdm.in
 +.srm.lol
 +.srt.lat
 +.srth.cc
++.ssaa.me
 +.ssfr.ca
 +.ssij.pl
 +.ssmb.uz
@@ -5831,6 +5981,7 @@
 +.sw1m.ru
 +.swaa.me
 +.swb.one
++.swca.mx
 +.swcs.jp
 +.sx13.ws
 +.sxr8.de
@@ -5859,6 +6010,8 @@
 +.t5wm.cc
 +.t7t.icu
 +.t84.bet
++.t8c.org
++.t8n.net
 +.t97.bet
 +.t9z.lol
 +.ta5y.yt
@@ -5976,6 +6129,7 @@
 +.traz.cc
 +.trck.cc
 +.trcs.ma
++.trd6.cc
 +.tre.pet
 +.trik.ws
 +.trkn.us
@@ -5987,8 +6141,10 @@
 +.ts5.xyz
 +.ts7.top
 +.tsbm.ch
++.tsgg.ge
 +.tsu.one
 +.tsx.org
++.tsyl.in
 +.tt7.xyz
 +.tt88.am
 +.tt88.at
@@ -6030,12 +6186,12 @@
 +.u88.biz
 +.u88.fun
 +.ua2.icu
++.uaba.io
 +.uads.cc
 +.uae.onl
 +.uam.com
 +.uami.io
 +.uang.cc
-+.uani.us
 +.uasb.ru
 +.uat.wtf
 +.ubal.do
@@ -6051,6 +6207,7 @@
 +.uc8.com
 +.ucar.ug
 +.ucoz.pl
++.udef.fr
 +.udun.me
 +.ue8.com
 +.ueab.nu
@@ -6070,6 +6227,7 @@
 +.uige.me
 +.uion.me
 +.ujio.cn
++.ukes.pk
 +.ukvc.co
 +.ulib.me
 +.ulr.net
@@ -6119,7 +6277,9 @@
 +.usbf.fr
 +.uscc.ua
 +.usip.us
++.usml.ca
 +.usnd.to
++.ustf.ae
 +.ustx.io
 +.usu.lol
 +.usun.us
@@ -6131,6 +6291,7 @@
 +.uu7.bet
 +.uuc.com
 +.uuk.lol
++.uumu.fi
 +.uvhs.in
 +.uwo.com
 +.uwxj.cn
@@ -6169,6 +6330,7 @@
 +.veio.io
 +.veja.at
 +.veok.de
++.vera.by
 +.vf38.me
 +.vg88.us
 +.vg99.co
@@ -6198,6 +6360,7 @@
 +.vlw.bet
 +.vlxx.sh
 +.vlxx.ws
++.vmaa.in
 +.vmet.ro
 +.vmin.in
 +.vmn.net
@@ -6256,6 +6419,7 @@
 +.w-ws.ws
 +.w0t.lol
 +.w22.vip
++.w2wa.it
 +.w2wz.cn
 +.w388.la
 +.w3i.com
@@ -6280,6 +6444,7 @@
 +.wab.com
 +.wabs.pl
 +.wahm.fr
++.wahu.cc
 +.wait.re
 +.walc.io
 +.wap.lol
@@ -6318,7 +6483,6 @@
 +.wevu.pw
 +.wew.lol
 +.wget.sh
-+.whry.me
 +.wi96.ch
 +.wibb.ru
 +.wict.ru
@@ -6341,7 +6505,6 @@
 +.wj2.ink
 +.wj2.sbs
 +.wj2.top
-+.wkby.cc
 +.wkdk.jp
 +.wkh.lol
 +.wknd.ai
@@ -6378,6 +6541,7 @@
 +.wpme.cc
 +.wpt.com
 +.wr8.com
++.wram.ir
 +.wrig.pl
 +.wsds.cn
 +.wso1.me
@@ -6392,6 +6556,7 @@
 +.wwjp.cc
 +.wwwh.ca
 +.wwyy.ru
++.wx-l.in
 +.wyam.io
 +.wyxy.ru
 +.wz6r.cc
@@ -6412,6 +6577,7 @@
 +.xb35.co
 +.xbet.ag
 +.xbot.me
++.xbrl.by
 +.xcb.one
 +.xcec.ru
 +.xch.org
@@ -6465,6 +6631,7 @@
 +.xu2.com
 +.xu6.icu
 +.xulu.co
++.xuxi.ir
 +.xv6.net
 +.xvqb.cn
 +.xx07.cn
@@ -6508,6 +6675,7 @@
 +.yes.bet
 +.ygyx.cc
 +.yh2.lol
++.yhlw.cc
 +.yhoo.in
 +.yidu.cc
 +.yita.nl
@@ -6528,6 +6696,7 @@
 +.you1.cn
 +.yous.ai
 +.yoyi.tv
++.yoyo.pl
 +.yp8.mom
 +.ypd.com
 +.ypwl.cn
@@ -6578,6 +6747,7 @@
 +.z97.bet
 +.z97.com
 +.z97.vip
++.z98.pro
 +.za5.net
 +.zaho.pl
 +.zap.ceo
@@ -6630,9 +6800,9 @@
 +.zoml.cc
 +.zona.pl
 +.zoow.us
-+.zoru.me
 +.zos.lol
 +.zp22.cn
++.zpec.ru
 +.zprk.io
 +.zqwe.ru
 +.zr3.icu
@@ -6695,6 +6865,7 @@
 +.007e.com
 +.008.info
 +.00877.cc
++.0088.top
 +.008x.net
 +.009.chat
 +.0096.net
@@ -6910,6 +7081,7 @@
 +.08643.cc
 +.08665.cc
 +.086z.com
++.0889.org
 +.08915.cc
 +.089u.com
 +.08ai.com
@@ -6995,6 +7167,7 @@
 +.0x0.wiki
 +.0x3g.com
 +.0xxd.com
++.0xy.link
 +.0xzz.com
 +.0yui.com
 +.0zx9u.cc
@@ -7011,7 +7184,6 @@
 +.10.im.cz
 +.1000i.co
 +.1002.men
-+.100co.ir
 +.1025.biz
 +.102ch.us
 +.1038.org
@@ -7379,6 +7551,7 @@
 +.1haja.cc
 +.1hong.cc
 +.1hope.fr
++.1hq5.top
 +.1hwy.com
 +.1inch.pw
 +.1itq.cfd
@@ -7424,6 +7597,7 @@
 +.1sad.com
 +.1saz.com
 +.1ship.vn
++.1sis.com
 +.1sliv.ru
 +.1slot.co
 +.1snb.com
@@ -7432,6 +7606,7 @@
 +.1traf.ru
 +.1ttv.net
 +.1tu.life
++.1typ.top
 +.1ui0.com
 +.1utar.my
 +.1vcd.com
@@ -7892,6 +8067,7 @@
 +.29go.net
 +.29i9.com
 +.29ld.vip
++.29sbt.ru
 +.29wp.org
 +.29yd.bet
 +.2aol.com
@@ -7917,6 +8093,7 @@
 +.2in2.net
 +.2j72.com
 +.2js24.cc
++.2k3o.top
 +.2k66.vip
 +.2kan.org
 +.2kata.ru
@@ -8280,6 +8457,7 @@
 +.37p.live
 +.37wan.cn
 +.37yd.bet
++.37z5.top
 +.37z7f.cc
 +.3835.org
 +.383y.net
@@ -8337,7 +8515,6 @@
 +.3d2f.com
 +.3d41.com
 +.3d5r.com
-+.3d5v.top
 +.3date.de
 +.3db5.com
 +.3desk.pl
@@ -8397,6 +8574,7 @@
 +.3qmf.com
 +.3qmh.com
 +.3qqq.net
++.3rt.site
 +.3sas.icu
 +.3sky.dev
 +.3spn.org
@@ -8406,6 +8584,7 @@
 +.3ve7s.cc
 +.3vig.com
 +.3w24.com
++.3wd33.fr
 +.3y6m.com
 +.3yfn.com
 +.4-7-2.my
@@ -8550,6 +8729,7 @@
 +.49hcp.cc
 +.49i9.com
 +.49ky.app
++.4a3d.com
 +.4abet.in
 +.4abf.net
 +.4ad6.com
@@ -8571,6 +8751,7 @@
 +.4e55.xyz
 +.4e68.xyz
 +.4eeee.it
++.4emme.it
 +.4epa.xyz
 +.4ever.cc
 +.4ex.info
@@ -8586,6 +8767,7 @@
 +.4i7i.com
 +.4i7t9.cc
 +.4ifx.vip
++.4iptv.eu
 +.4irc.com
 +.4isg.com
 +.4jkwv.cc
@@ -8847,7 +9029,6 @@
 +.5hdr.com
 +.5hg8.com
 +.5hill.ca
-+.5hkk.icu
 +.5hty.com
 +.5huu.com
 +.5iali.co
@@ -8920,7 +9101,6 @@
 +.60yr.com
 +.6103.app
 +.6103.com
-+.61306.se
 +.6132.app
 +.6132.bet
 +.6132.ooo
@@ -9043,7 +9223,6 @@
 +.6731.com
 +.6732.com
 +.67575.cc
-+.676df.cn
 +.676q.com
 +.67777.tv
 +.6789.net
@@ -9179,7 +9358,6 @@
 +.6j3g1.cc
 +.6kapp.co
 +.6kapp.ph
-+.6kov.com
 +.6l2bw.cc
 +.6mail.cc
 +.6mpt.top
@@ -9373,7 +9551,6 @@
 +.6zvyh.cc
 +.7-16.net
 +.7-53.com
-+.7-co.top
 +.7-zip.tw
 +.7.1tb.in
 +.7001.com
@@ -9397,7 +9574,6 @@
 +.71704.cc
 +.7171.win
 +.7184.org
-+.719w.xyz
 +.71df.bet
 +.71z8.com
 +.71zrh.cn
@@ -9547,7 +9723,6 @@
 +.78bo.net
 +.78df.bet
 +.78k8.vip
-+.78qq.icu
 +.78vn.bet
 +.78win.se
 +.78win.vn
@@ -9592,9 +9767,7 @@
 +.7dvtb.cc
 +.7dwa.com
 +.7e2r.com
-+.7e3w.top
 +.7eer.net
-+.7ezq.icu
 +.7fft.com
 +.7g8tc.cn
 +.7gf.info
@@ -9631,7 +9804,6 @@
 +.7porn.ru
 +.7pxj.com
 +.7qwa.com
-+.7qzd.cfd
 +.7re3.xyz
 +.7re8.com
 +.7red.com
@@ -9645,6 +9817,7 @@
 +.7sbet.ph
 +.7snk.com
 +.7styo.cc
++.7t1g.top
 +.7t5k.com
 +.7thb.com
 +.7thb.sbs
@@ -9687,7 +9860,6 @@
 +.7zean.cc
 +.7zip.sbs
 +.7zzld.cc
-+.8-co.top
 +.8-me.com
 +.8-pg.pro
 +.8-pg.vip
@@ -9873,7 +10045,6 @@
 +.8ahy.com
 +.8b1b.com
 +.8b8n.com
-+.8bits.cc
 +.8bo7.top
 +.8cnd.com
 +.8cqm.top
@@ -9927,14 +10098,12 @@
 +.8mp8.icu
 +.8n2a.com
 +.8news.ru
-+.8ntp.icu
 +.8p16.com
 +.8p6b.com
 +.8p6e.com
 +.8p86.com
 +.8pg.game
 +.8pg9.vip
-+.8pw4.top
 +.8pyy.com
 +.8q7a.com
 +.8q9a.com
@@ -10096,9 +10265,9 @@
 +.9761.com
 +.9762.com
 +.97881.cc
-+.97930.cn
 +.97992.cc
 +.97df.bet
++.97gp.net
 +.97h.live
 +.97koe.cc
 +.97sky.cn
@@ -10145,13 +10314,13 @@
 +.9991.com
 +.9992c.cc
 +.99932.cc
++.9997.mom
 +.9998.biz
 +.99980.tv
 +.999bb.cc
 +.999d.com
 +.999db.cn
 +.999fb.cn
-+.99app.ml
 +.99bet.co
 +.99bm.vip
 +.99ee6.cn
@@ -10197,6 +10366,7 @@
 +.9daa.com
 +.9dgs.com
 +.9dot9.in
++.9e3.site
 +.9e3c.com
 +.9e7p.com
 +.9f2k.com
@@ -10244,7 +10414,6 @@
 +.9uae.com
 +.9v3p.com
 +.9v5u.com
-+.9vp4.top
 +.9w2k.com
 +.9wee.com
 +.9x9o.com
@@ -10254,7 +10423,6 @@
 +.9y2a.com
 +.9y3e.com
 +.9y3f.com
-+.9y7j.com
 +.9ysl.vip
 +.9z9a.com
 +.a-1a.com
@@ -10283,8 +10451,6 @@
 +.a01d.xyz
 +.a01f.xyz
 +.a01l.xyz
-+.a01y.xyz
-+.a01z.xyz
 +.a0440.cn
 +.a0515.cn
 +.a11k.com
@@ -10293,6 +10459,7 @@
 +.a169.bet
 +.a19br.cn
 +.a1a.shop
++.a20g.com
 +.a247.com
 +.a2ics.eu
 +.a2qp.com
@@ -10317,7 +10484,6 @@
 +.a709.com
 +.a729.com
 +.a759.com
-+.a78p.top
 +.a7a8k.cc
 +.a7pg.bet
 +.a7pg.biz
@@ -10397,6 +10563,7 @@
 +.aca6.bet
 +.aca8.bet
 +.aca9.bet
++.acapn.us
 +.acas.com
 +.acbcb.cc
 +.acc4d.id
@@ -10499,6 +10666,7 @@
 +.adnet.vn
 +.adnow.cc
 +.adode.fr
++.adone.in
 +.adone.ru
 +.adpia.vn
 +.adpix.ru
@@ -10559,6 +10727,7 @@
 +.aenk.com
 +.aeth.app
 +.aeus.top
++.aevp.org
 +.aewe.lat
 +.aexd.com
 +.aexj.net
@@ -10589,6 +10758,7 @@
 +.afuy.com
 +.afws.net
 +.afxl.net
++.ag-kw.de
 +.ag62.pro
 +.ag7.club
 +.ag777.co
@@ -10605,11 +10775,13 @@
 +.agbet.co
 +.agcd.com
 +.agcm.xyz
++.agde.com
 +.aggia.pl
 +.aggjl.uk
 +.agiqt.ai
 +.agkn.com
 +.agpb.com
++.agria.rs
 +.ags9.org
 +.aguas.ru
 +.agul.top
@@ -10638,6 +10810,7 @@
 +.aile.app
 +.aili.com
 +.aimp.day
++.aimp.xyz
 +.aino.lat
 +.ainor.ir
 +.aioky.cc
@@ -10680,6 +10853,7 @@
 +.ajm69.co
 +.ajnvv.cn
 +.ajoqu.cn
++.ajton.ro
 +.ajty.org
 +.ajyi.com
 +.ak-sp.ru
@@ -10710,6 +10884,7 @@
 +.aleli.fr
 +.alfy.com
 +.alhxy.cc
++.aliam.ir
 +.alib.com
 +.alica.it
 +.alico.co
@@ -10764,6 +10939,7 @@
 +.amja.net
 +.amjeu.cn
 +.amlp.top
++.ammy.pro
 +.amo01.cc
 +.amo7r.cc
 +.amoun.cc
@@ -10774,6 +10950,7 @@
 +.amsco.id
 +.amsyt.yt
 +.amt-k.ru
++.amtri.ma
 +.amung.us
 +.amunx.de
 +.amyu.org
@@ -10790,6 +10967,7 @@
 +.anet.dev
 +.anews.cc
 +.angar.cc
++.angel.sn
 +.angka.ca
 +.anhd.com
 +.anhev.cc
@@ -10813,12 +10991,14 @@
 +.anwap.ru
 +.any.pink
 +.anyui.ru
++.anzil.in
 +.anzin.pl
 +.ao3.site
 +.ao77i.cc
 +.ao86.cfd
 +.aoad.org
 +.aoas.lol
++.aobao.io
 +.aofvu.cn
 +.aofw.top
 +.aog5.com
@@ -10884,6 +11064,7 @@
 +.arkm.one
 +.arkt.xyz
 +.arku.xyz
++.arlex.su
 +.arlk.com
 +.armor.fi
 +.arna.net
@@ -10893,7 +11074,9 @@
 +.arpe.top
 +.arpj.com
 +.arsec.it
++.arsey.in
 +.arsf.com
++.arst.top
 +.art3d.io
 +.art4.xyz
 +.artia.me
@@ -10960,7 +11143,9 @@
 +.au22j.cc
 +.au8au.cn
 +.auchn.fr
++.audia.cl
 +.auger.pl
++.augmo.in
 +.augur.io
 +.auok.org
 +.aupa.xyz
@@ -11045,6 +11230,7 @@
 +.az5i.icu
 +.az777.co
 +.az777.me
++.azbia.pk
 +.azhq.com
 +.azino.cc
 +.aziu.com
@@ -11065,6 +11251,7 @@
 +.b.ewd.io
 +.b.ysh.io
 +.b0e8.com
++.b0l9.top
 +.b117x.cc
 +.b129.com
 +.b138.com
@@ -11087,6 +11274,7 @@
 +.b368.bet
 +.b369.com
 +.b3am.xyz
++.b3do.com
 +.b3i.tech
 +.b3ss.com
 +.b3vv.com
@@ -11096,7 +11284,7 @@
 +.b457.net
 +.b459.net
 +.b4f.site
-+.b4vt.top
++.b50h.top
 +.b511.net
 +.b52.casa
 +.b52.club
@@ -11210,6 +11398,7 @@
 +.bbjh.com
 +.bbkx.com
 +.bblck.me
++.bbld.xyz
 +.bbnp.com
 +.bbnwl.cn
 +.bboxx.fr
@@ -11284,6 +11473,7 @@
 +.bein.com
 +.bejoy.ru
 +.bekos.at
++.belma.ro
 +.bener.ca
 +.benih.id
 +.benj.com
@@ -11385,6 +11575,7 @@
 +.bijmz.cn
 +.biko.biz
 +.bil.asia
++.bimak.hr
 +.bimex.cl
 +.bin1.net
 +.bine.com
@@ -11474,6 +11665,7 @@
 +.bl88.cam
 +.bl88.lol
 +.bl88.xyz
++.bla4u.su
 +.blast.fo
 +.blaze.ac
 +.blbet.cc
@@ -11494,9 +11686,9 @@
 +.blzz.xyz
 +.bm23.com
 +.bmax.one
++.bmgp.com
 +.bmks.com
 +.bmmh.com
-+.bmret.cn
 +.bmw4d.id
 +.bmw4d.me
 +.bmw4d.us
@@ -11570,6 +11762,7 @@
 +.bot69.cc
 +.bot88.cc
 +.botan.pw
++.boula.pe
 +.bouyg.fr
 +.bov.info
 +.bova.fyi
@@ -11597,7 +11790,6 @@
 +.braze.eu
 +.brbu.com
 +.brenz.pl
-+.brez.uno
 +.brfw.com
 +.bride.ru
 +.brjsw.cn
@@ -11654,6 +11846,7 @@
 +.btslr.co
 +.bubk.com
 +.buibu.id
++.bujor.md
 +.bujz.top
 +.buka.pro
 +.buka.win
@@ -11716,7 +11909,6 @@
 +.bysc.com
 +.byscy.cn
 +.bysn.org
-+.bytli.us
 +.byu5k.cc
 +.bywe.xyz
 +.bz66.vip
@@ -11726,6 +11918,7 @@
 +.bzot.top
 +.bztpa.ru
 +.c-4-l.us
++.c-54.com
 +.c-lbc.fr
 +.c-sn.com
 +.c.gq.com
@@ -11862,6 +12055,7 @@
 +.cdvn.vip
 +.cdxyb.cn
 +.ceai.xyz
++.cedas.cl
 +.ceecc.cc
 +.ceetc.es
 +.cehi.org
@@ -11928,6 +12122,7 @@
 +.chwhg.cn
 +.cibck.cc
 +.ciclo.cc
++.cicol.pt
 +.cifun.cc
 +.cigar.pt
 +.cigs.com
@@ -11938,9 +12133,11 @@
 +.cimm.top
 +.cimw6.cc
 +.cint.com
++.cipro.mx
 +.ciqpz.cc
 +.cirsa.es
 +.cirsa.it
++.cirve.fi
 +.cisco.yt
 +.civix.pl
 +.ciwxy.cn
@@ -11960,6 +12157,8 @@
 +.ckbet.ai
 +.ckbet.me
 +.ckemp.de
++.ckka.net
++.cklab.my
 +.cknq.com
 +.ckre.net
 +.cl1.info
@@ -12052,6 +12251,7 @@
 +.cohen.ge
 +.coinm.cc
 +.coinz.pw
++.color.lk
 +.com-i.us
 +.com.cafe
 +.com.fail
@@ -12059,6 +12259,7 @@
 +.com.page
 +.comin.co
 +.como.com
++.conas.uz
 +.confg.fr
 +.conic.fi
 +.cons.top
@@ -12071,6 +12272,7 @@
 +.copc.top
 +.copgb.eu
 +.coqh.com
++.corem.mx
 +.corf.com
 +.corta.me
 +.coses.in
@@ -12083,6 +12285,7 @@
 +.count.ly
 +.covex.it
 +.covgo.cc
++.covid.uk
 +.cown.com
 +.coxh.com
 +.coxx.one
@@ -12090,6 +12293,7 @@
 +.cpaiq.ru
 +.cpam.pro
 +.cpbld.co
++.cpcef.fr
 +.cpdev.id
 +.cpf9.bet
 +.cpjh.net
@@ -12135,6 +12339,7 @@
 +.cr2c.org
 +.cr2f.org
 +.crads.in
++.crane.mn
 +.crash.sh
 +.crbo.net
 +.credy.pl
@@ -12178,6 +12383,7 @@
 +.csvf.org
 +.csxc.com
 +.cszu.com
++.ct-zt.cn
 +.ct01.biz
 +.ct101.us
 +.ct20.cfd
@@ -12207,7 +12413,6 @@
 +.curve.fm
 +.curve.si
 +.curve.so
-+.curvw.fi
 +.cusat.us
 +.cusdm.fr
 +.cusok.ru
@@ -12299,7 +12504,6 @@
 +.d697.net
 +.d6lr.com
 +.d777.biz
-+.d7fk.top
 +.d805.org
 +.d87b.com
 +.d889.com
@@ -12338,10 +12542,11 @@
 +.daket.ir
 +.dakia.co
 +.dalu.ltd
-+.damrt.fr
 +.dandp.it
 +.dania.se
++.danoi.co
 +.daque.cn
++.darfe.es
 +.darq.lat
 +.dasch.pl
 +.dasco.kz
@@ -12353,6 +12558,7 @@
 +.dawin.tv
 +.dawk.com
 +.dbcjd.cc
++.dbest.ro
 +.dbl4d.co
 +.dbv.asia
 +.dbvis.de
@@ -12365,6 +12571,7 @@
 +.dcmn.com
 +.dcrat.ru
 +.dcsu.org
++.dd-d.xyz
 +.dd1l.com
 +.dd287.cc
 +.dd66.bet
@@ -12373,6 +12580,7 @@
 +.dd91.fun
 +.dd99.bet
 +.ddas.top
++.ddbc.xyz
 +.ddcgi.co
 +.ddd54.cn
 +.dddon.kr
@@ -12500,6 +12708,7 @@
 +.dhkf.com
 +.dhlat.co
 +.dhlc.ink
++.dhlcm.lk
 +.dhli.ink
 +.dhlj.ink
 +.dhlo.ink
@@ -12560,6 +12769,7 @@
 +.djbet.ph
 +.djgj.app
 +.djhdw.yt
++.djibg.eu
 +.djkg5.cc
 +.djlgs.cn
 +.djqd.com
@@ -12604,6 +12814,7 @@
 +.dmam.net
 +.dmdco.in
 +.dmdij.yt
++.dmiss.ge
 +.dmk9.com
 +.dmlrc.ca
 +.dmp-1.ru
@@ -12667,6 +12878,7 @@
 +.dove.bet
 +.dovv.net
 +.down.app
++.dowsa.pe
 +.dp-d.net
 +.dp96.xyz
 +.dpd.mobi
@@ -12693,10 +12905,12 @@
 +.droid.ph
 +.droof.kr
 +.droos.me
++.drova.ae
 +.drreo.yt
 +.drwhh.yt
 +.drxon.de
 +.dryum.ru
++.drzak.uk
 +.ds168.ws
 +.dscc.net
 +.dsh2.vip
@@ -12822,7 +13036,6 @@
 +.dzyl.com
 +.e-cmv.ph
 +.e-d-f.fr
-+.e-kei.pl
 +.e-kgd.kz
 +.e-nsk.ru
 +.e-pc.org
@@ -12881,6 +13094,7 @@
 +.easy.ngo
 +.easy.ong
 +.eb177.cc
++.eb199.cc
 +.ebaay.it
 +.ebat.com
 +.ebay8.vc
@@ -12916,6 +13130,7 @@
 +.eduin.me
 +.edume.me
 +.eduri.me
++.edwb.org
 +.edwm.org
 +.edws.net
 +.ee-l.com
@@ -12972,11 +13187,11 @@
 +.ehajj.ph
 +.ehan.org
 +.eheb8.cn
++.ehlel.mn
 +.ehln.org
 +.ehtby.cn
 +.ehttp.cc
 +.ehzby.cc
-+.eicp.net
 +.eigen.io
 +.eiis.com
 +.eijy.com
@@ -13029,6 +13244,7 @@
 +.emmay.de
 +.emnot.cz
 +.emnt.net
++.emoto.mk
 +.emp3.org
 +.empak.de
 +.emps.xyz
@@ -13097,7 +13313,6 @@
 +.erds.com
 +.erds.top
 +.ergb.com
-+.erjj.top
 +.ernw.org
 +.es02.xyz
 +.es100.eu
@@ -13161,10 +13376,12 @@
 +.ev88.vip
 +.evail.pw
 +.evaq.org
++.evcol.co
 +.evids.ru
 +.evil.com
 +.evj.asia
 +.evkc.com
++.evoka.cl
 +.evolv.ai
 +.evost.in
 +.evou.com
@@ -13172,6 +13389,7 @@
 +.evri.ink
 +.evrj.top
 +.evro.top
++.evrri.me
 +.evru.top
 +.evti.top
 +.evyy.net
@@ -13180,6 +13398,7 @@
 +.ewp.live
 +.ewsr.org
 +.exact.cm
++.exalt.pk
 +.exdr.com
 +.exeos.ws
 +.exfan.ru
@@ -13208,6 +13427,7 @@
 +.eyug.org
 +.ez365.io
 +.ez4q2.cn
++.ezbdc.ca
 +.ezhj.com
 +.ezik.fun
 +.eznb.net
@@ -13225,6 +13445,7 @@
 +.f-t-c.de
 +.f.a23.in
 +.f.mol.im
++.f.qth.fr
 +.f.xyu.tv
 +.f01.buzz
 +.f062.top
@@ -13418,6 +13639,7 @@
 +.fes5.com
 +.feset.cc
 +.fesr.com
++.fessi.tn
 +.fessy.co
 +.ff22s.cc
 +.ff77.top
@@ -13501,6 +13723,7 @@
 +.finai.pl
 +.finbs.ru
 +.fine.bet
++.finos.ru
 +.fiona.pw
 +.fipe.net
 +.fipkd.yt
@@ -13557,6 +13780,7 @@
 +.flmi.com
 +.flnns.yt
 +.flntp.ro
++.flome.be
 +.flome.ru
 +.flona.io
 +.flro.org
@@ -13586,6 +13810,7 @@
 +.fnsc.pro
 +.fo.movie
 +.fo4n.com
++.fobh.net
 +.fobta.se
 +.focas.jp
 +.fodiu.co
@@ -13645,7 +13870,6 @@
 +.frjk.xyz
 +.frn.asia
 +.fror.com
-+.frpk.xyz
 +.frsk.xyz
 +.frtc.net
 +.fsgfl.yt
@@ -13731,6 +13955,7 @@
 +.fyij.com
 +.fyjv.com
 +.fyklt.yt
++.fytco.sa
 +.fywe.com
 +.fywr.com
 +.fyxd.lat
@@ -13738,7 +13963,6 @@
 +.fzoe.com
 +.fzrp.lat
 +.fzsv.com
-+.fzxc.net
 +.g-ads.co
 +.g-af.com
 +.g.bit.pt
@@ -13818,6 +14042,7 @@
 +.gdm88.cc
 +.gdn6.com
 +.gdo.asia
++.gdom.org
 +.gdsis.cl
 +.gdtqq.cn
 +.gduel.at
@@ -13861,6 +14086,7 @@
 +.gfgb6.cc
 +.gfim.com
 +.gfncg.cn
++.gfoe.org
 +.gfslk.cc
 +.gftm.com
 +.gg11.bet
@@ -13965,6 +14191,8 @@
 +.gi888.cc
 +.gi8vn.cc
 +.gibam.us
++.giddy.cc
++.gide.com
 +.giee.org
 +.gifii.fr
 +.gijj.com
@@ -14100,6 +14328,7 @@
 +.gogle.co
 +.gogle.nu
 +.goglr.fr
++.goglu.mx
 +.gogo.com
 +.gogo1.tw
 +.gogo2.tw
@@ -14111,6 +14340,7 @@
 +.golng.eu
 +.gomha.in
 +.gomu.lat
++.gonow.cl
 +.gophi.sh
 +.gosnn.ru
 +.gosrv.cl
@@ -14154,11 +14384,13 @@
 +.gs-ad.jp
 +.gs188.cc
 +.gscan.io
++.gsdfe.cc
 +.gsetm.in
 +.gsil.org
 +.gsn.asia
 +.gsnlc.cn
 +.gss.live
++.gstwb.in
 +.gsurl.in
 +.gsurl.me
 +.gsxf.net
@@ -14244,7 +14476,6 @@
 +.gz2yr.cc
 +.gze.asia
 +.gzlmz.me
-+.gzn6.top
 +.gzqvd.cn
 +.gzwl.xyz
 +.gzy57.cc
@@ -14256,6 +14487,7 @@
 +.h04y.com
 +.h093.net
 +.h11d.com
++.h144.org
 +.h1717.ph
 +.h1jom.cc
 +.h21si.cc
@@ -14264,6 +14496,7 @@
 +.h276.com
 +.h2m.club
 +.h2m.site
++.h2u.host
 +.h336.com
 +.h3599.cc
 +.h368.bet
@@ -14271,6 +14504,7 @@
 +.h3h5.com
 +.h3lr.com
 +.h466.vip
++.h4ac.com
 +.h51.live
 +.h592.com
 +.h5k8.com
@@ -14287,6 +14521,7 @@
 +.h9ap6.cc
 +.h9fvg.cc
 +.haa67.cc
++.habib.ar
 +.hac0.com
 +.hac1.com
 +.hac43.cc
@@ -14304,14 +14539,16 @@
 +.haiku.to
 +.hal52.cc
 +.halal.ad
-+.halct.cn
++.hamad.ps
 +.hamon.ir
 +.han54.cc
 +.hand.bid
++.haory.cn
 +.hapi.app
 +.happx.cc
 +.har58.cc
 +.haren.uk
++.haris.in
 +.has59.cc
 +.hasco.fr
 +.hat60.cc
@@ -14385,6 +14622,7 @@
 +.hemon.pl
 +.heoo.com
 +.hera.mom
++.herbs.pk
 +.hesly.de
 +.heus.fun
 +.hexc.net
@@ -14450,6 +14688,7 @@
 +.hh60.com
 +.hhcn.net
 +.hhcw.com
++.hhic.top
 +.hhit.xyz
 +.hhjjc.cc
 +.hhl0.xyz
@@ -14611,6 +14850,7 @@
 +.hr44.com
 +.hr66.fun
 +.hrbsx.cn
++.hrdn.net
 +.hree.com
 +.hrib.org
 +.hrly.com
@@ -14732,7 +14972,9 @@
 +.i-n-m.ru
 +.i-web.se
 +.i.frg.im
++.i.h3x.it
 +.i.j2j.ru
++.i.ywh.at
 +.i0up.com
 +.i100.org
 +.i110.fun
@@ -14780,13 +15022,13 @@
 +.ibbcc.cc
 +.ibc4d.id
 +.ibc9.com
-+.ibeb.pro
 +.ibet.com
 +.ibet.net
 +.ibf45.co
 +.ibf88.co
 +.ibfy.com
 +.ibgd.org
++.ibird.jp
 +.ibis.com
 +.ibjn.com
 +.ibjv.com
@@ -14831,6 +15073,7 @@
 +.id918.pl
 +.id934.pl
 +.id953.pl
++.idc2.org
 +.iddh.com
 +.ideaa.io
 +.ideed.ca
@@ -14855,6 +15098,7 @@
 +.idwin.me
 +.idx4.com
 +.ie.co.th
++.ieeu.net
 +.ieft.org
 +.iemf.net
 +.iezb.com
@@ -14882,6 +15126,8 @@
 +.ig69.vip
 +.igame.fi
 +.igame.se
++.igcar.es
++.igcar.eu
 +.igeek.ru
 +.igfd.org
 +.igfh.com
@@ -14907,9 +15153,12 @@
 +.iisol.pk
 +.iivt.com
 +.iizo.com
++.ijbfi.pk
 +.ijhe.org
 +.ijiw.com
++.ijrec.pk
 +.ijrr.org
++.ijset.pk
 +.ik6y6.cc
 +.ik8w.com
 +.ikef.com
@@ -14957,6 +15206,7 @@
 +.imop.com
 +.imp2.com
 +.impac.vn
++.impic.ie
 +.imps.com
 +.imrk.net
 +.imsk.net
@@ -14976,6 +15226,8 @@
 +.index.do
 +.index.ru
 +.indgn.cc
++.indus.pk
++.inefa.cl
 +.inein.mx
 +.infi.net
 +.info.org
@@ -14996,6 +15248,7 @@
 +.intro.su
 +.inula.ru
 +.inumo.ru
++.invar.me
 +.invoc.us
 +.invol.co
 +.inzis.co
@@ -15005,8 +15258,11 @@
 +.io04.com
 +.iocnt.de
 +.ioea.net
++.iohp.org
 +.ioi.life
++.iona.pro
 +.ionik.fr
++.iony.top
 +.ioqp.com
 +.iosr3.sg
 +.iotd.com
@@ -15018,6 +15274,7 @@
 +.ipbbj.cc
 +.ipcel.ir
 +.ipd2.net
++.ipdj.top
 +.iphb.org
 +.ipko.xyz
 +.ipkw.com
@@ -15073,6 +15330,7 @@
 +.iszak.nl
 +.it-ha.ru
 +.itaca.in
++.iteck.cl
 +.iteg.com
 +.itei.com
 +.items.my
@@ -15106,6 +15364,7 @@
 +.iw68.net
 +.iw88.biz
 +.iw88.win
++.iwant.hu
 +.iwbw.net
 +.iwin.com
 +.iwin.ink
@@ -15149,6 +15408,7 @@
 +.izkr.com
 +.izyk.org
 +.j-ic.com
++.j-j-j.cn
 +.j053.com
 +.j13.site
 +.j1b0.com
@@ -15244,10 +15504,11 @@
 +.jdog.lat
 +.jdt8.net
 +.jdtg.xyz
-+.je28.com
 +.je54.com
 +.jean2.fr
++.jecor.co
 +.jedi.bet
++.jeff.top
 +.jegr.com
 +.jeie.com
 +.jeld.com
@@ -15316,6 +15577,7 @@
 +.jk99.vip
 +.jkbe.com
 +.jkier.cc
++.jklc.org
 +.jkmy1.co
 +.jkmy2.co
 +.jknn.net
@@ -15627,6 +15889,7 @@
 +.kall.com
 +.kanmn.cn
 +.kanny.vn
++.kapco.ca
 +.kapd.net
 +.kapu.one
 +.kaput.ca
@@ -15680,6 +15943,7 @@
 +.kciap.pw
 +.kcica.in
 +.kcju.com
++.kclub.pk
 +.kcse.net
 +.kcsv.org
 +.kcuj.com
@@ -15691,6 +15955,7 @@
 +.kdbet.de
 +.kdbet.us
 +.kdmmm.cn
++.kdns.org
 +.kdo.asia
 +.kdocs.cc
 +.kdp.asia
@@ -15717,6 +15982,7 @@
 +.keq7.com
 +.kerch.me
 +.kerit.pl
++.kerja.id
 +.kerly.ru
 +.kermo.pw
 +.kerry.in
@@ -15758,10 +16024,12 @@
 +.kiaki.fr
 +.kiang.ru
 +.kibou.ru
++.kicpl.in
 +.kicv.com
 +.kiddu.id
 +.kiepj.tw
 +.kihc.com
++.kikkb.si
 +.kila.app
 +.kiliq.ru
 +.kilme.pl
@@ -15811,6 +16079,7 @@
 +.kkh29.cc
 +.kkh30.cc
 +.kkkk.vip
++.kkllc.me
 +.kkm2.org
 +.kkmb.xyz
 +.kkn2.org
@@ -15863,9 +16132,11 @@
 +.koim.org
 +.kok2.xyz
 +.kokum.ru
++.kolea.co
 +.kolsh.cn
 +.kolua.de
 +.kolv.com
++.kombi.pk
 +.kombr.ru
 +.konne.pl
 +.konut.us
@@ -15952,6 +16223,7 @@
 +.ks88.bet
 +.ks96.vip
 +.ks99.app
++.ksane.cn
 +.kser.com
 +.ksis.com
 +.ksjb.com
@@ -16037,6 +16309,7 @@
 +.kyd.asia
 +.kyeo.net
 +.kykh.com
++.kyneb.mx
 +.kyoba.es
 +.kyok.top
 +.kyoz.pro
@@ -16145,6 +16418,7 @@
 +.lem4.com
 +.lemon.pw
 +.lendo.se
++.lenis.it
 +.lenty.ru
 +.leon.bet
 +.leon.net
@@ -16163,6 +16437,7 @@
 +.lf4r.top
 +.lfh5.com
 +.lfov.net
++.lfsv.org
 +.lfuj.com
 +.lfvy.com
 +.lfwc.org
@@ -16212,6 +16487,7 @@
 +.lib2.biz
 +.libez.ru
 +.libis.ru
++.lider.fm
 +.lidil.fr
 +.lidio.de
 +.lie3.xyz
@@ -16271,7 +16547,10 @@
 +.lkqr.org
 +.lkyb.com
 +.ll67.one
++.llal.xyz
++.llcl.xyz
 +.lldj.com
++.lldl.xyz
 +.lleo.top
 +.ller.net
 +.llhv.com
@@ -16279,10 +16558,15 @@
 +.llkih.yt
 +.lll.game
 +.llls.com
++.llml.xyz
 +.llne.bar
++.llnl.xyz
++.llpl.xyz
 +.llvh.com
 +.llw0.com
 +.llwt.com
++.llxl.xyz
++.llzl.xyz
 +.lm0k.com
 +.lm360.us
 +.lmcau.us
@@ -16316,10 +16600,12 @@
 +.lolo.bet
 +.lomys.it
 +.loopr.co
++.loops.my
 +.loot.bet
 +.loovo.fr
 +.lopon.pl
 +.loprr.cn
++.lops.top
 +.lore.bet
 +.lorel.fr
 +.lotti.es
@@ -16378,6 +16664,7 @@
 +.lunzo.cz
 +.lunzo.sk
 +.luovu.de
++.lusso.cl
 +.lusto.de
 +.luth.fun
 +.luuce.jp
@@ -16386,6 +16673,7 @@
 +.luux.com
 +.luva.bet
 +.luvp.com
++.luwer.by
 +.luxde.de
 +.luxo.bet
 +.luxor.lv
@@ -16482,6 +16770,7 @@
 +.ma.a3.se
 +.ma.ri.se
 +.ma.wp.pl
++.ma110.cn
 +.ma37.com
 +.ma777.ph
 +.maars.eu
@@ -16508,6 +16797,7 @@
 +.majao.pl
 +.majcd.fr
 +.makim.ma
++.malli.su
 +.malt.lol
 +.mamak.jp
 +.mamax.tk
@@ -16522,8 +16812,10 @@
 +.marak.ru
 +.marra.cc
 +.marss.eu
++.masar.co
 +.masip.sk
 +.maskr.nl
++.masol.fr
 +.massa.pw
 +.matav.hu
 +.matmu.fr
@@ -16587,7 +16879,6 @@
 +.mcakr.cc
 +.mcal.org
 +.mcbro.ru
-+.mcd.asia
 +.mcdnn.me
 +.mci4.xyz
 +.mci6.xyz
@@ -16611,6 +16902,7 @@
 +.me88.com
 +.me88.ltd
 +.meanb.ca
++.medro.mx
 +.medsi.fr
 +.medxx.eu
 +.meeic.fr
@@ -16618,6 +16910,7 @@
 +.megas.sb
 +.megen.fr
 +.meher.si
++.meiko.my
 +.mejp.net
 +.meks.app
 +.melen.ru
@@ -16632,7 +16925,6 @@
 +.merit.me
 +.merts.pl
 +.mertv.pl
-+.mesia.ro
 +.mesin.me
 +.meson.ai
 +.methw.ru
@@ -16683,7 +16975,6 @@
 +.midan.io
 +.midly.in
 +.mifda.id
-+.mifx.com
 +.mig8.com
 +.migtu.ru
 +.mihd.top
@@ -16701,7 +16992,6 @@
 +.miner.ro
 +.minet.nl
 +.minez.ro
-+.minia.ml
 +.miniz.ch
 +.miox.xyz
 +.mipay.fr
@@ -16750,11 +17040,13 @@
 +.mlu6.cfd
 +.mlvp.com
 +.mlx8.com
++.mm-f.org
 +.mm147.cc
 +.mm16.com
 +.mm35.top
 +.mm777.co
 +.mm844.me
++.mmbox.ru
 +.mmegi.co
 +.mmf8.xyz
 +.mmgen.fr
@@ -16791,6 +17083,7 @@
 +.moakt.co
 +.moakt.ws
 +.moat.com
++.mobie.in
 +.mobio.vn
 +.mobot.mg
 +.mocar.in
@@ -16883,6 +17176,7 @@
 +.ms33.net
 +.ms48.top
 +.ms4d.ltd
++.msacc.af
 +.msau.xyz
 +.mscis.in
 +.mscv.org
@@ -16969,6 +17263,7 @@
 +.mxoi.com
 +.mxpy.com
 +.my-hr.cn
++.my.ln.ly
 +.my03.com
 +.my918.us
 +.myads.cc
@@ -16989,12 +17284,14 @@
 +.myhug.cn
 +.myinf.ru
 +.myjob.id
-+.mymec.in
++.myown.ng
 +.mypdf.io
 +.mypok.fr
++.myron.ae
 +.myrps.in
 +.myscs.ca
 +.myshn.eu
++.mysme.my
 +.mysrv.us
 +.mytee.fr
 +.myvod.me
@@ -17021,6 +17318,7 @@
 +.n368.bet
 +.n488.vip
 +.n567.vip
++.n57y.top
 +.n609.bet
 +.n62a.vip
 +.n62c.vip
@@ -17084,8 +17382,6 @@
 +.naux.com
 +.navek.by
 +.naver.pw
-+.navi1.ru
-+.navi4.ru
 +.nawa.lol
 +.nawec.gm
 +.nb6o.com
@@ -17215,6 +17511,8 @@
 +.nip5.com
 +.nip8.com
 +.niqr.com
++.nishr.cn
++.nitmz.in
 +.nitro.ru
 +.nitro.su
 +.nitxl.pl
@@ -17377,6 +17675,8 @@
 +.nunu3.tv
 +.nunu4.tv
 +.nunu5.tv
++.nurin.ug
++.nutti.co
 +.nuxxu.de
 +.nv42a.cc
 +.nv5g.com
@@ -17403,6 +17703,7 @@
 +.nxev.top
 +.nxl.asia
 +.nxno.com
++.nxtid.tv
 +.nxxxn.ga
 +.ny66.vip
 +.nyci.edu
@@ -17412,6 +17713,7 @@
 +.nyi3k.cc
 +.nyms.net
 +.nyss3.cc
++.nzara.co
 +.nzbud.nz
 +.nzcu.org
 +.nzdm.com
@@ -17468,7 +17770,6 @@
 +.obus.top
 +.obz.land
 +.obzf.com
-+.oca.pics
 +.ocayo.de
 +.ocdz.com
 +.oce69.io
@@ -17572,6 +17873,7 @@
 +.okno.ooo
 +.okoce.me
 +.okpg.app
++.oksep.vn
 +.oksme.cc
 +.okta.one
 +.oktv.sbs
@@ -17592,6 +17894,8 @@
 +.olfe.net
 +.olfsr.me
 +.olk4.com
++.olley.ch
++.olne.top
 +.olo4d.id
 +.oload.tv
 +.olqn.com
@@ -17607,6 +17911,7 @@
 +.omi4.net
 +.omne.com
 +.omo5.com
++.omrat.ee
 +.omrj.com
 +.omzk.org
 +.on-go.id
@@ -17628,12 +17933,14 @@
 +.onex.bet
 +.onge.org
 +.ongel.eu
++.onion.ng
 +.onion.nz
 +.onisp.fr
 +.onlen.in
 +.only.win
 +.onlyl.ru
 +.onmq.com
++.onppe.dz
 +.onthe.io
 +.ontj.com
 +.onwed.id
@@ -17643,6 +17950,7 @@
 +.oo3z.icu
 +.ooag.com
 +.ooaj.com
++.oob.buzz
 +.oogle.it
 +.oolk.com
 +.oooh.pro
@@ -17655,6 +17963,7 @@
 +.op05.biz
 +.op06.biz
 +.op08.biz
++.opa0.com
 +.opads.us
 +.opbnb.pw
 +.opdf.com
@@ -17685,6 +17994,7 @@
 +.oqca.com
 +.oqmr.com
 +.oqut.com
++.orana.ca
 +.orbee.co
 +.orbh.com
 +.orew.com
@@ -17754,6 +18064,8 @@
 +.owo.rest
 +.owoex.me
 +.owsc.xyz
++.owtad.ir
++.owvf.top
 +.ox11.com
 +.ox777.cc
 +.ox777.me
@@ -17803,6 +18115,8 @@
 +.p6tau.cc
 +.p6th.com
 +.p6xq.xyz
++.p7-2.com
++.p7-b.com
 +.p7.games
 +.p7tjc.cc
 +.p84ha.cc
@@ -17820,6 +18134,7 @@
 +.pajak.tw
 +.palgo.se
 +.palmz.de
++.palpa.ps
 +.palz.one
 +.pan4d.id
 +.pan4d.io
@@ -17838,12 +18153,14 @@
 +.pas99.co
 +.pasas.ru
 +.patek.re
++.patos.mx
 +.patv.org
 +.paus.llc
 +.pawon.id
 +.pay69.cc
 +.pay77.ac
 +.pay77.id
++.pay9.xyz
 +.payu.mom
 +.pazpo.id
 +.pbaq.com
@@ -17877,6 +18194,7 @@
 +.pdv.life
 +.pdyt.com
 +.pe86.com
++.peach.lk
 +.pebab.se
 +.peds.org
 +.peel.com
@@ -17914,6 +18232,7 @@
 +.pg133.cc
 +.pg3.life
 +.pg32.com
++.pg3f.top
 +.pg51.vip
 +.pg61.vip
 +.pg71.vip
@@ -17930,6 +18249,7 @@
 +.pg88c.me
 +.pg89.bet
 +.pg9.life
++.pga7.com
 +.pgbet.uk
 +.pgd8.com
 +.pgf32.co
@@ -18022,9 +18342,11 @@
 +.picup.fr
 +.pigpg.co
 +.pigs.com
++.pihe.com
 +.piidd.cc
 +.pilv.com
 +.pimt.com
++.pinio.eu
 +.pinup.mx
 +.pipc.top
 +.pipet.me
@@ -18036,6 +18358,7 @@
 +.pixel.ad
 +.pixel.gg
 +.pixer.fr
++.pixlo.cc
 +.pixus.cc
 +.pizox.co
 +.pizza.io
@@ -18120,6 +18443,8 @@
 +.pndl.xyz
 +.pndw.net
 +.pngme.ru
++.pnmls.cd
++.pnox.xyz
 +.pnrs.org
 +.pnt24.pl
 +.po.trade
@@ -18146,6 +18471,7 @@
 +.polae.ru
 +.polif.ru
 +.polks.pl
++.pollx.in
 +.ponk.pro
 +.poo.zone
 +.pooky.me
@@ -18171,6 +18497,7 @@
 +.posrg.ca
 +.posst.co
 +.post.law
++.postb.in
 +.poste.my
 +.posth.cc
 +.powup.de
@@ -18213,7 +18540,9 @@
 +.prelo.cn
 +.prey.fit
 +.prfct.co
++.prick.cc
 +.prlog.ru
++.prnts.cc
 +.prnx.net
 +.prodo.ai
 +.proex.cc
@@ -18249,6 +18578,7 @@
 +.psm1.xyz
 +.psscc.cn
 +.pssy.xyz
++.psygo.it
 +.psymb.io
 +.psyx.org
 +.pt66.vip
@@ -18338,6 +18668,7 @@
 +.q5fu.com
 +.q66f.vip
 +.q697.net
++.q6hd.top
 +.q78r.cfd
 +.q7ye.xyz
 +.qabd.com
@@ -18346,6 +18677,7 @@
 +.qaer.com
 +.qaiq.com
 +.qakd.com
++.qalbi.sa
 +.qan2.com
 +.qan7.com
 +.qanx.com
@@ -18499,6 +18831,7 @@
 +.qrius.me
 +.qrps.app
 +.qrrl.net
++.qrs6.top
 +.qs2k.com
 +.qs42.com
 +.qsai.dev
@@ -18523,6 +18856,7 @@
 +.quber.ru
 +.queo.top
 +.quikr.ca
++.quind.de
 +.quona.yt
 +.quple.io
 +.quut.top
@@ -18689,6 +19023,7 @@
 +.revy.com
 +.rewro.cc
 +.rexl.pro
++.rezam.pk
 +.rf311.cn
 +.rfhcd.cn
 +.rfree.fr
@@ -18707,6 +19042,7 @@
 +.rhude.fr
 +.rhypd.cc
 +.ri25.com
++.riage.fr
 +.riben.ru
 +.richh.cn
 +.richo.fr
@@ -18805,7 +19141,6 @@
 +.rondo.su
 +.ronri.me
 +.rool.ink
-+.rooty.cc
 +.ropu.com
 +.rorb.com
 +.rorer.ru
@@ -18846,8 +19181,10 @@
 +.rsbff.yt
 +.rsi98.us
 +.rspg.bet
++.rspn.org
 +.rster.pl
 +.rstx.org
++.rsvd.top
 +.rt05.pro
 +.rtdf.org
 +.rtgio.co
@@ -18865,7 +19202,9 @@
 +.ruay.com
 +.rucop.ru
 +.rudio.nl
++.ruehw.uk
 +.rui61.cn
++.ruihw.uk
 +.rukak.ru
 +.rulu.com
 +.rumil.es
@@ -18991,6 +19330,7 @@
 +.sadu.org
 +.saeve.fr
 +.safex.io
++.safha.co
 +.sahaj.sc
 +.sajoo.fr
 +.sakel.eu
@@ -18999,6 +19339,7 @@
 +.salsa.in
 +.samak.in
 +.samba.tv
++.sante.cd
 +.saojq.yt
 +.saper.in
 +.sapp.top
@@ -19006,8 +19347,10 @@
 +.sarss.cc
 +.sasps.ca
 +.sat7.pro
++.satel.cl
 +.satfa.nl
 +.satus.io
++.saven.mx
 +.say1.vip
 +.sayhi.co
 +.sazka.cz
@@ -19103,6 +19446,7 @@
 +.seeq.com
 +.seges.cc
 +.segy.org
++.seibo.mx
 +.seiko.re
 +.sejf.com
 +.selbe.ar
@@ -19111,6 +19455,7 @@
 +.semec.ru
 +.senli.pl
 +.seoab.io
++.serc.com
 +.serff.fr
 +.serto.id
 +.sesac.li
@@ -19120,6 +19465,7 @@
 +.sext.cam
 +.sexy.win
 +.seyf.kim
++.seyma.co
 +.sf88.vin
 +.sfai.com
 +.sfbq.xyz
@@ -19128,7 +19474,6 @@
 +.sfer.com
 +.sfera.sk
 +.sfget.jp
-+.sfgj.org
 +.sfi4.com
 +.sfkmq.yt
 +.sfn.asia
@@ -19145,7 +19490,6 @@
 +.sg92.com
 +.sgcc.zip
 +.sggpp.us
-+.sghee.pw
 +.sghf.com
 +.sgjg4.cc
 +.sglyd.cn
@@ -19192,9 +19536,11 @@
 +.shwr.net
 +.si05f.cc
 +.sibou.ir
++.sicat.mx
 +.sid6.cfd
 +.siekk.yt
 +.sif.asia
++.sigco.pe
 +.sil5.com
 +.silvy.in
 +.simth.me
@@ -19226,10 +19572,12 @@
 +.sjgn.com
 +.sjl2.com
 +.sjocd.yt
++.sjptr.pk
 +.sjrq.lat
 +.sjsr.com
 +.sjssk.yt
 +.sjylz.yt
++.sjys6.de
 +.sjzh.top
 +.sk12.pro
 +.sk35.top
@@ -19324,6 +19672,7 @@
 +.snam.bet
 +.snc9.com
 +.sne9.com
++.sngie.ml
 +.snixx.co
 +.snjh.vip
 +.snk4.com
@@ -19362,7 +19711,6 @@
 +.sorab.ch
 +.sors.top
 +.soska.us
-+.sosua.cz
 +.soyte.cc
 +.sp0m.com
 +.sp0m.net
@@ -19472,10 +19820,13 @@
 +.stoy.bio
 +.stqs.com
 +.strav.fr
++.strcs.ca
++.strg.win
 +.strmr.co
 +.strms.ly
 +.strup.pl
 +.stt6.cfd
++.stylo.ae
 +.su66.org
 +.su7u.com
 +.suara.me
@@ -19510,6 +19861,7 @@
 +.surga.uk
 +.surli.li
 +.surro.am
++.sutek.vn
 +.suyx.net
 +.sv-pr.ru
 +.sv128.co
@@ -19540,10 +19892,12 @@
 +.svl5v.cc
 +.svlp.org
 +.svlu.net
++.svoy.pro
 +.svsd.org
 +.svsw.xyz
 +.sw4.best
 +.sw99.net
++.swarf.pk
 +.swdw.org
 +.swin.bet
 +.swipe.de
@@ -19600,7 +19954,6 @@
 +.szwlu.cn
 +.szyk.org
 +.t-b-k.ru
-+.t-me.lol
 +.t-me.xyz
 +.t-pb.org
 +.t-yb.com
@@ -19664,6 +20017,7 @@
 +.t6eh.com
 +.t6jn.com
 +.t6jo.com
++.t6m.pics
 +.t6pg.com
 +.t6vip.cc
 +.t6vip.co
@@ -19758,6 +20112,7 @@
 +.td80i.cc
 +.td88.xyz
 +.tdak.com
++.tdata.lt
 +.tdax.top
 +.tdh.asia
 +.tdkj.net
@@ -19775,6 +20130,7 @@
 +.te77.net
 +.teads.de
 +.teads.tv
++.teals.co
 +.team.com
 +.tease.se
 +.tecs.biz
@@ -19794,6 +20150,7 @@
 +.tempz.nz
 +.temq.lat
 +.temz.net
++.tepor.it
 +.terla.lu
 +.terra.im
 +.tesca.id
@@ -19850,7 +20207,6 @@
 +.tha7.net
 +.thads.cc
 +.tham.vip
-+.thats.im
 +.thaus.ws
 +.thb7.com
 +.the4.fun
@@ -19877,6 +20233,7 @@
 +.tiki.bet
 +.tikiy.cc
 +.tikje.tw
++.tikto.pw
 +.tillt.fr
 +.timeq.uz
 +.timi.pro
@@ -19911,6 +20268,7 @@
 +.tjkr.xyz
 +.tjnas.cn
 +.tjqwb.cn
++.tjsai.ch
 +.tk1.shop
 +.tk2.shop
 +.tk22.vip
@@ -19943,6 +20301,7 @@
 +.tldp.com
 +.tlead.me
 +.tlgr.org
++.tlgrm.in
 +.tlse2.fr
 +.tlse3.fr
 +.tlsgq.cn
@@ -19962,6 +20321,7 @@
 +.tmv.asia
 +.tmvi.com
 +.tmxqt.me
++.tnadw.in
 +.tncc.org
 +.tnfa.com
 +.tnfx.org
@@ -19989,6 +20349,7 @@
 +.tomx.xyz
 +.ton1.biz
 +.ton4d.me
++.tonik.ma
 +.tonsp.me
 +.toonk.pl
 +.top1.vin
@@ -20012,6 +20373,7 @@
 +.totya.ir
 +.tourn.co
 +.tourn.se
++.tours.lk
 +.tovd.com
 +.tozo.top
 +.tp12.net
@@ -20165,7 +20527,6 @@
 +.tvxk.xyz
 +.tw-2x.me
 +.twads.gg
-+.twc1.net
 +.twcf.xyz
 +.twh5.com
 +.twin.com
@@ -20312,6 +20673,7 @@
 +.ug899.id
 +.ugca.org
 +.ugcaq.cc
++.uggat.at
 +.uggfr.fr
 +.ugny.com
 +.ugtk.com
@@ -20364,7 +20726,6 @@
 +.ulda.com
 +.ulgug.in
 +.ulgw.com
-+.ulhok.cn
 +.ulinx.io
 +.ulla.com
 +.ulmer.se
@@ -20383,6 +20744,7 @@
 +.umvd.top
 +.unads.ru
 +.unair.nl
++.une3.net
 +.unesa.me
 +.uni.voto
 +.unian.pm
@@ -20425,6 +20787,7 @@
 +.upxv.com
 +.uqin.com
 +.ur-th.cc
++.urban.ng
 +.urcy.com
 +.urgh.top
 +.uri6.com
@@ -20468,6 +20831,7 @@
 +.uspsr.cc
 +.uspsr.me
 +.uspsz.cc
++.ussc.org
 +.uszy.com
 +.ut35t.ca
 +.utarq.ru
@@ -20641,6 +21005,8 @@
 +.vega.bet
 +.vegas.hu
 +.vegg.com
++.veken.de
++.vemas.mx
 +.venar.in
 +.venis.ml
 +.veppa.ca
@@ -20761,6 +21127,7 @@
 +.vlvy.com
 +.vmads.eu
 +.vmail.cm
++.vmaj.com
 +.vmblj.yt
 +.vmjk.com
 +.vmnbp.cc
@@ -20934,6 +21301,7 @@
 +.w008.com
 +.w0we.com
 +.w158.vip
++.w15w.com
 +.w169.bet
 +.w1pg.com
 +.w1rz.com
@@ -21001,6 +21369,7 @@
 +.wb77.net
 +.wb999.co
 +.wb9c.top
++.wbbox.in
 +.wbda.top
 +.wbet.kim
 +.wbgz.net
@@ -21037,12 +21406,14 @@
 +.wdty.app
 +.we-r.one
 +.web-3.li
++.web.live
 +.web2u.cn
 +.web8.net
 +.web88.vn
 +.web9x.in
 +.webcs.in
 +.webim.ru
++.webl.ltd
 +.webz.dev
 +.wecan.to
 +.wedcc.ru
@@ -21102,6 +21473,7 @@
 +.wieie.cn
 +.wike.com
 +.wilax.de
++.wilde.cl
 +.wilde.mx
 +.wildz.de
 +.win.link
@@ -21175,6 +21547,7 @@
 +.wm23.com
 +.wm55.bet
 +.wm789.co
++.wmark.ca
 +.wmbet.co
 +.wmbra.de
 +.wmcdp.io
@@ -21374,6 +21747,7 @@
 +.x2y2.biz
 +.x365.win
 +.x3d.live
++.x3qc.com
 +.x4qop.cc
 +.x500.ink
 +.x500.uno
@@ -21921,6 +22295,7 @@
 +.yh88.xyz
 +.yhbsk.cn
 +.yhjx.net
++.yhoo.pro
 +.yhti.net
 +.yibao.fr
 +.yibao.yt
@@ -21971,6 +22346,8 @@
 +.yodse.io
 +.yofa.app
 +.yoga4.ru
++.yohin.my
++.yohin.sg
 +.yoka.net
 +.yokal.ru
 +.yokee.de
@@ -21992,6 +22369,7 @@
 +.yqfdc.yt
 +.yqxs.xyz
 +.yqxx.lat
++.yqzp.com
 +.yr89.fun
 +.yr99.vip
 +.yrbc.lat
@@ -22262,6 +22640,7 @@
 +.zil6.top
 +.zingg.id
 +.zio8.icu
++.zion.llc
 +.zir.mobi
 +.zirax.ru
 +.ziten.ru
@@ -22325,7 +22704,6 @@
 +.zrys.xyz
 +.zs-th.cc
 +.zshop.hu
-+.zsjpi.cn
 +.zsmj.biz
 +.zsp2.net
 +.zspov.ca
@@ -23733,7 +24111,6 @@
 +.0ivto.top
 +.0j1c5.com
 +.0j775d.cn
-+.0jfwyp.cc
 +.0jwoyc.cn
 +.0k7wod.cn
 +.0ker3.vip
@@ -25910,7 +26287,6 @@
 +.1king.vip
 +.1kk29.com
 +.1kt8j.com
-+.1laban.ir
 +.1links.ru
 +.1lll1.com
 +.1lv8n.pro
@@ -26073,6 +26449,7 @@
 +.1zz66.com
 +.2-fit.com
 +.2-job.com
++.2-live.ru
 +.2-pdf.com
 +.20-bet.gr
 +.20000.com
@@ -26191,6 +26568,7 @@
 +.20hg.asia
 +.20hg.mobi
 +.20mail.it
++.20mng.com
 +.20pj8.net
 +.20skn.com
 +.20thz.com
@@ -26671,6 +27049,7 @@
 +.22sou.com
 +.22tbh.com
 +.22wb9.com
++.22web.org
 +.22win.com
 +.22zun.com
 +.23000.com
@@ -29698,6 +30077,7 @@
 +.360739.cc
 +.360in.com
 +.360jf.net
++.360mon.cn
 +.360ng.net
 +.360os.com
 +.360pm.org
@@ -29734,6 +30114,7 @@
 +.362157.cc
 +.362158.cc
 +.362159.cc
++.362160.cc
 +.3621s.com
 +.3622j.com
 +.3622n.com
@@ -30742,12 +31123,12 @@
 +.39avp.com
 +.39bet.com
 +.39mpt.xyz
-+.39nat.com
 +.3a568.com
 +.3acars.in
 +.3ag2t.com
 +.3ag88.com
 +.3arts.com
++.3atpk.com
 +.3axid.org
 +.3azpx.xyz
 +.3b3uk.com
@@ -30775,6 +31156,8 @@
 +.3drost.ru
 +.3dsee.net
 +.3dtuts.by
++.3dua.info
++.3duct.com
 +.3duit.com
 +.3ec2y.com
 +.3esan.com
@@ -32449,6 +32832,7 @@
 +.49com.com
 +.49kjb.com
 +.4aomc.com
++.4armed.sh
 +.4armn.com
 +.4axiz.com
 +.4ball.bet
@@ -32481,6 +32865,7 @@
 +.4hmir.com
 +.4hu59.com
 +.4info.com
++.4iptv.net
 +.4ir17.icu
 +.4iz0r.com
 +.4juto.com
@@ -32737,6 +33122,7 @@
 +.5129n.com
 +.5129t.com
 +.5129v.com
++.512tg.com
 +.513171.me
 +.5131j.com
 +.5131n.com
@@ -33183,7 +33569,6 @@
 +.52v94.com
 +.52v96.com
 +.52win.top
-+.52wmb.com
 +.53-id.biz
 +.53004.bid
 +.5300s.com
@@ -33390,6 +33775,7 @@
 +.540892.cc
 +.540xz.com
 +.540yb.com
++.54114.com
 +.5411x.com
 +.541212.uk
 +.541250.cc
@@ -34055,6 +34441,7 @@
 +.5699t.com
 +.5699x.com
 +.56hgv.com
++.56liw.top
 +.56rg2.com
 +.56wam.com
 +.57000.com
@@ -34785,7 +35172,9 @@
 +.59vn8.com
 +.5ag88.com
 +.5agks.com
++.5b.com.pk
 +.5b6b7b.ru
++.5bchem.ae
 +.5brxi.icu
 +.5clir.org
 +.5cost.top
@@ -34817,7 +35206,6 @@
 +.5gw4d.xyz
 +.5gwin.bet
 +.5gwin.vip
-+.5gxz2c.cn
 +.5h6vla.us
 +.5hawk.com
 +.5hbet.com
@@ -34857,17 +35245,14 @@
 +.5qb8c5.cn
 +.5qex5.com
 +.5qrjv7.cn
-+.5r8751.cn
 +.5rocks.io
 +.5rp44p.cc
 +.5rw0z.xyz
 +.5s30c.com
 +.5sa88.com
 +.5sf5c.com
-+.5shop.lol
 +.5short.de
 +.5sodo.com
-+.5t74lt.cn
 +.5t9hj.com
 +.5tbao.com
 +.5u.coffee
@@ -34876,6 +35261,7 @@
 +.5v.com.tw
 +.5vgy7.pro
 +.5vns5.com
++.5w3mk.sbs
 +.5way5.com
 +.5wh.co.zw
 +.5win.asia
@@ -35018,7 +35404,6 @@
 +.60win.vip
 +.60win.xyz
 +.60win1.cc
-+.61-51.xyz
 +.61000.com
 +.6100n.com
 +.6100s.com
@@ -35478,7 +35863,6 @@
 +.6293t.com
 +.6293v.com
 +.6293x.com
-+.6294h.xyz
 +.6294t.com
 +.6295p.com
 +.6295s.com
@@ -35623,7 +36007,6 @@
 +.6357v.com
 +.6358s.com
 +.6359k.com
-+.635n3.com
 +.635yb.com
 +.6360x.com
 +.63611.top
@@ -36073,7 +36456,6 @@
 +.6591t.com
 +.6591x.com
 +.659260.cc
-+.6592b.xyz
 +.6592v.com
 +.6593n.com
 +.6593t.com
@@ -36254,7 +36636,6 @@
 +.66685.net
 +.666939.cc
 +.66697.org
-+.666bm.com
 +.666k8.net
 +.666ks.app
 +.666n2.vip
@@ -36379,7 +36760,6 @@
 +.6695w.com
 +.6697n.com
 +.66996.top
-+.669b.cyou
 +.669jh.com
 +.66a66.vip
 +.66a71.com
@@ -36655,7 +37035,6 @@
 +.6823p.com
 +.6823s.com
 +.6823v.com
-+.6824b.xyz
 +.6824x.com
 +.6825n.com
 +.6826j.com
@@ -36849,7 +37228,6 @@
 +.68ky1.com
 +.68ltt.com
 +.68qp3.com
-+.68t45.com
 +.68tiyu.cc
 +.68tiyu.tv
 +.68ucs.com
@@ -37130,6 +37508,7 @@
 +.6bvip.app
 +.6bvip.com
 +.6cero.com
++.6clpo.xyz
 +.6ctct.com
 +.6d168.com
 +.6d169.com
@@ -37253,7 +37632,6 @@
 +.6hdw.site
 +.6hi88.com
 +.6i44ix.cn
-+.6iohq.top
 +.6j6ob.com
 +.6jnbv.com
 +.6kapp.vip
@@ -37824,7 +38202,6 @@
 +.7192n.com
 +.7192s.com
 +.7192t.com
-+.71939.com
 +.7193x.com
 +.71955.vip
 +.7195p.com
@@ -39006,7 +39383,6 @@
 +.77198.vip
 +.7719n.com
 +.771df.com
-+.7721a0.cn
 +.7721n.com
 +.7721w.com
 +.77228.net
@@ -39385,7 +39761,6 @@
 +.7838v.com
 +.78395.com
 +.783yb.com
-+.784119.cf
 +.784165.me
 +.7841t.com
 +.7843t.com
@@ -39810,7 +40185,6 @@
 +.7aut.info
 +.7aut.shop
 +.7aut2.top
-+.7azc.info
 +.7b1ok.com
 +.7b586.biz
 +.7b586.vip
@@ -39824,6 +40198,7 @@
 +.7bet.gold
 +.7bet.link
 +.7beto.com
++.7bey.site
 +.7boll.com
 +.7c4fz.sbs
 +.7ca88.com
@@ -40019,7 +40394,6 @@
 +.80308.vip
 +.8035t.com
 +.80360.com
-+.80365.bet
 +.8036t.com
 +.80387.vip
 +.8038t.com
@@ -42258,7 +42632,6 @@
 +.8gbet.net
 +.8gold.com
 +.8gra3.icu
-+.8gradl.cn
 +.8h777.vip
 +.8hhgg.com
 +.8hi88.com
@@ -42331,7 +42704,6 @@
 +.8pn7b.top
 +.8q88n.icu
 +.8q9fn.com
-+.8r180.com
 +.8rz7p.com
 +.8rzvh.com
 +.8shot.com
@@ -42339,6 +42711,7 @@
 +.8skab.top
 +.8sodo.com
 +.8suis.top
++.8t59k.top
 +.8tada.com
 +.8tk88.sbs
 +.8topi.com
@@ -42905,6 +43278,7 @@
 +.91gag.com
 +.91jbo.com
 +.91jl.asia
++.91job.org
 +.91kaka.cn
 +.91lll.com
 +.91luck.cc
@@ -43399,7 +43773,6 @@
 +.9488n.com
 +.9488v.com
 +.9488w.com
-+.948r1u.cn
 +.948vb.com
 +.948yb.com
 +.9491t.com
@@ -43768,7 +44141,6 @@
 +.96bet.bet
 +.96hgc.com
 +.96k66.com
-+.96mgo.com
 +.96mob.com
 +.96sbt.com
 +.96w66.com
@@ -44134,7 +44506,6 @@
 +.9907b.com
 +.9907s.com
 +.9907x.com
-+.9907zi.cn
 +.9909s.com
 +.990cp.com
 +.990ys.com
@@ -44194,7 +44565,6 @@
 +.9934p.com
 +.9934s.com
 +.99353.vip
-+.99356.top
 +.99362.biz
 +.9936f.com
 +.9936n.com
@@ -44280,7 +44650,6 @@
 +.997hg.com
 +.997ky.app
 +.997z6.com
-+.9980.live
 +.99810.com
 +.99828.vip
 +.99832.vip
@@ -44327,7 +44696,6 @@
 +.99997.org
 +.999bb.com
 +.999dd.bet
-+.999fc.vip
 +.999gg.net
 +.999i9.com
 +.999ok.com
@@ -44421,7 +44789,6 @@
 +.9d999.vip
 +.9diqy.bid
 +.9dtiny.cn
-+.9e5075.cn
 +.9ec1g.sbs
 +.9f.casino
 +.9f95n.com
@@ -44488,6 +44855,7 @@
 +.9nbet.org
 +.9nohu.com
 +.9npze.com
++.9null.com
 +.9od1.shop
 +.9od2.shop
 +.9od3.shop
@@ -44514,7 +44882,6 @@
 +.9ph30.com
 +.9pmbet.cc
 +.9print.pl
-+.9qjja.xyz
 +.9rbet.com
 +.9s64g.icu
 +.9s75.info
@@ -44773,6 +45140,7 @@
 +.aasso.com
 +.aastar.cc
 +.aatch.net
++.aatiq.com
 +.aatoto.me
 +.aau45.com
 +.aavego.dk
@@ -44838,10 +45206,12 @@
 +.abkjp.com
 +.ablock.io
 +.abm99.xyz
++.abmed.net
 +.abmr2.net
 +.abnad.net
 +.abndi.xyz
 +.abort.top
++.abpum.com
 +.abqny.com
 +.abrami.in
 +.abrand.us
@@ -44882,6 +45252,7 @@
 +.accvc.org
 +.accvr.org
 +.acddc.org
++.acdpk.org
 +.ace.mu.nu
 +.ace77.org
 +.acebet.io
@@ -44902,6 +45273,8 @@
 +.acgcyb.co
 +.acgmw.com
 +.achae.com
++.achave.es
++.achgal.ma
 +.achiko.co
 +.achiq.org
 +.achls.org
@@ -44998,6 +45371,7 @@
 +.ad7893.cn
 +.ad999.biz
 +.ad9i3.com
++.ada2u.com
 +.ada69.pro
 +.adacb.org
 +.adagio.io
@@ -45076,7 +45450,6 @@
 +.adgrid.io
 +.adgrx.com
 +.adgup.com
-+.adhac.org
 +.adhai.com
 +.adhdsb.cn
 +.adheb.com
@@ -45087,6 +45460,7 @@
 +.adhref.pl
 +.adhyy.xyz
 +.adi.swiss
++.adi64.com
 +.adicts.us
 +.adidas.re
 +.adids.org
@@ -45216,6 +45590,7 @@
 +.adsfac.eu
 +.adsfac.us
 +.adshot.de
++.adshub.it
 +.adsmax.ru
 +.adsnet.id
 +.adsnet.se
@@ -45367,7 +45742,7 @@
 +.aeyesi.eu
 +.af7ao.com
 +.afaad.org
-+.afarm.net
++.afauto.it
 +.afcat.xyz
 +.afdah.pro
 +.afdw7.com
@@ -45486,6 +45861,7 @@
 +.agrvt.com
 +.agsnv.com
 +.agt88.lat
++.agtta.org
 +.aguea.com
 +.agvzi.com
 +.agx24.com
@@ -45497,6 +45873,7 @@
 +.ah-ha.com
 +.ah679.com
 +.ah743.sbs
++.ahaci.com
 +.ahaha.com
 +.ahaiia.cc
 +.ahanpt.ir
@@ -45516,6 +45893,7 @@
 +.ahieh.com
 +.ahiko.lat
 +.ahisf.com
++.ahnte.com
 +.ahov1.top
 +.ahqd.site
 +.ahs1.buzz
@@ -45558,7 +45936,6 @@
 +.aidata.io
 +.aidbd.org
 +.aidbnb.fr
-+.aidjhg.cn
 +.aidml.org
 +.aidru.bid
 +.aie68.com
@@ -45614,6 +45991,8 @@
 +.aisei.ink
 +.aisen.ink
 +.aiseo.ink
++.aiseu.ink
++.aisew.ink
 +.aishg.ink
 +.aisij.ink
 +.aisin.ink
@@ -45657,6 +46036,7 @@
 +.aists.ink
 +.aistt.ink
 +.aisty.ink
++.aisur.ink
 +.aisyb.ink
 +.aisyc.ink
 +.aisyi.ink
@@ -45689,6 +46069,7 @@
 +.ajr88.pro
 +.ajrok.com
 +.ajtech.fr
++.ajtmr.com
 +.ajuce.com
 +.ajur.info
 +.ajv06.com
@@ -45735,6 +46116,7 @@
 +.aksi.site
 +.akslot.us
 +.akstat.io
++.aktoto.eu
 +.aktpl.com
 +.aktqa.com
 +.aktuq.com
@@ -45763,6 +46145,7 @@
 +.aldik.com
 +.aldina.jp
 +.aleon.biz
++.alexia.ng
 +.alexyu.fr
 +.alfa.site
 +.alfa9.com
@@ -45777,6 +46160,7 @@
 +.ali26.vip
 +.alicee.it
 +.aligr.sbs
++.alinac.ca
 +.alion.com
 +.alit.live
 +.all104.cc
@@ -45914,13 +46298,13 @@
 +.amdeco.pl
 +.amdgp.fun
 +.amdma.com
++.ame.co.id
 +.ame1ie.fr
 +.ameeli.fr
 +.amejee.in
 +.amele.com
 +.amelir.fr
 +.ameyha.in
-+.amfb.site
 +.amfd2.top
 +.amfhby.cn
 +.amflb.com
@@ -45996,6 +46380,7 @@
 +.analos.cc
 +.analyt.ir
 +.anang.top
++.anatex.md
 +.anazin.fr
 +.anazon.se
 +.anbiz.com
@@ -46039,9 +46424,11 @@
 +.ankasa.pl
 +.anmm.blog
 +.anmsu.top
++.annett.ca
 +.anoroc.ru
 +.anpost.my
 +.anqam.com
++.ansec.com
 +.ansera.co
 +.ansero.ru
 +.anstv.net
@@ -46119,6 +46506,7 @@
 +.apefp.org
 +.apel.pics
 +.apentf.io
++.apfbd.com
 +.apfed.net
 +.apgcs.org
 +.apglv.org
@@ -46129,6 +46517,7 @@
 +.apibd.com
 +.apical.in
 +.apiel.org
++.apinit.in
 +.apiok.net
 +.apissp.cc
 +.apiv2.fun
@@ -46148,7 +46537,6 @@
 +.apk695.cc
 +.apk699.cc
 +.apkft.xyz
-+.apkh.info
 +.apkhu.com
 +.apkmd.com
 +.apkyp.com
@@ -46237,21 +46625,23 @@
 +.ar-tr.com
 +.ar-x.site
 +.ar.hy.com
-+.ar1i1.net
 +.ara50.xyz
 +.ara88.lol
 +.arada.bet
 +.aragon.im
++.aram24.ir
 +.arank.com
 +.arasht.ru
 +.arasj.net
 +.arbill.co
 +.arbu.site
 +.arcata.io
++.arccus.in
 +.archex.pl
 +.arclk.net
 +.arcmn.org
 +.arcome.fr
++.arcq.info
 +.arcsim.ro
 +.ardaz.com
 +.area51.to
@@ -46293,6 +46683,7 @@
 +.arta4d.id
 +.artas.org
 +.artbf.com
++.artem.icu
 +.arti.info
 +.artph.com
 +.artv.site
@@ -46316,7 +46707,9 @@
 +.as76b.pro
 +.as7yh.pro
 +.as940.com
++.asaims.co
 +.asals.top
++.asas.blog
 +.asasb.org
 +.asatn.com
 +.asau.asia
@@ -46368,6 +46761,7 @@
 +.askbd.xyz
 +.asketo.ru
 +.askfsh.cn
++.askpay.me
 +.askto.net
 +.aslfh.com
 +.asmm5.com
@@ -46383,6 +46777,7 @@
 +.asppo.org
 +.asrop.xyz
 +.asse.life
++.assime.ca
 +.asssd.org
 +.asswh.com
 +.assyfa.id
@@ -46397,6 +46792,7 @@
 +.asuma.lat
 +.asunb.top
 +.asura.mom
++.asvam.top
 +.asvdt.org
 +.aswin.vip
 +.aswns.top
@@ -46419,6 +46815,7 @@
 +.ataqy.com
 +.atchao.jp
 +.atchm.net
++.atcost.us
 +.atcpe.xyz
 +.atdhl.ltd
 +.atdhl.pro
@@ -46469,6 +46866,7 @@
 +.attapp.me
 +.attats.cl
 +.attlas.in
++.attpk.com
 +.attrk.com
 +.attvip.mx
 +.atvua.com
@@ -46492,6 +46890,7 @@
 +.aud2u.com
 +.aud3g.com
 +.aud99.com
++.audan.org
 +.audmax.pl
 +.audsp.com
 +.audtd.com
@@ -46511,6 +46910,7 @@
 +.aurls.com
 +.aus2u.com
 +.aus55.com
++.ausag.com
 +.ausdet.de
 +.aushan.fr
 +.ausix.net
@@ -46611,6 +47011,7 @@
 +.awscan.eu
 +.awsl.site
 +.awsoo.com
++.awt.co.id
 +.awtest.eu
 +.awuam.com
 +.awykh.com
@@ -46688,6 +47089,7 @@
 +.aypa9.com
 +.ayq69.cfd
 +.ayufx.com
++.ayvis.com
 +.ayx110.cc
 +.ayx99.top
 +.ayyaar.ir
@@ -46803,6 +47205,7 @@
 +.azmxa.com
 +.aznbb.com
 +.aznmg.top
++.azooma.co
 +.azovo.com
 +.azpsg.com
 +.azqas.com
@@ -47067,8 +47470,6 @@
 +.b2584.com
 +.b2591.com
 +.b2594.com
-+.b25c4.com
-+.b25c5.com
 +.b25rr.com
 +.b2600.com
 +.b2617.com
@@ -47200,7 +47601,6 @@
 +.b3581.com
 +.b3591.com
 +.b3599.com
-+.b35c5.com
 +.b3626.com
 +.b3627.com
 +.b3632.com
@@ -48020,9 +48420,9 @@
 +.badce.com
 +.badili.in
 +.baect.com
-+.baew.info
 +.bafene.cn
 +.bag86.com
++.bagage.ma
 +.bagan.one
 +.bagu.skin
 +.bahis.com
@@ -48050,6 +48450,7 @@
 +.bamboo.hr
 +.bamfam.uk
 +.baminw.cn
++.bamor.org
 +.bamp.site
 +.ban88.com
 +.banbf.com
@@ -48085,7 +48486,9 @@
 +.barlo.xyz
 +.barru.org
 +.barukh.us
++.basavi.mx
 +.base.shop
++.basfa.com
 +.basixs.nu
 +.basse.mom
 +.basup.net
@@ -48212,6 +48615,7 @@
 +.bcbe.site
 +.bcbet.vip
 +.bcc78.com
++.bcci.game
 +.bccjj.bid
 +.bcco.info
 +.bccoc.com
@@ -48221,6 +48625,7 @@
 +.bcgame.li
 +.bcgame.nz
 +.bcgame.ph
++.bcgame.sk
 +.bcgame.vc
 +.bcgme.xyz
 +.bcgwg.com
@@ -48296,6 +48701,7 @@
 +.bcw99.net
 +.bcwdz.com
 +.bcyad.icu
++.bcysa.org
 +.bd.ru.com
 +.bd0n59.cn
 +.bd247.bet
@@ -48319,7 +48725,9 @@
 +.bdl08.com
 +.bdl09.com
 +.bdns.link
++.bdoaa.org
 +.bdowh.com
++.bdral.com
 +.bdros.com
 +.bdrvip.co
 +.bdses.xyz
@@ -48330,7 +48738,6 @@
 +.bdtv.asia
 +.bdwgd.com
 +.bdx55.com
-+.bdyea.org
 +.be-xi.com
 +.be161.com
 +.be3ny.com
@@ -48390,6 +48797,7 @@
 +.ben86.vip
 +.benben.ca
 +.bendo.xyz
++.benere.ro
 +.benfei.mx
 +.benfkw.cn
 +.beni55.my
@@ -48417,6 +48825,7 @@
 +.beredd.se
 +.beri8.com
 +.beroll.ru
++.berown.in
 +.berska.fr
 +.berus.xyz
 +.bestar.id
@@ -48555,8 +48964,10 @@
 +.betner.co
 +.betnet.fr
 +.betnow.eu
++.betola.de
 +.betole.ba
 +.betoto.gr
++.betpg.one
 +.betpix.io
 +.betpo.app
 +.betpo.fun
@@ -48613,7 +49024,6 @@
 +.bf968.com
 +.bfast.com
 +.bfcwo.com
-+.bfdau.top
 +.bfdtt.com
 +.bfdyn.com
 +.bfici.com
@@ -48701,7 +49111,6 @@
 +.bgg8.life
 +.bgggjh.cc
 +.bggj8.com
-+.bghes.org
 +.bghje.com
 +.bgime.org
 +.bgl66.net
@@ -48867,7 +49276,6 @@
 +.bisrv.com
 +.bit-iq.co
 +.bit-li.ws
-+.bit.wo.tc
 +.bit4eu.cc
 +.bit55.net
 +.bitcan.ru
@@ -48908,6 +49316,7 @@
 +.bitrad.io
 +.bitrix.la
 +.bitro.top
++.bitrue.cc
 +.bitsa.vip
 +.bittr.top
 +.biturl.co
@@ -48929,6 +49338,7 @@
 +.biyac.com
 +.biyap.top
 +.biyo8.com
++.biyuu.net
 +.biz.promo
 +.biz60.com
 +.bizax.org
@@ -49091,6 +49501,7 @@
 +.bmarco.in
 +.bmbnn.com
 +.bmbnu.xyz
++.bmcper.in
 +.bmddd.com
 +.bmejv.com
 +.bmgad.com
@@ -49099,6 +49510,8 @@
 +.bmhee.org
 +.bmhhk.top
 +.bmhye.com
++.bmicg.com
++.bmkoin.io
 +.bml-1.com
 +.bmmft.org
 +.bmoar.com
@@ -49265,6 +49678,7 @@
 +.bos43.com
 +.bosda.xyz
 +.bosevi.pl
++.bosny.com
 +.boss88.tv
 +.bossb.net
 +.bosswd.my
@@ -49411,6 +49825,7 @@
 +.brojp.biz
 +.brojp.ink
 +.brojp.one
++.bromf.com
 +.bromo.pro
 +.bronix.ru
 +.brop1.com
@@ -49420,7 +49835,9 @@
 +.brpg4.com
 +.brpg5.com
 +.brpg6.com
++.brpra.top
 +.brqtu.com
++.brrllc.us
 +.brrwd.com
 +.brsua.biz
 +.brtne.com
@@ -49460,9 +49877,11 @@
 +.bsgyz.xyz
 +.bshare.cn
 +.bshen.biz
++.bship.biz
 +.bsn4d.com
 +.bsnl.wiki
 +.bspca.com
++.bspnet.id
 +.bspoe.com
 +.bsport.io
 +.bsport.so
@@ -49533,6 +49952,7 @@
 +.btsxw.com
 +.btt36.com
 +.bttdt.com
++.bttgn.com
 +.bttzx.xyz
 +.btvl3.com
 +.btvs1.com
@@ -49552,6 +49972,7 @@
 +.bubaj.com
 +.bubbn.xyz
 +.bubye.vip
++.bucks0.ru
 +.bucol.net
 +.budgzp.cn
 +.budon.com
@@ -49583,8 +50004,8 @@
 +.buram.xyz
 +.burfn.top
 +.burley.fr
-+.burnt.ink
 +.burtin.eu
++.buscot.rw
 +.but-fr.fr
 +.buuda.top
 +.buuda.xyz
@@ -49592,7 +50013,6 @@
 +.buweq.xyz
 +.buxim.com
 +.buxnet.ir
-+.buy2x.com
 +.buybm.one
 +.buygv.xyz
 +.buz24.com
@@ -49610,6 +50030,7 @@
 +.bvhrs.com
 +.bvjww.com
 +.bvkwm.com
++.bvmpp.com
 +.bvnuao.cc
 +.bvnyu.com
 +.bvpij.com
@@ -49722,6 +50143,7 @@
 +.bwin2.com
 +.bwing.com
 +.bwjb.shop
++.bwjts.com
 +.bwlzq.com
 +.bwmail.us
 +.bwmtb.xyz
@@ -49809,8 +50231,10 @@
 +.bynana.nl
 +.bynix.xyz
 +.byoml.com
++.byoug.org
 +.bypass.cn
 +.bypass.jp
++.byra24.no
 +.byrix.com
 +.bysea.org
 +.byshi.net
@@ -49884,6 +50308,7 @@
 +.c259c.com
 +.c266c.com
 +.c28cp.com
++.c2mgr.pro
 +.c3-qa.com
 +.c3003.com
 +.c3286.com
@@ -49903,6 +50328,7 @@
 +.c3tag.com
 +.c4071.com
 +.c4775.top
++.c4rme.com
 +.c5008.com
 +.c513.info
 +.c529c.com
@@ -50157,10 +50583,12 @@
 +.caco3.win
 +.cacta.top
 +.cadcc.icu
++.cadesh.ca
 +.cadgs.com
 +.cadke.xyz
 +.cadout.de
 +.caehc.top
++.caeou.com
 +.caepa.org
 +.caetla.cc
 +.cafeeq.de
@@ -50182,7 +50610,9 @@
 +.camara.cc
 +.camara.ge
 +.camdh.com
++.camil.fun
 +.camode.de
++.campts.ae
 +.camqa.com
 +.camru.top
 +.camse.org
@@ -50193,6 +50623,7 @@
 +.canbcb.ca
 +.cancel.re
 +.cancen.fr
++.cancer.do
 +.cands.tel
 +.canec.org
 +.canory.me
@@ -50201,7 +50632,6 @@
 +.capex.ltd
 +.capnet.in
 +.capp.news
-+.capsk.net
 +.capx.tech
 +.car-na.jp
 +.car4r.com
@@ -50250,6 +50680,7 @@
 +.cat99.net
 +.catdj.vip
 +.catnip.de
++.catseo.fr
 +.catsys.jp
 +.catty.wtf
 +.caugs.com
@@ -50367,11 +50798,14 @@
 +.ccqyg.com
 +.ccres.net
 +.ccrrp.org
++.ccsl.asia
++.ccsnr.com
 +.ccsom.org
 +.ccstr.org
 +.cctbx.com
 +.ccuan.xyz
 +.ccudl.com
++.ccurl.xyz
 +.ccvuq.com
 +.ccxrn.xyz
 +.ccz0cd.cc
@@ -50514,6 +50948,7 @@
 +.celago.se
 +.celal.org
 +.celcol.jp
++.celema.co
 +.celmak.de
 +.celtis.uk
 +.celtx.app
@@ -50528,6 +50963,7 @@
 +.ceo71.com
 +.ceo777.me
 +.ceotto.fr
++.cepde.org
 +.cepu6.xyz
 +.cepu7.xyz
 +.cerch.org
@@ -50542,7 +50978,6 @@
 +.cetrk.com
 +.ceu777.cc
 +.cewca.org
-+.cewm.link
 +.cewrt.com
 +.cexdd.com
 +.cexsq.xyz
@@ -50603,6 +51038,7 @@
 +.cgk88.lol
 +.cgk88.xyz
 +.cgkssm.cn
++.cgl.co.id
 +.cglmn.com
 +.cglms.com
 +.cgmex.org
@@ -50630,6 +51066,7 @@
 +.chanr.top
 +.chanz.com
 +.chao.news
++.chaos.run
 +.chaqz.com
 +.chaser.ru
 +.chasoe.us
@@ -50638,6 +51075,7 @@
 +.chatv3.ru
 +.chaulk.io
 +.chbur.icu
++.chcco.net
 +.chcfi.com
 +.chchs.com
 +.chci.shop
@@ -50675,6 +51113,7 @@
 +.choto.xyz
 +.choww.pro
 +.chrda.org
++.chrnp.com
 +.chshop.eu
 +.chugga.fr
 +.chui2.com
@@ -50689,7 +51128,9 @@
 +.cibji.com
 +.ciboj.org
 +.cicda.com
++.cicem.org
 +.cichw.net
++.cicind.ru
 +.cid-h.com
 +.cidpa.org
 +.cie4d.vip
@@ -50825,9 +51266,12 @@
 +.clevi.com
 +.clevv.com
 +.clewx.com
++.clicit.pe
++.click.org
 +.click8.co
 +.clicki.cn
 +.clickx.io
++.cliffg.me
 +.clinch.co
 +.cliol.com
 +.clipea.eu
@@ -50902,6 +51346,7 @@
 +.cmpns.com
 +.cmpol.com
 +.cmrdr.com
++.cms-sh.de
 +.cmsis.org
 +.cmslk.com
 +.cmso.info
@@ -50912,6 +51357,7 @@
 +.cmwsi.xyz
 +.cn123.art
 +.cn123.org
++.cn2an.top
 +.cn846.com
 +.cn983.com
 +.cnanb.com
@@ -51025,6 +51471,7 @@
 +.commax.fr
 +.comms.win
 +.comsb.com
++.comxa.com
 +.conad.com
 +.concur.pm
 +.concur.re
@@ -51035,6 +51482,7 @@
 +.connr.com
 +.conran.fr
 +.coogle.at
++.cooper.ng
 +.copool.co
 +.copoq.xyz
 +.copozz.de
@@ -51066,6 +51514,10 @@
 +.counti.de
 +.counto.de
 +.covcv.top
++.covid.boo
++.covid.fun
++.covid.ltd
++.covid.zip
 +.covise.ai
 +.cowck.com
 +.cowyt.xyz
@@ -51073,6 +51525,7 @@
 +.coxrt.com
 +.coyi.asia
 +.coyqr.xyz
++.coyred.es
 +.coyww.com
 +.coyyu.xyz
 +.coyze.com
@@ -51113,13 +51566,12 @@
 +.cpm20.com
 +.cpmfx.com
 +.cpmma.net
-+.cpolar.cn
 +.cppgf.com
 +.cpphk.app
 +.cpppi.com
 +.cps-c.net
 +.cps-pc.de
-+.cpsak.net
++.cpsak.org
 +.cpsf.info
 +.cpsvn.xyz
 +.cpsxn.com
@@ -51150,6 +51602,7 @@
 +.cqjv.asia
 +.cqnhh.xyz
 +.cqnzb.xyz
++.cqrcw.com
 +.cqsac.xyz
 +.cqsly.com
 +.cquic.org
@@ -51211,6 +51664,7 @@
 +.crypo.com
 +.crypo.org
 +.crypt.com
++.crypt.fyi
 +.crypto.cc
 +.crypto.co
 +.crysb.com
@@ -51247,6 +51701,7 @@
 +.csepr.org
 +.csfail.us
 +.csfun.xyz
++.csfweb.es
 +.csgame.cz
 +.csgei.com
 +.csgo3.com
@@ -51361,6 +51816,7 @@
 +.curls.com
 +.curve.fyi
 +.curves.ws
++.cutcut.pt
 +.cutcy.com
 +.cutly.biz
 +.cutly.vip
@@ -51416,7 +51872,6 @@
 +.cwncu.xyz
 +.cwolf.top
 +.cwqzf.top
-+.cws.money
 +.cwsone.in
 +.cwtaa.com
 +.cx2cp.com
@@ -51453,6 +51908,7 @@
 +.cxxui.xyz
 +.cxxvs.com
 +.cxyf.asia
++.cxzyr.com
 +.cy479.com
 +.cy803.com
 +.cya1t.net
@@ -51472,6 +51928,7 @@
 +.cymkq.com
 +.cynem.xyz
 +.cynix.lol
++.cynova.in
 +.cyntc.com
 +.cyonix.to
 +.cyoof.top
@@ -51511,6 +51968,7 @@
 +.d-c-2.com
 +.d-d.space
 +.d-i-b.org
++.d-land.pk
 +.d-log.net
 +.d-pari.id
 +.d-toi.com
@@ -51525,6 +51983,7 @@
 +.d.skk.moe
 +.d.xyzz.cc
 +.d0309.com
++.d0dbk.xyz
 +.d0m88.com
 +.d0main.ru
 +.d0ood.com
@@ -51612,6 +52071,7 @@
 +.d9593.com
 +.d9596.com
 +.d9598.com
++.d9650.com
 +.d9762.com
 +.d9836.com
 +.d9865.com
@@ -51623,6 +52083,7 @@
 +.dabet.fun
 +.dabet.top
 +.dabet.win
++.dabtv.net
 +.dacgu.com
 +.daco.asia
 +.dacobi.pl
@@ -51654,6 +52115,7 @@
 +.dalu6.com
 +.dalu8.com
 +.daluf.com
++.dammg.com
 +.damrc.org
 +.dan10.com
 +.dana55.id
@@ -51681,6 +52143,7 @@
 +.dartry.fr
 +.dasach.ch
 +.dasela.cn
++.dashex.me
 +.dasi4d.id
 +.daska.top
 +.dasuq.com
@@ -51786,6 +52249,7 @@
 +.dcatw.xyz
 +.dcbap.com
 +.dcbin.com
++.dccbb.xyz
 +.dccil.org
 +.dccr.info
 +.dccrk.top
@@ -51793,7 +52257,9 @@
 +.dcdmn.com
 +.dcfre.com
 +.dcg55.com
++.dcimx.com
 +.dcine.pro
++.dckshw.uk
 +.dcmpb.org
 +.dcms.site
 +.dcobn.ltd
@@ -51835,6 +52301,7 @@
 +.dd3pr.com
 +.dd3pv.com
 +.dd4d.shop
++.dd5da.com
 +.dd788.net
 +.dd999.bet
 +.ddbet.com
@@ -51924,14 +52391,18 @@
 +.delfi.top
 +.deliv.icu
 +.delmax.in
++.delpas.it
 +.delson.de
++.deluxo.ch
 +.demba.xyz
++.denae.org
 +.denant.me
 +.denao.top
 +.denari.se
 +.denkk.top
 +.denney.fr
 +.dentme.se
++.dentxl.in
 +.denza.pro
 +.deobp.com
 +.deoci.biz
@@ -51955,6 +52426,7 @@
 +.desket.co
 +.desoz.com
 +.dessly.ru
++.dessur.mx
 +.dest.site
 +.detse.net
 +.deurl.fun
@@ -51986,6 +52458,7 @@
 +.deyun.one
 +.dezeer.fr
 +.dezif.pro
++.dezino.ir
 +.dezpg.com
 +.df-lb.com
 +.df-ms.com
@@ -52069,6 +52542,7 @@
 +.dgknd.top
 +.dgkre.com
 +.dglea.org
++.dgmda.org
 +.dgmgr.com
 +.dgn.games
 +.dgpop.com
@@ -52076,6 +52550,7 @@
 +.dgpzx.com
 +.dgqjy.com
 +.dgrtp.org
++.dgrxf.xyz
 +.dgs888.co
 +.dgsdq.com
 +.dgthai.co
@@ -52086,6 +52561,7 @@
 +.dgwvh.com
 +.dgxy.link
 +.dgytu.xyz
++.dh.net.br
 +.dh538.com
 +.dh555.vip
 +.dh588.vip
@@ -52118,7 +52594,9 @@
 +.dhnow.com
 +.dhoma.xyz
 +.dhoze.com
++.dhsds.org
 +.dhsua.top
++.dhsyy.com
 +.dhtech.ae
 +.dhwz1.com
 +.dhx4d.fun
@@ -52126,6 +52604,7 @@
 +.diaita.ch
 +.dialix.ca
 +.dialxs.nl
++.dialyj.cm
 +.diamix.de
 +.diaque.cn
 +.diazf.com
@@ -52181,6 +52660,7 @@
 +.direh.xyz
 +.dirol.top
 +.diru4.com
++.dis.ac.tz
 +.discod.ru
 +.discor.co
 +.discor.de
@@ -52189,6 +52669,7 @@
 +.discrd.co
 +.discrd.gg
 +.disgen.in
++.diside.co
 +.dismp.com
 +.disney.lk
 +.disney.pm
@@ -52224,6 +52705,7 @@
 +.djbet.win
 +.djelp.top
 +.djers.com
++.djewk.com
 +.djfue.xyz
 +.djg57.com
 +.djg86.com
@@ -52287,9 +52769,11 @@
 +.dlwjd.com
 +.dlwkj.com
 +.dlxcc.com
++.dlym1.com
 +.dlysxx.cn
 +.dlzo.skin
 +.dm.pw0.cn
++.dma24.com
 +.dmare.xyz
 +.dmb3t.com
 +.dmbdv.com
@@ -52300,6 +52784,7 @@
 +.dmean.lol
 +.dmg-az.de
 +.dmial.com
++.dmiss.com
 +.dmjkc.net
 +.dmnsg.com
 +.dmnsy.xyz
@@ -52311,6 +52796,7 @@
 +.dmpxs.com
 +.dmrtb.com
 +.dmrtx.com
++.dms.trade
 +.dmtorg.ru
 +.dmtrk.net
 +.dmtry.com
@@ -52330,7 +52816,7 @@
 +.dndnha.id
 +.dnehtb.cn
 +.dnfjn.com
-+.dnhd.asia
++.dng.or.tz
 +.dnjss.com
 +.dnkod.ltd
 +.dnlog.com
@@ -52341,6 +52827,7 @@
 +.dnoer.com
 +.dnomz.com
 +.dnowv.com
++.dnrcw.net
 +.dns05.com
 +.dnsdl.org
 +.dnslog.cn
@@ -52348,6 +52835,7 @@
 +.dnsrd.com
 +.dnsup.net
 +.dntk.asia
++.dntld.com
 +.dnua5.com
 +.dnvtv.com
 +.dnyzbp.cn
@@ -52368,6 +52856,7 @@
 +.docns.com
 +.doco.site
 +.doctop.ru
++.docura.sa
 +.docv.site
 +.docx.site
 +.docy.site
@@ -52385,6 +52874,7 @@
 +.doken.xyz
 +.dolaw.com
 +.dolax.org
++.dolkon.ng
 +.dolma.top
 +.dolog.net
 +.dom2.love
@@ -52403,6 +52893,7 @@
 +.dondon.in
 +.doned.top
 +.donera.ru
++.dongyu.us
 +.donnon.fr
 +.donons.fr
 +.doo88.org
@@ -52417,9 +52908,9 @@
 +.doqan.net
 +.dorado.id
 +.doraya.eu
++.doric.com
 +.dork.fail
 +.dorow.xyz
-+.dorper.cn
 +.dosnk.com
 +.dot.wp.pl
 +.dot77.bet
@@ -52438,6 +52929,7 @@
 +.doved.top
 +.dovip.win
 +.dovvj.com
++.dowsa.net
 +.doxap.com
 +.doxi.life
 +.dozon.org
@@ -52493,6 +52985,7 @@
 +.dqzuy.com
 +.dr1v3.one
 +.dr1ve.xyz
++.draeli.cl
 +.dragg.net
 +.dramac.me
 +.draven.ru
@@ -52515,7 +53008,6 @@
 +.drgn.baby
 +.drgnm.sbs
 +.driga.com
-+.driv3.net
 +.drkko.com
 +.drltz.com
 +.drmail.in
@@ -52552,6 +53044,7 @@
 +.ds92t.com
 +.dsa22.com
 +.dsaca.com
++.dsadw.top
 +.dsan.site
 +.dsasd.com
 +.dsbet.vip
@@ -52559,7 +53052,7 @@
 +.dscct.org
 +.dscord.me
 +.dsebn.com
-+.dsfdg.sbs
++.dsewrk.uk
 +.dsfh2.icu
 +.dsfsd.com
 +.dsgyh.com
@@ -52579,7 +53072,9 @@
 +.dsjie.com
 +.dsjnw.com
 +.dskin.com
++.dskjd.com
 +.dskxm.com
++.dslhr.com
 +.dsme.info
 +.dsmep.com
 +.dsmes.xyz
@@ -52599,6 +53094,7 @@
 +.dssdr.top
 +.dssnp.org
 +.dsszq.xyz
++.dst.co.tz
 +.dstats.me
 +.dszvg.com
 +.dt060.com
@@ -52627,12 +53123,14 @@
 +.dtop1.com
 +.dtopc.com
 +.dtqiow.cn
++.dtrade.hu
 +.dts-hd.ma
 +.dtsan.net
 +.dtsdy.biz
 +.dttao.net
 +.dttrk.com
 +.dtvi.club
++.dtvm5.top
 +.dtwrs.xyz
 +.dtx.click
 +.dtxwi.com
@@ -52694,13 +53192,11 @@
 +.dutre.cfd
 +.dutut.com
 +.duued.xyz
-+.duums.xyz
 +.duvig.com
 +.duwait.us
 +.duyoi.xyz
 +.dv188.bet
 +.dv4ku.icu
-+.dvcgg.com
 +.dvchs.net
 +.dvczk.com
 +.dvdude.ca
@@ -52798,11 +53294,13 @@
 +.dydab.com
 +.dydx.live
 +.dydxl.org
++.dygtc.com
 +.dyhbn.com
 +.dyhvx.com
 +.dyj23.vip
 +.dyjcp.app
 +.dykhg.com
++.dylm2.com
 +.dylop.xyz
 +.dynad.net
 +.dynip.org
@@ -52834,6 +53332,7 @@
 +.dzheni.ru
 +.dzjzg.com
 +.dzmvv.top
++.dzswv.org
 +.dzxmm.xyz
 +.dzylc.com
 +.dzyob.com
@@ -52953,6 +53452,7 @@
 +.easies.de
 +.easou.com
 +.easthc.pl
++.easxal.gr
 +.easyca.ca
 +.eatce.com
 +.eauie.top
@@ -52961,6 +53461,7 @@
 +.eavic.org
 +.eazel.com
 +.eb-lp.com
++.eb1573.cc
 +.eb2a.live
 +.eb5xo.xyz
 +.ebaaa.xyz
@@ -52978,6 +53479,7 @@
 +.ebayx.top
 +.ebbeu.xyz
 +.ebbh5.com
++.ebcph.com
 +.ebd68.com
 +.ebdaf.top
 +.ebdr3.com
@@ -53069,6 +53571,7 @@
 +.edomz.net
 +.edowy.com
 +.edpxq.com
++.edraak.it
 +.edrone.me
 +.edrte.top
 +.edshop.us
@@ -53124,9 +53627,11 @@
 +.eeqf6.com
 +.eeqf6.xyz
 +.eeqqe.com
++.eercs.com
 +.eermr.org
 +.eerpr.top
 +.ees.co.rw
++.eesee.one
 +.eether.fi
 +.eettt.xyz
 +.eetty.com
@@ -53173,9 +53678,9 @@
 +.egm.co.za
 +.egmyz.com
 +.ego77.net
++.egocab.in
 +.egoi.page
 +.egoi.site
-+.egsxdp.cn
 +.egtch.com
 +.egtto.com
 +.egtut.com
@@ -53212,6 +53717,7 @@
 +.einqp.top
 +.eioan.com
 +.eiozn.com
++.eippak.ws
 +.eitaro.jp
 +.eiue.shop
 +.eizxz.bid
@@ -53219,7 +53725,9 @@
 +.ejlch.com
 +.ejnpn.org
 +.ejnq.skin
++.ejoar.com
 +.ejpnu.top
++.ejrhw.com
 +.ejrus.org
 +.ekahrs.se
 +.ekam.info
@@ -53237,7 +53745,10 @@
 +.ekonah.eu
 +.ekonu.com
 +.ekop.shop
++.ekopak.az
++.ekovel.ro
 +.ekpc.shop
++.eksad.com
 +.ekssa.com
 +.ektk.asia
 +.ekun1.com
@@ -53256,6 +53767,7 @@
 +.eldos.xyz
 +.elearn.id
 +.elesb.net
++.elevon.co
 +.elfcup.cn
 +.elflab.ru
 +.elfree.fr
@@ -53264,6 +53776,7 @@
 +.elgoss.in
 +.elifx.com
 +.elisa.bet
++.elisha.lk
 +.elitr.org
 +.eliy5.xyz
 +.ellcc.org
@@ -53278,9 +53791,11 @@
 +.elon.link
 +.eloria.pl
 +.elpais.me
++.elpasa.ir
 +.els.co.mz
 +.elsapg.in
 +.elsme.top
++.elstar.ru
 +.elta98.ru
 +.eltaa.top
 +.eltin.com
@@ -53303,15 +53818,18 @@
 +.emfrm.com
 +.emfrm.org
 +.emfsys.gr
++.emgers.pe
 +.emgwq.com
 +.emhdf.com
 +.emhob.top
 +.emial.com
++.emicom.pe
 +.emifl.com
 +.emiweb.es
 +.emjcd.com
 +.emkey.fun
 +.emlink.me
++.emlnk.com
 +.emltc.com
 +.emnae.com
 +.emnbr.com
@@ -53361,6 +53879,7 @@
 +.engxx.com
 +.enhjb.top
 +.eniam.com
++.enicon.mx
 +.enish.net
 +.enln.shop
 +.enlte.com
@@ -53371,6 +53890,7 @@
 +.enrgy.cam
 +.enron.com
 +.enrosr.cn
++.ensjsi.dz
 +.entgq.com
 +.entgt.com
 +.entlc.com
@@ -53395,6 +53915,7 @@
 +.eoltt.com
 +.eon66.vip
 +.eonef.com
++.eoob.site
 +.eoopy.com
 +.eoptk.top
 +.eosbr.com
@@ -53418,6 +53939,8 @@
 +.ephhr.org
 +.epic77.co
 +.epipo.com
++.epiros.ir
++.eplbd.net
 +.epmgz.xyz
 +.eposte.fr
 +.eppr3.com
@@ -53425,6 +53948,7 @@
 +.eprice.cc
 +.eprimo.fr
 +.eptmc.org
++.epuit.net
 +.eq777.com
 +.eq777.vip
 +.eqads.com
@@ -53482,6 +54006,7 @@
 +.erotop.lv
 +.erpin.org
 +.erplb.com
++.erqbe.top
 +.err0r.one
 +.errno.xyz
 +.erro.live
@@ -53551,10 +54076,12 @@
 +.et492.com
 +.et5hq.top
 +.et666.xyz
++.etanb.com
 +.etbld.com
 +.etbxq.xyz
 +.etcpl.net
 +.etena.xyz
++.etereo.in
 +.etfg5.com
 +.etg98.com
 +.eth.pp.ua
@@ -53607,6 +54134,7 @@
 +.etxggi.cn
 +.etxrr.top
 +.etybo.top
++.etyio.top
 +.etyuss.cn
 +.etyzi.com
 +.etz-ft.ch
@@ -53621,6 +54149,7 @@
 +.eueav.com
 +.eueer.org
 +.eufri.org
++.eugbc.net
 +.eugbg.xyz
 +.eukom.com
 +.eupfi.org
@@ -53661,7 +54190,6 @@
 +.evey.live
 +.evgo.asia
 +.evgtz.xyz
-+.eviet.vip
 +.evilos.cc
 +.evkey.org
 +.evlsn.com
@@ -53725,8 +54253,10 @@
 +.exdmn.com
 +.exebid.ru
 +.exeqzb.cn
++.exeum.biz
 +.exform.pl
 +.exhack.ru
++.exhsx.top
 +.exiob.com
 +.exlgo.fun
 +.exlgo.sbs
@@ -53764,6 +54294,7 @@
 +.eybet.com
 +.eybo4.top
 +.eychq.xyz
++.eydhd.org
 +.eye22.com
 +.eyeim.com
 +.eyein.com
@@ -53773,6 +54304,7 @@
 +.eyndc.com
 +.eynol.xyz
 +.eypev.com
++.eysar.com
 +.eyyaa.com
 +.eyywm.xyz
 +.ez-fx.net
@@ -53791,7 +54323,6 @@
 +.ezen43.pl
 +.ezen74.pl
 +.ezfcr.top
-+.ezik.live
 +.ezlink.ca
 +.ezmas.icu
 +.ezmob.com
@@ -53799,7 +54330,6 @@
 +.ezodn.com
 +.ezoic.com
 +.ezojs.com
-+.ezqz.link
 +.ezrbx.com
 +.ezrhr.com
 +.ezsgo.com
@@ -53812,6 +54342,7 @@
 +.ezyez.xyz
 +.ezyie.com
 +.ezyth.com
++.ezzed.com
 +.ezztt.com
 +.f-tra.com
 +.f.coka.la
@@ -53936,6 +54467,7 @@
 +.f61in.com
 +.f63170.uk
 +.f6439.com
++.f65rt.top
 +.f6601.com
 +.f6602.com
 +.f666.club
@@ -54109,6 +54641,7 @@
 +.fahih.com
 +.fahri.xyz
 +.faibl.org
++.faicz.org
 +.faiqq.com
 +.fairgo.co
 +.faith.bet
@@ -54243,6 +54776,7 @@
 +.fb197.sbs
 +.fb2a.site
 +.fb2f.site
++.fb505.com
 +.fb65b.com
 +.fb65c.com
 +.fb65d.com
@@ -54266,7 +54800,6 @@
 +.fbfnc.top
 +.fbgdc.com
 +.fbjnr.com
-+.fbmro.com
 +.fbp7a.com
 +.fbplx.com
 +.fbr30.xyz
@@ -54276,7 +54809,6 @@
 +.fbsdc.org
 +.fbtl8.com
 +.fburl.fun
-+.fbvn.info
 +.fbxb6.com
 +.fbxzjd.cc
 +.fbyne.com
@@ -54365,6 +54897,7 @@
 +.fepete.ch
 +.ferank.fr
 +.ferde.xyz
++.ferdo.xyz
 +.ferel.com
 +.ferjl.ltd
 +.fesib.com
@@ -54383,13 +54916,16 @@
 +.ffc777.cc
 +.ffesp.com
 +.ffexc.com
++.fffutu.re
 +.ffhre.com
 +.ffksk.com
 +.fflkp.com
 +.ffmsc.com
++.ffox.site
 +.ffpbc.com
 +.ffpml.com
 +.ffr13.com
++.ffsimv.gr
 +.ffsmv.com
 +.ffttg.com
 +.ffwig.com
@@ -54471,6 +55007,7 @@
 +.fidse.top
 +.fieam.org
 +.fifbv.com
++.fifos.top
 +.figato.fr
 +.figgq.com
 +.figma.lat
@@ -54508,6 +55045,7 @@
 +.fingas.pl
 +.finlay.io
 +.finloo.vn
++.finmen.in
 +.finn88.me
 +.finpay.ru
 +.fins.info
@@ -54534,7 +55072,6 @@
 +.five88.me
 +.fix2go.it
 +.fixly.pro
-+.fiza1.net
 +.fizmat.me
 +.fj-af.com
 +.fj-tw.com
@@ -54588,12 +55125,13 @@
 +.fkwhy.com
 +.fl1ip.sbs
 +.fl3q5.com
++.fl4ir.com
 +.flaav.com
++.flag.baby
 +.flaio.top
 +.flala.org
 +.flashb.id
 +.flashx.co
-+.flbe.link
 +.flbox.net
 +.fldex.com
 +.fleek.one
@@ -54630,6 +55168,7 @@
 +.flxtor.co
 +.flyman.se
 +.flynto.in
++.flyxz.top
 +.fm-fx.com
 +.fm120.com
 +.fm666.xyz
@@ -54726,6 +55265,7 @@
 +.fobre.com
 +.foccr.com
 +.fodecc.cm
++.fodexy.fr
 +.fodn.shop
 +.fofo99.me
 +.fofox.com
@@ -54750,6 +55290,7 @@
 +.fonn.link
 +.foojo.net
 +.foooq.com
++.fooox.vip
 +.foori.com
 +.foot.wiki
 +.for-j.com
@@ -54834,6 +55375,7 @@
 +.frddg8.cc
 +.frdon.com
 +.frebh.ltd
++.frebox.fr
 +.fredie.cz
 +.fredom.fr
 +.fredry.pl
@@ -54846,6 +55388,7 @@
 +.freico.in
 +.fresh8.co
 +.fress.xyz
++.frey2.com
 +.frezky.sk
 +.frhea.com
 +.frii.site
@@ -54997,6 +55540,7 @@
 +.fun97.com
 +.fun99.vip
 +.funade.fm
++.fundex.us
 +.funkub.co
 +.funmom.ru
 +.funpet.uk
@@ -55083,6 +55627,7 @@
 +.fyak7.com
 +.fyank.com
 +.fyber.com
++.fyfnd.org
 +.fyges.com
 +.fygjhy.cn
 +.fyhds.xyz
@@ -55175,6 +55720,7 @@
 +.g5877.com
 +.g5881.com
 +.g5887.com
++.g5hp0.top
 +.g6199.com
 +.g6439.com
 +.g6658.com
@@ -55289,6 +55835,7 @@
 +.ganam.com
 +.ganho.win
 +.ganja.com
++.ganlo.com
 +.gao58.vip
 +.gaokr.xyz
 +.gap8x.net
@@ -55308,6 +55855,7 @@
 +.gasxf.com
 +.gatdm.com
 +.gate8.xyz
++.gatesc.mx
 +.gati.tech
 +.gator.com
 +.gauel.com
@@ -55316,6 +55864,7 @@
 +.gawte.com
 +.gay.co.uk
 +.gay50.com
++.gayad0.ru
 +.gaygj.com
 +.gazoq.com
 +.gb103.com
@@ -55554,6 +56103,7 @@
 +.gen777.id
 +.gen88.xyz
 +.gena.life
++.genena.me
 +.generx.us
 +.geniee.jp
 +.genius.in
@@ -55822,8 +56372,8 @@
 +.gilaj.top
 +.gillne.de
 +.gilma.com
++.giltaz.ir
 +.gim.co.il
-+.gimal.com
 +.gimora.de
 +.gin.co.il
 +.giobet.it
@@ -55838,6 +56388,8 @@
 +.gitak.top
 +.github.me
 +.github.pm
++.githup.co
++.githuv.co
 +.gitis.org
 +.gitop.pro
 +.gitpa.org
@@ -55948,6 +56500,7 @@
 +.gmail.now
 +.gmail2.gq
 +.gmaila.fr
++.gmailc.om
 +.gmaile.fr
 +.gmailk.ru
 +.gmaill.cn
@@ -56148,8 +56701,10 @@
 +.goggle.nu
 +.gogigo.co
 +.gogirl.id
++.gogle.bar
 +.gogle.icu
 +.gogle.lol
++.gogle.mom
 +.gogle.net
 +.gogle.sbs
 +.gogo1.vip
@@ -56202,6 +56757,7 @@
 +.googl.win
 +.googl3.fr
 +.googla.nu
++.googla.pl
 +.googld.fr
 +.googld.it
 +.googlu.ru
@@ -56243,6 +56799,7 @@
 +.goups.pro
 +.gov24.top
 +.govazd.am
++.govcnn.co
 +.govisa.id
 +.govnb.com
 +.govnp.org
@@ -56330,6 +56887,7 @@
 +.grrrl.net
 +.grt01.com
 +.grt02.com
++.grtat.com
 +.grtya.com
 +.grtyb.com
 +.grtyh.com
@@ -56480,7 +57038,6 @@
 +.gtmbh.xyz
 +.gtmjs.com
 +.gtmucs.cn
-+.gtnhm.com
 +.gto10.xyz
 +.gto12.xyz
 +.gtorb.com
@@ -56522,7 +57079,6 @@
 +.gulcu.biz
 +.gulfup.me
 +.gunkn.com
-+.gunq.link
 +.guose.xyz
 +.gup7h.com
 +.gup7h.xyz
@@ -56563,6 +57119,7 @@
 +.gvric.xyz
 +.gw-dv.vip
 +.gw019.com
++.gw1st.xyz
 +.gwazy.net
 +.gwbet.com
 +.gwbpw.com
@@ -56602,6 +57159,7 @@
 +.gylov.com
 +.gymax.pro
 +.gymcc.com
++.gymlog.de
 +.gymrat.in
 +.gynax.com
 +.gyp28.com
@@ -56620,6 +57178,7 @@
 +.gzesa.net
 +.gzfzcj.cn
 +.gzjmr.com
++.gzqhr.com
 +.gzqzl.org
 +.gzruq.top
 +.gzsmp.com
@@ -57101,8 +57660,10 @@
 +.had0.live
 +.haddan.ru
 +.hadeh.xyz
++.hadfs.com
 +.haemn.com
 +.hagens.ru
++.hagere.et
 +.hagha.com
 +.hagvh.win
 +.hahaha.vn
@@ -57114,7 +57675,6 @@
 +.haizz.com
 +.hakaji.io
 +.haker.fun
-+.hakold.ru
 +.halat.xyz
 +.halavi.ca
 +.halion.me
@@ -57161,10 +57721,10 @@
 +.havep.fun
 +.havre.com
 +.havwc.top
-+.havxcq.ru
 +.haw3qa.cn
 +.haw5v.com
 +.hawak.net
++.hawari.pk
 +.hawav.com
 +.hax55.com
 +.haxpc.net
@@ -57297,7 +57857,6 @@
 +.hdtoto.me
 +.hdtv9.com
 +.hduok.com
-+.hdupt.com
 +.hdvid.fun
 +.hdxyj.icu
 +.hdypw.com
@@ -57315,12 +57874,14 @@
 +.heaup.com
 +.heaven.fo
 +.hebero.de
++.hebgb.top
 +.hecou.com
 +.hecrm.xyz
 +.hedder.pl
 +.heebs.com
 +.hefen.pro
 +.hegra.org
++.hegram.ba
 +.heias.com
 +.heiku.org
 +.heisei.be
@@ -57353,6 +57914,7 @@
 +.heuxsd.cn
 +.hevc.site
 +.hevyo.com
++.hexat.com
 +.hexi.pics
 +.hexon.fun
 +.hexud.com
@@ -57469,6 +58031,7 @@
 +.hggwd.com
 +.hghg8.com
 +.hghit.com
++.hgl4u.com
 +.hgm.world
 +.hgoal.net
 +.hgqdl.com
@@ -57503,6 +58066,7 @@
 +.hhbta.com
 +.hhbze.xyz
 +.hhdad.xyz
++.hhdke.com
 +.hhdwx.com
 +.hhemm.com
 +.hhfus.com
@@ -57519,7 +58083,6 @@
 +.hhmel.com
 +.hhnhv.com
 +.hhoq.skin
-+.hhqm.link
 +.hhsp2.com
 +.hht.ze.am
 +.hhttm.top
@@ -57619,7 +58182,6 @@
 +.hi984.com
 +.hiaqd.xyz
 +.hibet.com
-+.hibh.info
 +.hibody.fr
 +.hibote.de
 +.hicam.net
@@ -57656,9 +58218,10 @@
 +.himsly.fr
 +.himym.xyz
 +.hinet.ink
-+.hinet.lat
 +.hiniv.com
++.hinpr.top
 +.hioxg.top
++.hip.co.th
 +.hiphip.fr
 +.hipxe.xyz
 +.hirax.org
@@ -57675,7 +58238,6 @@
 +.hitci.net
 +.hiteck.fr
 +.hitiz.com
-+.hitler.su
 +.hitme.bet
 +.hitme.lol
 +.hitmir.ru
@@ -57935,8 +58497,11 @@
 +.homail.it
 +.homat.com
 +.home4d.id
++.home4u.mk
 +.home8.bet
++.homiez.rw
 +.homopt.ru
++.homtex.in
 +.honess.eu
 +.honeys.be
 +.hongda.io
@@ -57969,7 +58534,6 @@
 +.hot51.com
 +.hotail.de
 +.hotbgl.io
-+.hotbit.io
 +.hotgas.ru
 +.hotjar.io
 +.hotjar.us
@@ -58022,9 +58586,9 @@
 +.hpnxb.com
 +.hpplay.cn
 +.hprac.org
++.hptest.ro
 +.hptyp.icu
 +.hpvba.xyz
-+.hpyapp.io
 +.hpybet.de
 +.hpyue.com
 +.hqans.com
@@ -58120,6 +58684,7 @@
 +.hsoub.com
 +.hspau.com
 +.hspje.com
++.hsplus.mx
 +.hsplus.si
 +.hspot.top
 +.hspsi.org
@@ -58224,7 +58789,6 @@
 +.hutov.com
 +.hutrc.org
 +.huusk.com
-+.huvsi.icu
 +.huxda.com
 +.huyur.xyz
 +.hv000.com
@@ -58361,6 +58925,7 @@
 +.hvbet.com
 +.hvbet.vip
 +.hvdim.com
++.hveer.com
 +.hviag.xyz
 +.hvm88.com
 +.hvncs.com
@@ -58415,6 +58980,7 @@
 +.hxhpa.com
 +.hxhyc.com
 +.hxiip.xyz
++.hxkov.top
 +.hxlkv.bid
 +.hxmyx.com
 +.hxrpr.top
@@ -58828,6 +59394,7 @@
 +.i-bet.com
 +.i-chef.in
 +.i-dhl.top
++.i-lan.net
 +.i-mar.com
 +.i-mmm.com
 +.i-mobi.pl
@@ -58836,6 +59403,7 @@
 +.i-us.info
 +.i.honk.me
 +.i.idio.co
++.i.inty.io
 +.i.jads.co
 +.i.rebs.ml
 +.i.rttd.io
@@ -59036,6 +59604,7 @@
 +.i9bet.wtf
 +.i9klo.com
 +.i9vn3.com
++.ia-bc.com
 +.ia-sc.org
 +.ia-tq.com
 +.ia34r.pro
@@ -59056,8 +59625,9 @@
 +.ianik.xyz
 +.ianxin.cc
 +.iapf.info
-+.iaqa.life
++.iaro.info
 +.iasrv.com
++.iatte.org
 +.iatup.com
 +.iazhy.com
 +.ib-88.com
@@ -59078,7 +59648,10 @@
 +.ibf168.co
 +.ibfrs.com
 +.ibiic.com
++.ibirtm.pl
 +.ibkr.site
++.ibllt.com
++.ibmst.com
 +.ibnc.club
 +.iboee.org
 +.ibozys.cn
@@ -59124,10 +59697,12 @@
 +.icioud.co
 +.icj-e.org
 +.iclcj.com
++.iclds.org
 +.iclen.com
 +.icloud.cm
 +.icloud.pm
 +.iclud.com
++.icmpk.com
 +.icon.casa
 +.icoom.com
 +.icorad.io
@@ -59168,6 +59743,7 @@
 +.idcot.com
 +.iddqd.top
 +.ideadi.cn
++.ideaux.in
 +.idebet.me
 +.idei.site
 +.ideng.com
@@ -59206,6 +59782,7 @@
 +.idsfx.com
 +.idsgq.com
 +.idsho.com
++.idteam.sg
 +.idubwz.cn
 +.iduplo.pl
 +.idvert.cz
@@ -59240,7 +59817,6 @@
 +.ieuhd.com
 +.ievvo.xyz
 +.iew-mo.re
-+.iewge.top
 +.ieyte.xyz
 +.ifacs.com
 +.ifaf.asia
@@ -59270,6 +59846,7 @@
 +.igame.com
 +.igbpg.com
 +.igbpg.win
++.igcar.cat
 +.igcqt.xyz
 +.igfwe.com
 +.iggcc.top
@@ -59280,6 +59857,8 @@
 +.iglpx.icu
 +.igmfx.com
 +.igmhb.com
++.igmvs.com
++.ignmas.cl
 +.ignup.com
 +.igona.net
 +.igoqu.com
@@ -59291,6 +59870,7 @@
 +.igrun.com
 +.igtor.com
 +.igttc.org
++.igvst.top
 +.igzon.com
 +.ih6wu.com
 +.ihack.bio
@@ -59306,6 +59886,7 @@
 +.ihqpg.xyz
 +.ihrib.org
 +.ihs55.org
++.ihsnal.ru
 +.ii431.com
 +.ii793.com
 +.ii857.com
@@ -59322,6 +59903,7 @@
 +.iiiiii.me
 +.iiippp.cc
 +.iijls.com
++.iimmsa.mx
 +.iinal.net
 +.iinff.com
 +.iing.info
@@ -59377,7 +59959,7 @@
 +.ikwy3.com
 +.ikwyd.com
 +.il119.com
-+.ilaec.org
++.ilalp.top
 +.ilearn.ca
 +.ilebi.com
 +.ileyou.cn
@@ -59475,6 +60057,7 @@
 +.inanh.xyz
 +.inappi.co
 +.inappi.me
++.inbash.cc
 +.inbes.org
 +.inbet.com
 +.inblur.io
@@ -59493,6 +60076,7 @@
 +.indipu.in
 +.indjp.com
 +.indjx.com
++.indmed.in
 +.indo4d.me
 +.indo6d.co
 +.indo78.eu
@@ -59521,11 +60105,14 @@
 +.infowp.eu
 +.infoya.ru
 +.infqq.com
++.infres.in
 +.infura.me
 +.ingum.xyz
 +.ini777.id
 +.ini88.org
 +.inijm.com
++.iniser.co
++.inivex.lk
 +.injum.com
 +.inkjet.de
 +.inkly.net
@@ -59550,7 +60137,6 @@
 +.inpoe.xyz
 +.inpoet.cc
 +.inpois.cc
-+.inpos.mom
 +.inposs.cc
 +.inpost.cc
 +.inpost.su
@@ -59563,6 +60149,7 @@
 +.insane.gg
 +.insane.gl
 +.inscan.cn
++.inseco.cl
 +.inseee.fr
 +.inssee.fr
 +.insted.in
@@ -59574,6 +60161,7 @@
 +.inteo.xyz
 +.intext.de
 +.intgr.net
++.intigm.ru
 +.intrev.co
 +.intsv.net
 +.intur.biz
@@ -59636,12 +60224,14 @@
 +.iphm.info
 +.iphzb.vip
 +.ipiis.org
++.ipisi.net
 +.ipkju.com
 +.iplin.com
 +.ipltq.com
 +.iplwin.cc
 +.iplwin.co
 +.ipmeta.io
++.ipminc.ca
 +.ipnfo.com
 +.ipnuc.com
 +.ipnyx.com
@@ -59687,6 +60277,7 @@
 +.irbem.com
 +.irck.skin
 +.ircmj.org
++.iredi.org
 +.ireel.com
 +.ireit.com
 +.iren.site
@@ -59731,6 +60322,7 @@
 +.isemg.xyz
 +.isenc.org
 +.isess.org
++.isewrk.uk
 +.isfcp.net
 +.isflm.com
 +.isgi.skin
@@ -59740,6 +60332,7 @@
 +.isilan.co
 +.isj5b.com
 +.isking.cn
++.islip.net
 +.islot.ink
 +.ism99.xyz
 +.ismas.org
@@ -59767,6 +60360,7 @@
 +.it2ua.com
 +.it60s.org
 +.itacb.org
++.itacr.com
 +.itala.org
 +.itant.org
 +.itboi.com
@@ -59776,7 +60370,6 @@
 +.itekc.com
 +.iteyi.xyz
 +.itgear.jp
-+.ithao.top
 +.itheo.org
 +.itiltd.in
 +.itl4d.com
@@ -59813,7 +60406,6 @@
 +.itxas.com
 +.itza.name
 +.iu.com.hk
-+.iuddy.com
 +.iudop.com
 +.iueto.xyz
 +.iufgr.sbs
@@ -59827,6 +60419,7 @@
 +.iuuvv.com
 +.iuwej.icu
 +.iv0te.com
++.ivalue.tw
 +.ivcut.com
 +.iveai.com
 +.ivehi.xyz
@@ -59869,7 +60462,6 @@
 +.iwin.tips
 +.iwinv.net
 +.iwjbb.com
-+.iwqe.info
 +.iwtif.com
 +.iwtj.info
 +.iwx24.com
@@ -60405,7 +60997,6 @@
 +.janti.pro
 +.jaqid.xyz
 +.jaqs.site
-+.jar28.com
 +.jarda.top
 +.jasa1.org
 +.jasa1.xyz
@@ -60426,6 +61017,7 @@
 +.javla.xyz
 +.javuf.com
 +.jawjo.com
++.jaxat.com
 +.jaxban.eu
 +.jaxma.com
 +.jaxx.site
@@ -60549,6 +61141,7 @@
 +.jbet88.co
 +.jbffm.top
 +.jbfilm.pl
++.jbfmd.top
 +.jbfzh.com
 +.jbi9m.com
 +.jbint.biz
@@ -60675,6 +61268,7 @@
 +.jc99.site
 +.jca76.com
 +.jcbbi.com
++.jcedu.org
 +.jceim.org
 +.jcff.info
 +.jcgrt.com
@@ -60739,6 +61333,7 @@
 +.jeng3.com
 +.jeng4.com
 +.jeniz.xyz
++.jenser.mx
 +.jeoce.com
 +.jepang.uk
 +.jepara.me
@@ -60884,6 +61479,7 @@
 +.jitiem.ru
 +.jituhk.cc
 +.jiu234.cc
++.jiviz.com
 +.jivox.com
 +.jixia.ink
 +.jizzy.org
@@ -60960,6 +61556,7 @@
 +.jknrwe.cn
 +.jkolp.com
 +.jkqzy.com
++.jkwir.com
 +.jkxah.com
 +.jkzs1.net
 +.jl-mag.de
@@ -60990,6 +61587,7 @@
 +.jlolw.net
 +.jlph9.com
 +.jlrd.asia
++.jlsec.red
 +.jlttt.com
 +.jltxwl.cn
 +.jlvvv.com
@@ -61219,6 +61817,7 @@
 +.jsqur.com
 +.jsrdn.com
 +.jss77.net
++.jsw.co.id
 +.jswh.shop
 +.jswww.net
 +.jsynl.org
@@ -61274,6 +61873,7 @@
 +.julape.fr
 +.juldem.ru
 +.julupe.fr
++.jumper.im
 +.jun08.com
 +.jun15.vip
 +.jun23.com
@@ -61422,7 +62022,6 @@
 +.jzvjd.top
 +.jzvnc.com
 +.k-h.co.il
-+.k-k-k.com
 +.k-sorm.ru
 +.k.btop.kz
 +.k0084.com
@@ -61567,6 +62166,7 @@
 +.k5942.com
 +.k5943.vip
 +.k5974.com
++.k5fun.com
 +.k5win.app
 +.k5win.biz
 +.k5win.net
@@ -62211,7 +62811,9 @@
 +.kaiyu.xyz
 +.kaiyun.io
 +.kaiz4.com
++.kaizen.pk
 +.kajt24.pl
++.kakadu.by
 +.kakao.uno
 +.kaksu.com
 +.kaldc.vip
@@ -62311,6 +62913,7 @@
 +.kch4d.com
 +.kchen.top
 +.kchsa.net
++.kcims.org
 +.kckaa.com
 +.kcor.live
 +.kcoys.com
@@ -62352,6 +62955,7 @@
 +.ke3cm.com
 +.ke688.com
 +.keajs.com
++.keane.top
 +.keatz.com
 +.kebet.com
 +.kebi1.top
@@ -62440,6 +63044,7 @@
 +.kfcal.com
 +.kfcjn.com
 +.kfclub.cc
++.kfdsh.org
 +.kfefr.com
 +.kfenr.com
 +.kfgcw.com
@@ -62456,7 +63061,6 @@
 +.kfthd.com
 +.kftpp.com
 +.kfubw.com
-+.kfwpr.com
 +.kg18.info
 +.kg1lk.xyz
 +.kg264.com
@@ -62503,6 +63107,7 @@
 +.khdny.top
 +.khelpe.in
 +.khenos.cl
++.khewe.com
 +.khgpw.xyz
 +.khhbo.top
 +.khnxm.com
@@ -62581,10 +63186,13 @@
 +.kjbds.ltd
 +.kjbwuq.cn
 +.kjche.com
++.kjfgu.com
 +.kjfvu.top
++.kjhed.com
 +.kjk7q.com
 +.kjlua.com
 +.kjmgv.xyz
++.kjqweo.uk
 +.kjrtp.com
 +.kjrty.com
 +.kjubd.com
@@ -62783,7 +63391,6 @@
 +.kowbx.com
 +.koxzo.com
 +.kozjin.io
-+.koztv.com
 +.kpbuj.com
 +.kpgia.top
 +.kpiwo.com
@@ -62828,6 +63435,7 @@
 +.kravl.com
 +.krebas.lt
 +.krebss.de
++.krew4.com
 +.krfun.com
 +.krgoc.xyz
 +.krikya.io
@@ -62835,7 +63443,6 @@
 +.krio.site
 +.krmis.top
 +.krmoyu.cn
-+.kroal.com
 +.krona.com
 +.kroy.site
 +.krphp.com
@@ -62936,6 +63543,7 @@
 +.ktovn.xyz
 +.ktowc.com
 +.ktrfd.xyz
++.kts.group
 +.kttasj.in
 +.ktxtr.com
 +.ktydc.top
@@ -63283,6 +63891,7 @@
 +.lasax.org
 +.lascpi.fr
 +.lasix.top
++.lasji.net
 +.lasoe.fun
 +.last.life
 +.last4d.co
@@ -63450,6 +64059,7 @@
 +.lego77.im
 +.lego77.ws
 +.lehi.info
++.leibk.com
 +.leifr.com
 +.leiki.com
 +.lejada.pl
@@ -63486,6 +64096,7 @@
 +.lesmt.com
 +.lesti.net
 +.letask.me
++.letco.org
 +.letoo.one
 +.letou.art
 +.letou.com
@@ -63494,6 +64105,7 @@
 +.leuipe.fr
 +.leumia.io
 +.leuo.info
++.levelh.bg
 +.levelx.me
 +.leverj.io
 +.levgs.top
@@ -63612,6 +64224,7 @@
 +.likenu.se
 +.liket.top
 +.lil88.com
++.lilik.pro
 +.lilith.pw
 +.limduc.cl
 +.limej.top
@@ -63637,6 +64250,7 @@
 +.linker.ba
 +.linker.bg
 +.linker.hr
++.linki.one
 +.linkly.io
 +.linkmn.gr
 +.linkr.top
@@ -63717,7 +64331,7 @@
 +.lk88.info
 +.lk888.net
 +.lk888.run
-+.lkero.top
++.lkj.co.in
 +.lkk135.co
 +.lkk135.me
 +.lknne.top
@@ -63744,7 +64358,6 @@
 +.lm882.com
 +.lmadps.jp
 +.lmaox.com
-+.lmaxo.icu
 +.lmc88.vip
 +.lmcau.net
 +.lmcau.org
@@ -63766,6 +64379,7 @@
 +.lmraa.com
 +.lmsx1.com
 +.lmsx2.com
++.lmt20.com
 +.lmvotk.cn
 +.lmwmm.com
 +.lmwo5.com
@@ -63775,6 +64389,7 @@
 +.ln5o4.xyz
 +.lnbet.com
 +.lnbgj.top
++.lnbmx.com
 +.lncfz.top
 +.lncig.com
 +.lndex.org
@@ -63797,7 +64412,6 @@
 +.lo88.live
 +.load2.biz
 +.load3.biz
-+.load5.biz
 +.load7.biz
 +.loanme.pl
 +.loasp.com
@@ -63838,6 +64452,7 @@
 +.lomark.cn
 +.lometr.pl
 +.lonaci.fr
++.loncin.ae
 +.lont.skin
 +.lontor.ru
 +.loofy.xyz
@@ -63892,7 +64507,6 @@
 +.lpn89.xyz
 +.lpoint.fr
 +.lpoms.com
-+.lpost.icu
 +.lprabc.ca
 +.lpswz.top
 +.lpuss.xyz
@@ -63928,6 +64542,7 @@
 +.lsdny.com
 +.lseee.lol
 +.lsffp.top
++.lsgbs.com
 +.lsjne.com
 +.lskg.shop
 +.lsktb.xyz
@@ -63949,11 +64564,9 @@
 +.ltdgg.com
 +.ltede.com
 +.lteya.com
-+.ltf.world
 +.ltht.tech
 +.ltiws.com
 +.ltl96.com
-+.ltlly.com
 +.ltmen.com
 +.ltraw.top
 +.ltrgr.sbs
@@ -64211,6 +64824,7 @@
 +.m2c.group
 +.m2d.m2.ai
 +.m2ej53.cc
++.m2play.ro
 +.m2pub.com
 +.m2x2b.top
 +.m2ys.info
@@ -64294,10 +64908,10 @@
 +.ma-i2i.jp
 +.ma.mvr.se
 +.ma.tss.se
-+.ma588.com
 +.ma897.top
 +.maazon.uk
 +.mab99.com
++.mabest.cl
 +.mabila.ua
 +.mabo1.com
 +.mabo6.com
@@ -64308,6 +64922,7 @@
 +.macfh.top
 +.macoms.la
 +.macr2.com
++.macro.nyc
 +.mad-a.com
 +.madde.org
 +.madeon.ru
@@ -64337,6 +64952,7 @@
 +.magnus.ms
 +.magpi.com
 +.magres.ru
++.magt1.xyz
 +.maha4d.id
 +.mahao.xyz
 +.mahgrp.cn
@@ -64504,7 +65120,6 @@
 +.mazn1.com
 +.mazpa.com
 +.mazuma.ru
-+.mb-ph.net
 +.mb102.com
 +.mb103.com
 +.mb104.com
@@ -64539,6 +65154,7 @@
 +.mbela.top
 +.mbet8.net
 +.mbf55.com
++.mbgrm.com
 +.mbity.net
 +.mbkds.net
 +.mblink.in
@@ -64672,6 +65288,7 @@
 +.mdyhb.com
 +.me-ble.pl
 +.me-bu.pro
++.me-e6.com
 +.me-e6.xyz
 +.me-fit.de
 +.me-gr.com
@@ -64811,6 +65428,7 @@
 +.meouv.xyz
 +.meow24.cn
 +.mepost.pw
++.meqyas.ae
 +.mer30.org
 +.mer66.com
 +.merah.sbs
@@ -64822,6 +65440,7 @@
 +.merita.ir
 +.merlx.com
 +.mernis.co
++.merret.cl
 +.mertic.fr
 +.mescan.ca
 +.mesgd.org
@@ -64859,7 +65478,6 @@
 +.mf1ve.com
 +.mf666.xyz
 +.mf703.com
-+.mfa-ic.ae
 +.mfcba.xyz
 +.mfcpl.org
 +.mfgdr.xyz
@@ -64999,6 +65617,7 @@
 +.miko69.ws
 +.mikop.xyz
 +.milen.top
++.miliao.co
 +.milion.ro
 +.milkos.gr
 +.milktr.uk
@@ -65008,6 +65627,7 @@
 +.mimwe.com
 +.min21.org
 +.mind-x.io
++.mindit.in
 +.mineit.io
 +.minero.cc
 +.minero.pw
@@ -65018,6 +65638,7 @@
 +.mineux.io
 +.minggu.me
 +.mingy.xyz
++.minhzo.ru
 +.mining.sg
 +.minsa.com
 +.mintj.com
@@ -65035,6 +65656,7 @@
 +.mirex.top
 +.misbp.org
 +.miscy.net
++.mishal.be
 +.misiz.com
 +.misli.com
 +.miso88.bz
@@ -65046,6 +65668,7 @@
 +.missi.fun
 +.missl.org
 +.misty.cat
++.mitica.eu
 +.mitmh.com
 +.mitoto.cc
 +.mitour.de
@@ -65069,6 +65692,7 @@
 +.mj88.rest
 +.mjans.com
 +.mjdfv.com
++.mjgoc.com
 +.mjheo.biz
 +.mjhm.shop
 +.mjk34.xyz
@@ -65180,9 +65804,10 @@
 +.mmdex.com
 +.mmeet.org
 +.mmexe.com
-+.mmhp.link
++.mmhhf.com
 +.mmile.com
 +.mmiol.com
++.mmk14.top
 +.mmk7.buzz
 +.mmkat.net
 +.mmket.com
@@ -65206,6 +65831,7 @@
 +.mmtro.com
 +.mmtsa.top
 +.mmtt4.com
++.mmvin.com
 +.mmvtul.cn
 +.mmwllp.ca
 +.mmx09.top
@@ -65271,6 +65897,7 @@
 +.mochil.id
 +.mocpt.xyz
 +.moda-e.de
++.modama.ae
 +.modara.de
 +.modato.ru
 +.modlet.ro
@@ -65347,6 +65974,7 @@
 +.moozin.de
 +.mopub.com
 +.moqdy.icu
++.moraya.id
 +.more0.biz
 +.more1.biz
 +.more3.biz
@@ -65392,8 +66020,10 @@
 +.mp3red.cc
 +.mp3y.info
 +.mpappy.fr
++.mpcel.com
 +.mpdq.skin
 +.mpepy.xyz
++.mpeumo.cl
 +.mpf2f.com
 +.mpfcu.org
 +.mphb0.com
@@ -65441,7 +66071,6 @@
 +.mqgcy.com
 +.mqgyj.top
 +.mqiqd.xyz
-+.mqsjzm.cn
 +.mqtmut.fr
 +.mr-bet.ca
 +.mr-in.com
@@ -65700,7 +66329,6 @@
 +.mvdrf.top
 +.mvesm.org
 +.mvfef.com
-+.mvhelp.cc
 +.mvm88.com
 +.mvmbs.com
 +.mvo888.co
@@ -65792,6 +66420,7 @@
 +.mycdn4.ru
 +.mycdx.xyz
 +.mycep.org
++.mycfd.org
 +.mycnal.fr
 +.mycrc.org
 +.myct.club
@@ -65804,6 +66433,7 @@
 +.mydop.xyz
 +.myduf.com
 +.myeld.one
++.myes2.com
 +.myfast.ru
 +.myfile.id
 +.myflag.cn
@@ -65859,13 +66489,16 @@
 +.mystat.it
 +.mystat.pl
 +.mysumo.de
++.mysura.it
 +.myszy.net
 +.mytaxi.ca
 +.mytjbj.pw
 +.mytoot.in
 +.mytraf.ru
++.mytrip.ng
 +.mytrk.xyz
 +.mytrx.org
++.myuoh.org
 +.myupb.com
 +.myups.biz
 +.myurls.us
@@ -66302,6 +66935,7 @@
 +.nacro.org
 +.nactx.com
 +.naddm.xyz
++.nadon.net
 +.nadong.cn
 +.naex.tech
 +.naftis.fr
@@ -66310,6 +66944,7 @@
 +.nagsm.com
 +.nahro.com
 +.nahse.org
++.naija.top
 +.naiki.top
 +.nailx.top
 +.nainaa.in
@@ -66328,6 +66963,7 @@
 +.namail.eu
 +.namel.net
 +.namex.com
++.namih.net
 +.namol.xyz
 +.namtc.org
 +.namyn.com
@@ -66386,6 +67022,7 @@
 +.navi36.ru
 +.navi38.ru
 +.navi39.ru
++.navi42.ru
 +.navi45.ru
 +.navi5.com
 +.navi59.ru
@@ -66396,7 +67033,6 @@
 +.navi72.ru
 +.navi78.ru
 +.navi8.com
-+.navi83.ru
 +.navi86.ru
 +.navisa.cr
 +.navut.com
@@ -66459,8 +67095,10 @@
 +.ncaba.com
 +.ncalm.org
 +.ncbax.bid
++.ncbcn.org
 +.ncbi.asia
 +.ncc64.com
++.nccsl.org
 +.nccte.org
 +.nccts.org
 +.ncdle.net
@@ -66471,6 +67109,7 @@
 +.nchux.xyz
 +.nciba.com
 +.nckse.com
++.ncloud.ru
 +.ncmxz.com
 +.ncnih.top
 +.ncoht.com
@@ -66486,6 +67125,7 @@
 +.ncyj5.com
 +.ncyj6.com
 +.nda-x.com
++.ndcda.com
 +.ndewa.com
 +.ndfgg.com
 +.ndft.asia
@@ -66497,6 +67137,7 @@
 +.ndocs.lat
 +.ndocs.xyz
 +.ndppf.com
++.ndskm.com
 +.ndtba.org
 +.ndtech.in
 +.ndula.top
@@ -66546,6 +67187,7 @@
 +.neojp.cam
 +.neolx.com
 +.neon4d.id
++.neopet.cl
 +.neored.ai
 +.neosap.ru
 +.neoxa.net
@@ -66587,6 +67229,7 @@
 +.netor.net
 +.netraq.de
 +.netrk.net
++.netspi.sh
 +.nettby.us
 +.netum.net
 +.netweb.ai
@@ -66707,7 +67350,6 @@
 +.nhatu.com
 +.nhbay.com
 +.nhbib.org
-+.nhcux.com
 +.nhern.org
 +.nhgui.com
 +.nhhgt.com
@@ -66743,7 +67385,9 @@
 +.nickel.su
 +.nickon.ru
 +.nicoll.ca
++.nide.asia
 +.nieae.xyz
++.nienkz.nl
 +.nifter.io
 +.night1.pw
 +.niivy.xyz
@@ -66767,6 +67411,7 @@
 +.ninw.asia
 +.nip10.com
 +.nip12.com
++.nip17.com
 +.nip23.com
 +.nip24.com
 +.nip26.com
@@ -66786,6 +67431,7 @@
 +.nismf.com
 +.nit.uk.to
 +.nitah.org
++.nitio.com
 +.nitwos.pl
 +.nityam.uk
 +.niu8u.com
@@ -66819,7 +67465,6 @@
 +.njzyjy.cn
 +.nk9s6.com
 +.nkads.com
-+.nkahh.sbs
 +.nkd69.vip
 +.nkj88.fyi
 +.nkjyw.net
@@ -66924,6 +67569,7 @@
 +.nobla.org
 +.nobnt.com
 +.nocda.top
++.nodema.it
 +.noefa.com
 +.noeuf.com
 +.noexy.one
@@ -66982,6 +67628,7 @@
 +.norter.ru
 +.norto.com
 +.norton.pl
++.norvik.ug
 +.norvpn.fr
 +.nos777.cc
 +.nosap.win
@@ -67032,7 +67679,6 @@
 +.nqtnj.com
 +.nqtxg.xyz
 +.nr5xz.top
-+.nrbqgf.cn
 +.nrepo.ltd
 +.nrged.com
 +.nrgfy.com
@@ -67050,6 +67696,7 @@
 +.nrvpp.xyz
 +.nrxed.xyz
 +.nryiw.xyz
++.ns.com.pk
 +.ns.hws.ru
 +.ns222.com
 +.ns529.com
@@ -67065,19 +67712,21 @@
 +.nsfwr.com
 +.nsheg.com
 +.nshix.xyz
++.nsish.com
 +.nsjer.com
 +.nsjtt.org
-+.nsopi.com
 +.nsoqa.com
 +.nss26.com
 +.nssdp.com
 +.nst77.com
 +.nster.net
++.nstqb.org
 +.nstra.pro
 +.nsvisa.uk
 +.nsvpn.com
 +.nsvvm.xyz
 +.nsvyu.xyz
++.nsxoq.xyz
 +.nsxzw.com
 +.nsyud.com
 +.ntah7.com
@@ -67086,6 +67735,7 @@
 +.ntcpk.org
 +.ntdll.top
 +.ntdxx.com
++.nteh7.top
 +.ntent.com
 +.ntfck.com
 +.ntflo.com
@@ -67144,7 +67794,6 @@
 +.nutres.es
 +.nutrk.com
 +.nutte.com
-+.nuubu.com
 +.nuurs.net
 +.nuvon.com
 +.nuvym.com
@@ -67279,21 +67928,23 @@
 +.o5156.com
 +.o5oc0.com
 +.o6439.com
++.o6ngt.top
 +.o7337.com
 +.o77vn.com
 +.o7car.com
 +.o8.aus.cc
++.o8y12.top
 +.o8zoz.icu
 +.o911o.com
 +.o9431.com
 +.o9dmr.org
 +.o9dmr.xyz
 +.o9wr.info
-+.o9ytf.top
 +.oaer7.com
 +.oaer7.org
 +.oaer7.xyz
 +.oaexm.com
++.oag.pl.so
 +.oagij.top
 +.oahud.com
 +.oaibo.top
@@ -67380,6 +68031,7 @@
 +.ocxxx.com
 +.od178.com
 +.odal.skin
++.odbsa.com
 +.odcuf.top
 +.oddset.de
 +.odedd.com
@@ -67403,6 +68055,7 @@
 +.oegzj.com
 +.oehgk.com
 +.oempl.com
++.oenai.one
 +.oenek.com
 +.oeozh.com
 +.oespn.com
@@ -67510,7 +68163,6 @@
 +.ojooo.com
 +.ojpem.com
 +.ojqjrg.cn
-+.ojry.link
 +.ojwin.com
 +.ojwin.vip
 +.ojzsf.com
@@ -67540,10 +68192,12 @@
 +.okegas.cc
 +.okegas.me
 +.okello.ca
++.okendo.mx
 +.okews8.me
 +.okgba.top
 +.okhko.com
 +.oki0l.pro
++.okidok.se
 +.okisdy.id
 +.okjl.info
 +.okjl.work
@@ -67579,7 +68233,6 @@
 +.okvnd.com
 +.okwin5.me
 +.okwtl.com
-+.okx.house
 +.okxaa.com
 +.okxhh.com
 +.okxo32.cc
@@ -67656,6 +68309,7 @@
 +.omaze.com
 +.ombox.net
 +.omboy.xyz
++.omcvn.org
 +.omd69.vip
 +.omeci.net
 +.omeda.com
@@ -67726,7 +68380,6 @@
 +.onchec.ca
 +.ondos.xyz
 +.one-dl.cc
-+.one-re.ru
 +.one-th.cc
 +.one88.com
 +.one88.fun
@@ -67859,6 +68512,7 @@
 +.opsaz.pro
 +.opsdjs.ug
 +.opsip.com
++.opsol.com
 +.opszt.com
 +.optcv.com
 +.optmd.com
@@ -68003,6 +68657,7 @@
 +.ouchar.ru
 +.oudax.com
 +.ougov.com
++.ouiej.com
 +.ouim.skin
 +.ouipb.xyz
 +.ouiy.shop
@@ -68100,7 +68755,6 @@
 +.oyo89.com
 +.oyo99e.co
 +.oysud.top
-+.oyta1.net
 +.oyund.net
 +.oyxts.xyz
 +.oyxzel.cn
@@ -68109,6 +68763,7 @@
 +.oyywr.xyz
 +.oyzta.com
 +.oz-th.com
++.oz.com.py
 +.oz333.com
 +.ozero.top
 +.ozgo5.xyz
@@ -68341,6 +68996,7 @@
 +.pa5ka.com
 +.pa678.vip
 +.pa688.top
++.paaru.org
 +.pab.co.id
 +.pabio.org
 +.pacaj.com
@@ -68379,6 +69035,7 @@
 +.palkor.id
 +.pallet.fm
 +.palms.bet
++.paltim.ro
 +.pamdq.com
 +.pamini.fr
 +.pamuji.id
@@ -68497,6 +69154,7 @@
 +.pc99s.com
 +.pcapk.org
 +.pcar.tech
++.pccyy.com
 +.pcdsd.xyz
 +.pceee.com
 +.pcf08.com
@@ -68567,6 +69225,7 @@
 +.pea-th.co
 +.peaqe.dev
 +.peard.net
++.peasx.com
 +.peaxs.com
 +.peazz.com
 +.pebih.com
@@ -68636,6 +69295,7 @@
 +.pfe01.com
 +.pfepfe.cc
 +.pfhoe.com
++.pfixs.com
 +.pfkbd.ltd
 +.pfl888.cc
 +.pflbr.top
@@ -68854,6 +69514,7 @@
 +.php711.co
 +.phpab.org
 +.phpix.org
++.phpnet.us
 +.phptt.com
 +.phpub.win
 +.phrvu.xyz
@@ -68895,7 +69556,9 @@
 +.piipa.org
 +.piiq6.xyz
 +.pijon.top
++.piktor.in
 +.pilex.top
++.pilsa.cat
 +.pimep.com
 +.pin-up.pe
 +.pin-up.ua
@@ -68921,7 +69584,6 @@
 +.piqur.com
 +.pirate.be
 +.pirca.org
-+.pisa1.net
 +.pitand.im
 +.piu4d.org
 +.piurl.net
@@ -69080,6 +69742,7 @@
 +.plains.fr
 +.planet.to
 +.planso.de
++.plat24.pl
 +.play2x.sh
 +.player.ro
 +.playgc.uk
@@ -69139,6 +69802,7 @@
 +.pmoae.com
 +.pmpkp.com
 +.pmptk.xyz
++.pmptm.org
 +.pms99.com
 +.pmsvy.com
 +.pmtqe.xyz
@@ -69204,7 +69868,6 @@
 +.pomich.pl
 +.pomoly.hk
 +.pomsj.com
-+.pondx.art
 +.ponka.biz
 +.pooev.com
 +.pooff.xyz
@@ -69317,6 +69980,7 @@
 +.povew.xyz
 +.pow77.xyz
 +.powbet.ee
++.powerz.co
 +.poxof.org
 +.poyva.com
 +.pozyt.xyz
@@ -69377,7 +70041,6 @@
 +.ppskia.in
 +.ppstw.com
 +.pptlu.com
-+.pputy.com
 +.ppv25.com
 +.ppv85.com
 +.ppvsc.com
@@ -69419,8 +70082,10 @@
 +.prfjk.org
 +.prfpd.org
 +.prgmt.com
++.prgtti.pk
 +.prhys.xyz
 +.pri.homes
++.pricha.ba
 +.primas.io
 +.pring.org
 +.prio.zone
@@ -69446,6 +70111,8 @@
 +.prok8.com
 +.prol.info
 +.prolbc.fr
++.prolid.mx
++.promel.pe
 +.prona.xyz
 +.pronot.fr
 +.proper.io
@@ -69517,6 +70184,7 @@
 +.psnas.top
 +.psncl.com
 +.psoc.asia
++.psound.hu
 +.psrra.org
 +.psstt.com
 +.pstmrk.it
@@ -69529,6 +70197,7 @@
 +.pt-xb.xyz
 +.pt.lax.mx
 +.pt1.homes
++.pt44s.com
 +.pt707.com
 +.pt777.bet
 +.pt777.com
@@ -69565,19 +70234,23 @@
 +.ptsd.club
 +.ptsos.com
 +.ptt-g.lol
++.pttad.top
 +.pttat.ink
++.pttbk.top
 +.pttbn.ink
 +.pttbp.ink
 +.pttct.ink
 +.pttem.ink
 +.pttet.com
++.pttfc.top
 +.pttft.ink
++.pttgg.ink
 +.pttgv.ink
 +.pttit.top
-+.pttki.ink
 +.pttkm.ink
 +.pttkt.ink
 +.pttli.ink
++.pttlv.top
 +.pttni.ink
 +.pttpm.ink
 +.pttqo.ink
@@ -69588,17 +70261,17 @@
 +.pttti.ink
 +.ptttl.ink
 +.ptttn.ink
-+.pttts.ink
 +.pttui.ink
 +.pttuo.ink
 +.pttvy.ink
 +.pttwi.ink
-+.pttwi.xyz
 +.pttwk.ink
 +.pttwk.vip
-+.pttww.top
++.pttxy.ink
++.pttxy.top
 +.pttze.ink
 +.pttze.top
++.pttzm.top
 +.pttzt.ink
 +.ptutc.xyz
 +.ptwin.bet
@@ -69641,7 +70314,6 @@
 +.pupur.net
 +.pupur.pro
 +.puratv.cl
-+.purde.top
 +.purkz.com
 +.pursey.uk
 +.pursm.org
@@ -69654,12 +70326,10 @@
 +.putana.cz
 +.putar.win
 +.putokt.ru
-+.puttyy.ca
 +.putu3.xyz
 +.putu6.xyz
 +.putu7.xyz
 +.putu9.xyz
-+.putyy.org
 +.puvtx.xyz
 +.puzkm.com
 +.puzna.com
@@ -69697,7 +70367,6 @@
 +.pwrby.com
 +.pwtcdv.cn
 +.pwttr.xyz
-+.pwuxnr.cn
 +.pwvgs.com
 +.pwwes.com
 +.px.energy
@@ -69831,16 +70500,20 @@
 +.qa2s2.pro
 +.qacss.com
 +.qaipc.org
++.qakas.com
++.qameg.com
 +.qamoc.com
 +.qang7.com
 +.qange.com
 +.qasid.com
 +.qasqs.com
 +.qatib.com
-+.qatuk.org
++.qayali.az
 +.qb266.com
++.qb365.biz
 +.qb66.club
 +.qb979.com
++.qbaka.com
 +.qbaka.net
 +.qbbbv.xyz
 +.qbgvz.com
@@ -70050,7 +70723,6 @@
 +.qhpuw.xyz
 +.qhsfe.com
 +.qhtui.com
-+.qhtxxf.cn
 +.qhufr.com
 +.qhuif.com
 +.qhuugr.cc
@@ -70097,12 +70769,12 @@
 +.qktua.top
 +.qku2r.com
 +.qky29.top
-+.qky36.top
 +.qky37.top
 +.qky39.top
 +.qky42.top
 +.qkygy.com
 +.qkzjf.top
++.ql9uk.top
 +.qlapa.com
 +.qlenw.com
 +.qlepy.com
@@ -70123,7 +70795,6 @@
 +.qm880.com
 +.qm8eh.vip
 +.qm997.com
-+.qmaiil.ml
 +.qmap.club
 +.qmbdta.cn
 +.qmdgu.com
@@ -70137,7 +70808,6 @@
 +.qn24e.com
 +.qn5ty.pro
 +.qndbd.xyz
-+.qnlmjl.cn
 +.qnmao.xyz
 +.qnmxhc.cn
 +.qnos.shop
@@ -70288,6 +70958,7 @@
 +.quejr.top
 +.queqh.com
 +.quibly.in
++.quibuy.it
 +.quick.bet
 +.quigo.com
 +.quiqb.xyz
@@ -70327,7 +70998,6 @@
 +.qvwcc.com
 +.qvxht.xyz
 +.qvxsc.com
-+.qw168.icu
 +.qw168.top
 +.qwacg.com
 +.qwapi.com
@@ -70669,6 +71339,7 @@
 +.rajbet.in
 +.rajkot.in
 +.raka24.de
++.raksun.in
 +.ralene.us
 +.raler.xyz
 +.ralex.top
@@ -70696,6 +71367,7 @@
 +.rassw.xyz
 +.rassx.xyz
 +.rastek.id
++.ratar.net
 +.rating.in
 +.ratke.biz
 +.rato1.com
@@ -70754,6 +71426,7 @@
 +.rb24k.com
 +.rb7t1.com
 +.rb7t1.xyz
++.rbaho.top
 +.rbbko.com
 +.rbbn.link
 +.rbcdn.com
@@ -70927,6 +71600,7 @@
 +.renado.de
 +.rencr.com
 +.renew.tel
++.renp7.xyz
 +.rent2.xyz
 +.renuj.com
 +.renzos.us
@@ -71016,6 +71690,7 @@
 +.rh365.biz
 +.rh365.xyz
 +.rheimz.de
++.rhfkw.com
 +.rhfree.fr
 +.rhgyg.com
 +.rhgyx.top
@@ -71060,6 +71735,7 @@
 +.rikza.top
 +.rilot.com
 +.rimaje.nl
++.rimity.in
 +.rimnow.fr
 +.rinado.id
 +.rinare.id
@@ -71148,7 +71824,6 @@
 +.rnb69.pro
 +.rnb69.xyz
 +.rnet.plus
-+.rnhrg.com
 +.rnhyo.xyz
 +.rnjca.com
 +.rnmdp.xyz
@@ -71164,6 +71839,7 @@
 +.roa21.com
 +.roalx.com
 +.roange.fr
++.roasis.co
 +.rob10.com
 +.robbf.com
 +.robiox.eu
@@ -71195,6 +71871,7 @@
 +.roce.asia
 +.roclox.cn
 +.rodana.de
++.rodnye.by
 +.rodrov.ru
 +.roed25.dk
 +.roegr.sbs
@@ -71308,6 +71985,7 @@
 +.rrn.world
 +.rrnvq.top
 +.rrrbet.tv
++.rrrmhs.in
 +.rrrnk.com
 +.rrspy.com
 +.rrttp.com
@@ -71500,6 +72178,7 @@
 +.rwmfz.com
 +.rwq9c.com
 +.rwsbu.com
++.rwugt.com
 +.rwuhg.xyz
 +.rwyqn.xyz
 +.rwzx.shop
@@ -71845,10 +72524,12 @@
 +.sa669.com
 +.sa88.fans
 +.sa88.link
++.saaad.org
 +.saarm.pro
 +.saba.club
 +.sababa.lt
 +.sabet.com
++.sabias.cl
 +.sabtc.com
 +.sac40.org
 +.sacil.xyz
@@ -71927,8 +72608,10 @@
 +.sascwt.cn
 +.sasisa.ru
 +.satcs.com
++.satnet.ma
 +.saton.top
 +.sators.de
++.sattva.in
 +.satua.pro
 +.satura.pl
 +.saub.asia
@@ -71941,6 +72624,7 @@
 +.saven.mov
 +.saven.zip
 +.savey.net
++.savit1.ru
 +.savkar.ai
 +.savme.xyz
 +.sawes.top
@@ -72001,11 +72685,13 @@
 +.sbgj5.com
 +.sbgmx.com
 +.sbgpx.com
++.sbhtv.com
 +.sbird.xyz
 +.sbk21.fun
 +.sblhp.com
 +.sbm5k.com
 +.sbmpc.org
++.sbn.or.id
 +.sbo21.bet
 +.sbo88i.co
 +.sbobet.tv
@@ -72119,6 +72805,7 @@
 +.sddyr.xyz
 +.sde21.xyz
 +.sdef.shop
++.sdejwd.uk
 +.sdfgf.com
 +.sdfsb.com
 +.sdfsd.com
@@ -72132,6 +72819,7 @@
 +.sdkl.info
 +.sdlat.com
 +.sdlgr.sbs
++.sdlsd.com
 +.sdmax.one
 +.sdof3.bid
 +.sdpit.org
@@ -72172,9 +72860,11 @@
 +.sebet.fun
 +.sebet.win
 +.sebxn.com
++.sec38.com
 +.secads.me
 +.secao.com
 +.secede.cn
++.secora.cl
 +.seczy.fun
 +.seebox.fr
 +.seedr.com
@@ -72247,6 +72937,7 @@
 +.sesstm.ee
 +.sesxe.com
 +.sether.ws
++.setman.es
 +.setup.mom
 +.setup.wtf
 +.setup.zip
@@ -72257,6 +72948,7 @@
 +.seung.org
 +.seuwin.cc
 +.sev70.com
++.severo.pt
 +.sewce.com
 +.sexad.net
 +.sexei.net
@@ -72267,6 +72959,7 @@
 +.sextag.fr
 +.sextb.xyz
 +.sextf.com
++.seyso.org
 +.sezame.ma
 +.seznam.cy
 +.seznem.cz
@@ -72403,7 +73096,9 @@
 +.sha256.io
 +.shabon.co
 +.shabq.com
++.shadea.it
 +.shael.org
++.shahab.pk
 +.shahco.in
 +.shaiba.kz
 +.shalix.ru
@@ -72454,8 +73149,10 @@
 +.she777.id
 +.sheff.xyz
 +.shekuo.cn
++.shemis.co
 +.shera.pro
 +.shetk.com
++.shfug.org
 +.shhcc.top
 +.shibie.io
 +.shiiva.fr
@@ -72487,6 +73184,7 @@
 +.shopon.hu
 +.shoppe.kr
 +.shopsm.fr
++.shore.uno
 +.shorte.st
 +.shortu.be
 +.shortx.in
@@ -72494,7 +73192,6 @@
 +.shotz.com
 +.showtv.pl
 +.shpvv.com
-+.shpw.info
 +.shpz.site
 +.shrhs.org
 +.shrtny.co
@@ -72520,6 +73217,7 @@
 +.sicmg.com
 +.sicnet.ca
 +.sidar.xyz
++.sidaun.id
 +.sidbm.net
 +.sienti.pl
 +.siewt.com
@@ -72557,6 +73255,7 @@
 +.sintec.pl
 +.sip69.one
 +.sipath.fr
++.sipaz.net
 +.sipdh.com
 +.sipls.com
 +.sire.work
@@ -72569,6 +73268,7 @@
 +.siswg.org
 +.sita.live
 +.sitest.jp
++.sivall.pe
 +.sivvm.top
 +.six55.com
 +.six6s.dev
@@ -72577,9 +73277,11 @@
 +.sixze.com
 +.sizi99.tv
 +.sj-zj.com
++.sj88.shop
 +.sj88.site
 +.sjemr.org
 +.sjgkg.com
++.sjhds.com
 +.sjheda.cn
 +.sji1.buzz
 +.sjili.com
@@ -72650,6 +73352,7 @@
 +.sklao.xyz
 +.skokos.ca
 +.skor88.in
++.skp.co.id
 +.skqdk.com
 +.skrak.com
 +.skrann.ca
@@ -72682,6 +73385,7 @@
 +.skysa.com
 +.skyte.com
 +.skytr.lat
++.skyvap.es
 +.skyweb.ca
 +.skyxd.pro
 +.skyxon.de
@@ -72695,10 +73399,12 @@
 +.slafd.com
 +.slare.org
 +.slase.xyz
++.slash.com
 +.slbet.com
 +.slc97.com
 +.slcaa.net
 +.slcp.info
++.slcrh.com
 +.slcv7.xyz
 +.slcxc.com
 +.slez.shop
@@ -72821,6 +73527,7 @@
 +.sndso.com
 +.snece.com
 +.snecs.org
++.snfpk.com
 +.snfun.top
 +.sngca.com
 +.sngdn.com
@@ -72828,8 +73535,10 @@
 +.snjh8.com
 +.snkre.com
 +.snoobi.fi
++.snopro.eu
 +.snotet.cc
 +.snowai.cc
++.snpfl.top
 +.snrfs.vip
 +.snsvm.xyz
 +.sntoc.com
@@ -72894,6 +73603,7 @@
 +.soll.baby
 +.soloe.net
 +.solofa.de
++.solom.net
 +.soltsy.ru
 +.solty.biz
 +.solwin.fr
@@ -72931,7 +73641,6 @@
 +.sovrn.com
 +.sowhoz.ru
 +.sowin.org
-+.sowix.pro
 +.sowix.xyz
 +.sowood.uk
 +.soxqp.xyz
@@ -72971,7 +73680,9 @@
 +.spixn.com
 +.spklw.com
 +.spl11.com
++.spl18.top
 +.spl33.top
++.spl66.top
 +.splbd.org
 +.splet.pro
 +.splgs.com
@@ -72985,6 +73696,7 @@
 +.spn77.com
 +.spnews.me
 +.spnut.com
++.spocit.in
 +.spogd.com
 +.spokeo.pl
 +.spoll.top
@@ -73021,6 +73733,7 @@
 +.sqyg14.cc
 +.sr6666.cc
 +.sr950.com
++.srajan.in
 +.sraka.xyz
 +.srch.life
 +.srcii.xyz
@@ -73038,6 +73751,7 @@
 +.sroff.com
 +.srray.com
 +.srrth.com
++.sruoh.com
 +.srurzn.cn
 +.srvgl.com
 +.ss-nc.com
@@ -73062,6 +73776,7 @@
 +.ssevt.com
 +.ssfgg.com
 +.ssfqa.top
++.ssh44.com
 +.ssimi.sbs
 +.ssj42.com
 +.ssjpx.com
@@ -73121,7 +73836,9 @@
 +.stake.mba
 +.stake.mom
 +.stake.pet
++.staked.us
 +.stal48.ru
++.stampa.hr
 +.stape.net
 +.star61.de
 +.stargf.pw
@@ -73181,6 +73898,7 @@
 +.strrpa.in
 +.struq.com
 +.stsbd.com
++.stsbd.org
 +.stseam.ru
 +.stsr3s.cc
 +.stswen.fr
@@ -73318,7 +74036,6 @@
 +.svcog.org
 +.sverd.net
 +.svg77.com
-+.svga1.net
 +.svgjs.com
 +.svhvc.xyz
 +.svip00.cc
@@ -73396,8 +74113,10 @@
 +.sydwzl.cn
 +.syfmi.com
 +.syiae.com
++.syjks.org
 +.syk668.co
 +.sykty.com
++.syloam.eu
 +.symplr.de
 +.syned.xyz
 +.synot.bet
@@ -73416,6 +74135,7 @@
 +.sz388.com
 +.sz555.net
 +.sz66.club
++.szabf.org
 +.szela.net
 +.szela.org
 +.szero.net
@@ -73436,6 +74156,7 @@
 +.szh99.app
 +.szhbt.org
 +.szigr.sbs
++.szipe.org
 +.szke.shop
 +.szofy.com
 +.szos.shop
@@ -73446,6 +74167,7 @@
 +.szurn.top
 +.szxf4.icu
 +.szy-ha.pl
++.t-a-a.org
 +.t-cdn.org
 +.t-pro.org
 +.t-shn.com
@@ -73840,6 +74562,7 @@
 +.ta88a.com
 +.taapi.net
 +.tab.co.nz
++.tabbk.com
 +.tabhd.com
 +.taboli.in
 +.tabun.net
@@ -73934,6 +74657,7 @@
 +.tavish.de
 +.taviu.com
 +.tavon.xyz
++.taxmat.mx
 +.taxon.com
 +.tayck.com
 +.taymw.com
@@ -74072,6 +74796,7 @@
 +.td88.info
 +.tda88.com
 +.tdaxs.top
++.tdbsv.com
 +.tdejb.com
 +.tdeor.xyz
 +.tdhoa.xyz
@@ -74103,8 +74828,10 @@
 +.teccna.de
 +.teceng.mx
 +.techs.com
++.techub.uk
 +.tecit.net
 +.teciw.com
++.tecyu.com
 +.tedtr.xyz
 +.tee-1.com
 +.teeser.ru
@@ -74146,7 +74873,6 @@
 +.terra7.cc
 +.terrex.pl
 +.tertv.com
-+.tesa1.net
 +.tesel.xyz
 +.tesin.net
 +.teslas.pw
@@ -74176,6 +74902,7 @@
 +.tezuk.com
 +.tf.360.cn
 +.tf111.vip
++.tf5fb.sbs
 +.tf88.asia
 +.tf88.cash
 +.tf88.life
@@ -74198,6 +74925,7 @@
 +.tfzah.icu
 +.tg.casino
 +.tg168.vip
++.tg2r1.icu
 +.tg458.com
 +.tg777.app
 +.tg777.art
@@ -74211,6 +74939,7 @@
 +.tg88.news
 +.tg888.vip
 +.tg88ku.me
++.tgagua.mx
 +.tgahpf.cn
 +.tgaja.com
 +.tgars.com
@@ -74229,6 +74958,7 @@
 +.tgl288.me
 +.tgmgo.com
 +.tgmsc.com
++.tgmweb.ir
 +.tgnbt.com
 +.tgngr.sbs
 +.tgraph.io
@@ -74275,6 +75005,7 @@
 +.thabet.me
 +.thadn.com
 +.thaeed.ir
++.thanga.ca
 +.thb62.com
 +.thb92.com
 +.thdav.xyz
@@ -74289,7 +75020,6 @@
 +.thevds.in
 +.thewn.net
 +.thfor.com
-+.thfq.info
 +.thgvs.top
 +.thief.lol
 +.thigi.com
@@ -74403,7 +75133,6 @@
 +.titok.top
 +.titok.vip
 +.tiuas.com
-+.tivi2.com
 +.tiviz.net
 +.tiwana.in
 +.tiypa.com
@@ -74510,6 +75239,7 @@
 +.tlnu.asia
 +.tlodus.de
 +.tlsens.pl
++.tlserv.ru
 +.tltxn.biz
 +.tlx.co.in
 +.tlzs.asia
@@ -74520,13 +75250,13 @@
 +.tm786.com
 +.tmads.xyz
 +.tmail.com
++.tmars.net
 +.tmauv.com
 +.tmb66.com
 +.tmb66.net
 +.tmb66.vip
 +.tmb77.vip
 +.tmbv.info
-+.tmdr7.mom
 +.tmfgp.top
 +.tmfin.com
 +.tmgmr.com
@@ -74536,6 +75266,7 @@
 +.tmko1.com
 +.tmko2.com
 +.tmko3.com
++.tmltt.com
 +.tmmbt.com
 +.tmmbt.net
 +.tmmcv.com
@@ -74564,6 +75295,7 @@
 +.tncid.app
 +.tneca.com
 +.tnfno.icu
++.tng24.com
 +.tnggr.sbs
 +.tngmn.com
 +.tnij.link
@@ -74592,7 +75324,6 @@
 +.toapz.xyz
 +.tobet.com
 +.tocan.biz
-+.tocken.im
 +.tockt.com
 +.toduw.com
 +.toelp.com
@@ -74629,7 +75360,6 @@
 +.tongke.co
 +.tonna.top
 +.tonsim.ro
-+.too3d.com
 +.toodan.cn
 +.tool1.xyz
 +.tootoo.ga
@@ -74777,6 +75507,7 @@
 +.traiga.vn
 +.tran.love
 +.trango.co
++.traque.co
 +.trart.org
 +.trauv.com
 +.travis.id
@@ -74800,6 +75531,7 @@
 +.tredio.io
 +.treema.io
 +.treid.top
++.tremac.hr
 +.trenu.com
 +.tresco.id
 +.trezor.cc
@@ -74807,7 +75539,6 @@
 +.trfas.top
 +.trfrc.com
 +.trgfu.com
-+.trgvu.top
 +.trh87.com
 +.trhzc.com
 +.tri.media
@@ -74818,9 +75549,11 @@
 +.trikot.cc
 +.trimar.pl
 +.trimay.ru
++.trimir.in
 +.trimzy.de
 +.trisol.ru
 +.trisw.com
++.triton.mn
 +.trix.chat
 +.trix.land
 +.trjfp.com
@@ -74861,7 +75594,6 @@
 +.trpop.xyz
 +.trpvg.xyz
 +.trqpfc.cn
-+.trqrh.com
 +.trrfc.org
 +.trrzn.com
 +.trsm05.cn
@@ -74877,6 +75609,7 @@
 +.trus.site
 +.truw.shop
 +.trvdp.com
++.trvgrp.ca
 +.trvic.top
 +.trw12.com
 +.trweh.com
@@ -74960,6 +75693,7 @@
 +.tsgdht.cn
 +.tsgo.shop
 +.tsla.club
++.tsmau.com
 +.tsmi.asia
 +.tsnnc.vip
 +.tspt24.de
@@ -75011,6 +75745,7 @@
 +.ttmps.com
 +.ttmrm.top
 +.ttnbb.com
++.ttofi.com
 +.ttorj.com
 +.ttp88.net
 +.ttr3p.com
@@ -75153,7 +75888,6 @@
 +.twufx.com
 +.twugg.com
 +.twuz.asia
-+.twvovh.cn
 +.tx0827.cn
 +.tx0829.cn
 +.tx0906.cn
@@ -75323,6 +76057,7 @@
 +.u0081.com
 +.u0082.com
 +.u0083.com
++.u1.cc0.ir
 +.u1010.com
 +.u1011.com
 +.u1022.com
@@ -75494,6 +76229,7 @@
 +.ubesr.top
 +.ubet.asia
 +.ubet95.co
++.ubhelp.cc
 +.ubi138.to
 +.ubimo.com
 +.ubish.com
@@ -75530,6 +76266,7 @@
 +.ucfjw.com
 +.uchai.net
 +.ucheba.ru
++.uciran.ir
 +.ucisl.com
 +.ucmal.com
 +.ucpaa.org
@@ -75542,7 +76279,7 @@
 +.ucylu.com
 +.uczzd.com
 +.udakm.com
-+.udates.io
++.udari.org
 +.udb3n.icu
 +.udbaa.com
 +.udbal.com
@@ -75592,7 +76329,6 @@
 +.ueimg.xyz
 +.uekjd.xyz
 +.uektb.com
-+.uelr.info
 +.uemav.xyz
 +.uemis.org
 +.uepcv.com
@@ -75643,6 +76379,7 @@
 +.ufp-2.vip
 +.ufq7j.com
 +.ufsgj.com
++.ufshop.mx
 +.ufswe.com
 +.ufun1.com
 +.ufun4.com
@@ -75676,6 +76413,7 @@
 +.uhfrl.com
 +.uhhmt.com
 +.uhhxs.vip
++.uhi.go.ug
 +.uhjngb.cn
 +.uhmcc.top
 +.uhmds.com
@@ -76260,7 +76998,6 @@
 +.uvasx.com
 +.uvcwj.com
 +.uvhpi.xyz
-+.uvhxe.top
 +.uvip9.vip
 +.uvjal.com
 +.uvmbb.top
@@ -76303,8 +77040,8 @@
 +.uzatd.com
 +.uzbet.com
 +.uzcp.skin
-+.uzea1.net
 +.uzerzn.cn
++.uzfix.com
 +.uzhan.org
 +.uznvg.xyz
 +.uzpuq.top
@@ -76678,6 +77415,7 @@
 +.vc-th.com
 +.vc42j.com
 +.vc63t.com
++.vcallc.us
 +.vcascc.eu
 +.vcbeq.com
 +.vcbet.com
@@ -76714,10 +77452,12 @@
 +.vddpw.xyz
 +.vdeck.app
 +.vdgv.shop
++.vdiec.com
 +.vdoas.com
 +.vdocom.my
 +.vdoxl.com
 +.vdrdn.top
++.vdrone.ro
 +.vdsef.xyz
 +.vdzna.com
 +.ve001.net
@@ -76907,13 +77647,13 @@
 +.vg977.com
 +.vgapl.net
 +.vgbhr.com
++.vgcare.ps
 +.vgdny.com
 +.vgein.com
 +.vggre.xyz
 +.vghht.xyz
 +.vgiac.xyz
 +.vgimer.cn
-+.vgkb.info
 +.vglg.asia
 +.vgmrm.top
 +.vgmzt.xyz
@@ -76932,6 +77672,7 @@
 +.vhixh.com
 +.vhoff.com
 +.vhqlda.cn
++.vi-05.com
 +.vi3cu.com
 +.vi68.asia
 +.vi68.shop
@@ -77101,6 +77842,7 @@
 +.vkfym.com
 +.vkgd.skin
 +.vkjt.asia
++.vkm.co.za
 +.vkokfb.ru
 +.vktyb.bid
 +.vkupon.ru
@@ -77116,7 +77858,6 @@
 +.vlm.legal
 +.vlmcx.top
 +.vloyd.com
-+.vlsia.sbs
 +.vlueo.net
 +.vluomu.cn
 +.vlw777.cc
@@ -77127,6 +77868,7 @@
 +.vm111.com
 +.vm88.game
 +.vmfaq.com
++.vmflex.pt
 +.vmhod.xyz
 +.vmmbr.com
 +.vmmod.com
@@ -77414,12 +78156,12 @@
 +.vpnr.skin
 +.vpop2.com
 +.vposi.com
++.vps.co.ve
 +.vps30.com
 +.vps79.com
 +.vptbn.com
 +.vpwqa.xyz
 +.vpzop.xyz
-+.vqbl.info
 +.vqhw.asia
 +.vqiov.xyz
 +.vqoob.xyz
@@ -77449,6 +78191,7 @@
 +.vrtigo.io
 +.vrtil.com
 +.vrvtn.top
++.vs-lb.com
 +.vs467.com
 +.vs77a.com
 +.vsafl.org
@@ -77552,6 +78295,7 @@
 +.vvpan.com
 +.vvs55.com
 +.vvt7y.pro
++.vvusc.com
 +.vvvnk.com
 +.vvyvw.com
 +.vw010.com
@@ -77739,6 +78483,7 @@
 +.w2873.com
 +.w2876.com
 +.w2978.com
++.w2ax8.xyz
 +.w3004.com
 +.w3011.com
 +.w303.pink
@@ -78158,6 +78903,7 @@
 +.wcfbc.net
 +.wch.ac.th
 +.wcjm.skin
++.wcjwcj.cn
 +.wckici.pl
 +.wcm45.top
 +.wcmcs.net
@@ -78230,6 +78976,7 @@
 +.webflo.io
 +.webgun.io
 +.webime.ca
++.webley.in
 +.webn.site
 +.weboss.in
 +.webou.net
@@ -78278,6 +79025,7 @@
 +.wekza.top
 +.weldon.fr
 +.welect.de
++.wellyz.in
 +.wellzy.de
 +.welmax.pl
 +.welta.pro
@@ -78313,6 +79061,7 @@
 +.wfaqs.com
 +.wfatd.com
 +.wfbz.asia
++.wfdsu.xyz
 +.wfes.site
 +.wfhtr.com
 +.wfkyd.com
@@ -78320,6 +79069,7 @@
 +.wfqfe.top
 +.wfsmz.icu
 +.wfun.site
++.wfybp.top
 +.wg.casino
 +.wg131.com
 +.wg777.org
@@ -78346,6 +79096,7 @@
 +.whatcl.ru
 +.whcee.bid
 +.whedd.com
++.wheezy.io
 +.where.com
 +.whgh1.icu
 +.whgsh.top
@@ -78397,7 +79148,6 @@
 +.win01.xyz
 +.win02.vip
 +.win03.vip
-+.win03.xyz
 +.win04.vip
 +.win05.vip
 +.win06.vip
@@ -78541,6 +79291,7 @@
 +.wkdslt.me
 +.wkeda.com
 +.wkezj.com
++.wkiqz.top
 +.wkjh7.com
 +.wla4d.org
 +.wlczx.com
@@ -78603,7 +79354,6 @@
 +.wns33.net
 +.wns44.com
 +.wns55.net
-+.wnscp.net
 +.wnsdd.com
 +.wnskk.com
 +.wnsmm.com
@@ -78724,7 +79474,6 @@
 +.wrwmm.com
 +.wry.world
 +.wryan.net
-+.wrzt.link
 +.ws138.wtf
 +.ws289.com
 +.ws299.com
@@ -78788,7 +79537,6 @@
 +.wtv3d.org
 +.wtv3e.top
 +.wu333.com
-+.wuaze.com
 +.wubday.ru
 +.wuc11.com
 +.wuci1.xyz
@@ -78797,6 +79545,7 @@
 +.wugig.com
 +.wugne.com
 +.wugxt.xyz
++.wuhan.pro
 +.wuicd.org
 +.wukbw.com
 +.wular.org
@@ -79380,7 +80129,6 @@
 +.x3191.com
 +.x3233.com
 +.x3286.com
-+.x3322.net
 +.x3379.com
 +.x3476.com
 +.x34t6.com
@@ -79889,6 +80637,7 @@
 +.xfdzn.top
 +.xfela.com
 +.xfffx.xyz
++.xfgmo.xyz
 +.xfire.biz
 +.xfmlp.com
 +.xfsrg.xyz
@@ -79896,7 +80645,6 @@
 +.xfu66.com
 +.xfuck.com
 +.xfy60.com
-+.xg986.xyz
 +.xgate.biz
 +.xgatq.com
 +.xgbet.net
@@ -79938,7 +80686,6 @@
 +.xh33g.net
 +.xh797.com
 +.xhash.net
-+.xhaxo.com
 +.xhhmn.xyz
 +.xhjxkj.cn
 +.xhk09.com
@@ -79957,7 +80704,6 @@
 +.xhxbd.xyz
 +.xhydrs.cn
 +.xhypm.com
-+.xhytz.icu
 +.xhzay.com
 +.xiadh.top
 +.xiald.com
@@ -80141,7 +80887,6 @@
 +.xqq01.top
 +.xqyso.xyz
 +.xqzyr.com
-+.xrass.com
 +.xrates.ru
 +.xrfwe.com
 +.xriqn.com
@@ -80356,9 +81101,9 @@
 +.xydsp.com
 +.xygang.cn
 +.xyh75.top
++.xyira.top
 +.xyiyi.com
 +.xyizgh.cn
-+.xyk20.top
 +.xyk53.top
 +.xyk57.top
 +.xym10.com
@@ -80616,6 +81361,7 @@
 +.yads.tech
 +.yahala.cc
 +.yahama.us
++.yaho.chat
 +.yahoa.xyz
 +.yahoio.fr
 +.yahoo.llc
@@ -80711,6 +81457,7 @@
 +.ycsa7.com
 +.ycspj.com
 +.ycsshb.cn
++.ycxad.com
 +.ycxfw.com
 +.ycxrl.com
 +.yd-999.cc
@@ -80755,6 +81502,7 @@
 +.yebet.com
 +.yebt.site
 +.yecum.com
++.yedyed.tn
 +.yeezys.us
 +.yefle.top
 +.yehcp.com
@@ -80846,6 +81594,8 @@
 +.yhilf.com
 +.yhilnc.cn
 +.yhjccj.cn
++.yhoo.info
++.yhoo.live
 +.yhqqc.biz
 +.yhrkh.com
 +.yhxfg.com
@@ -80889,7 +81639,6 @@
 +.ykjnuu.cn
 +.ykmov.com
 +.ykmxx.com
-+.ykoec.com
 +.ykp88.com
 +.yksnet.ai
 +.yksrq.com
@@ -80952,7 +81701,6 @@
 +.ymail.net
 +.ymail.org
 +.ymaim.com
-+.ymarir.ru
 +.ymcqb.com
 +.ymdxl.com
 +.ymeil.com
@@ -81024,7 +81772,6 @@
 +.you88.net
 +.youate.co
 +.youbet.dk
-+.youdad.ru
 +.youdw.xyz
 +.youku.zip
 +.youmi.net
@@ -81091,6 +81838,7 @@
 +.ysgcq.com
 +.yshle.com
 +.ysnj.skin
++.ysoal.com
 +.yssryr.cn
 +.ysuoi.com
 +.ysvwn.xyz
@@ -81151,12 +81899,14 @@
 +.yuoia.com
 +.yuqzq.com
 +.yutgu.xyz
++.yuvaa.net
 +.yuxen.com
 +.yuxox.com
 +.yuys10.cc
 +.yuys14.cc
 +.yuys17.cc
 +.yuzha.net
++.yvews.com
 +.yvgsa.com
 +.yvhd.skin
 +.yvlci.top
@@ -81181,6 +81931,7 @@
 +.ywxww.net
 +.yx-lj.com
 +.yxasv.xyz
++.yxcrl.com
 +.yxdown.cn
 +.yxhjt.com
 +.yxows.com
@@ -81437,6 +82188,7 @@
 +.zaccl.com
 +.zacka.xyz
 +.zadaas.cz
++.zaeb.site
 +.zaemi.xyz
 +.zafx10.cc
 +.zafx11.cc
@@ -81475,7 +82227,6 @@
 +.zambia.cc
 +.zamiko.ru
 +.zamsw.com
-+.zanex.xyz
 +.zango.com
 +.zanics.de
 +.zanox.com
@@ -81501,6 +82252,7 @@
 +.zatzy.com
 +.zauro.org
 +.zauxu.com
++.zavisi.rs
 +.zavod.xyz
 +.zaw466.cn
 +.zax01.com
@@ -81597,10 +82349,12 @@
 +.zdzhx.com
 +.ze-pe.pro
 +.ze-th.com
++.ze3.my.id
 +.zeads.com
 +.zebet.com
 +.zeborn.pw
 +.zecra.top
++.zedok.org
 +.zeeds.xyz
 +.zeenk.com
 +.zeetu.org
@@ -81713,8 +82467,12 @@
 +.zigse.com
 +.zigzag.vn
 +.zigzt.com
++.zikay.biz
++.zikay.com
++.zikof.com
 +.zikzak.gq
 +.zimaya.fr
++.zimcc.com
 +.zimdx.com
 +.zini.club
 +.zinpp.com
@@ -81734,10 +82492,10 @@
 +.zirpp.org
 +.zirve.app
 +.zivel.net
-+.zivert.am
 +.zivert.kg
 +.ziwuz.com
 +.zixia.xyz
++.ziyaft.ru
 +.ziyap.com
 +.ziyhd.fun
 +.zizo7.com
@@ -81810,7 +82568,6 @@
 +.znqds.icu
 +.znqip.net
 +.zntmc.com
-+.znuc.info
 +.zo432.com
 +.zoeyy.com
 +.zoflb.com
@@ -81892,6 +82649,7 @@
 +.zsmj.info
 +.zspov.fun
 +.zsrrv.com
++.zstore.pk
 +.zsyk91.cn
 +.zszgw.net
 +.zt.1rx.io
@@ -81915,6 +82673,7 @@
 +.ztymm.com
 +.zuasu.com
 +.zucks.net
++.zueem.com
 +.zufu.shop
 +.zuhhg.xyz
 +.zui68.com
@@ -82009,7 +82768,6 @@
 +.zyfjg.com
 +.zyiis.net
 +.zyjjd.com
-+.zyke.link
 +.zykwnj.cn
 +.zylfh.com
 +.zynds.com
@@ -82070,6 +82828,7 @@
 +.0000ff.net
 +.0000wb.com
 +.00010.info
++.000111.org
 +.000148.com
 +.000151.com
 +.000173.com
@@ -82464,6 +83223,7 @@
 +.01166x.com
 +.01166y.com
 +.01166z.com
++.011678.com
 +.011869.com
 +.011880.com
 +.012223.xyz
@@ -82569,6 +83329,7 @@
 +.01jili.com
 +.01main.com
 +.01nohu.com
++.01print.ma
 +.01qh88.com
 +.01stroy.ru
 +.01tech.com
@@ -84161,7 +84922,6 @@
 +.10jili5.cc
 +.10kart.com
 +.10kora.com
-+.10mail.org
 +.10mail.xyz
 +.10p456.com
 +.10qh88.com
@@ -84692,6 +85452,7 @@
 +.121986.com
 +.12199v.com
 +.1219ky.com
++.121dok.com
 +.121xox.com
 +.122031.com
 +.122036.com
@@ -85218,6 +85979,7 @@
 +.13366v.com
 +.1336ky.com
 +.133701.com
++.1337193.ca
 +.13379v.com
 +.1337ky.com
 +.133802.com
@@ -85313,7 +86075,6 @@
 +.1362ky.com
 +.136385.com
 +.1363ky.com
-+.136476.com
 +.136480.com
 +.1364ky.com
 +.1365ky.com
@@ -85648,7 +86409,6 @@
 +.14xnxx.com
 +.14yabo.com
 +.14yyhh.com
-+.15.contact
 +.1500ky.com
 +.1500m2.com
 +.1501ky.com
@@ -87436,6 +88196,7 @@
 +.1cash.info
 +.1cisp.coop
 +.1cocok.com
++.1coner.com
 +.1cpbet.com
 +.1d-ttx.cfd
 +.1dapp.news
@@ -87498,6 +88259,7 @@
 +.1q-v9s.sbs
 +.1q2w3e.com
 +.1quant.com
++.1qubed.com
 +.1rajbet.in
 +.1rdo4d.xyz
 +.1red24.com
@@ -87813,7 +88575,6 @@
 +.2-pu66.cfd
 +.2.adx1.com
 +.2.hao1.lol
-+.2.haory.cn
 +.200000.com
 +.200060.com
 +.2001ky.com
@@ -87877,6 +88638,7 @@
 +.2020mb.com
 +.2020mg.com
 +.2020mq.com
++.2020ph.com
 +.2021mb.com
 +.2021mq.com
 +.202225.com
@@ -90817,7 +91579,6 @@
 +.2bet88.vip
 +.2betab.com
 +.2bgreen.at
-+.2blu.cloud
 +.2bowls.com
 +.2brk4d.pro
 +.2bruce.bet
@@ -90905,7 +91666,6 @@
 +.2xmzazd.cn
 +.2xu-nz.com
 +.2xu.com.se
-+.2xzqux.xyz
 +.2yahoo.com
 +.2ydian.com
 +.2your.site
@@ -90934,7 +91694,6 @@
 +.3008ky.com
 +.3009ky.com
 +.300cuda.rs
-+.301.com.tr
 +.3010ky.com
 +.30111b.com
 +.30111c.com
@@ -91090,6 +91849,7 @@
 +.30683.wang
 +.3068ky.com
 +.3069ky.com
++.3070.store
 +.3070ky.com
 +.3071ky.com
 +.3072ky.com
@@ -92720,13 +93480,13 @@
 +.365047.com
 +.365089.com
 +.3650947.cc
++.3650969.cc
 +.3650971.cc
 +.3650972.cc
 +.365102.xyz
 +.365111.bet
 +.365188.app
 +.365220.com
-+.365222.bet
 +.365223.xyz
 +.365255.vip
 +.365277.vip
@@ -92856,7 +93616,6 @@
 +.3659003.cc
 +.3659004.cc
 +.3659007.cc
-+.3659008.cc
 +.365902.vip
 +.365903.vip
 +.365905.bet
@@ -92991,6 +93750,7 @@
 +.365e05.com
 +.365e88.top
 +.365ebo.com
++.365ecs.com
 +.365f.games
 +.365f05.com
 +.365f08.com
@@ -94586,7 +95346,6 @@
 +.3stars.bet
 +.3sun4d.com
 +.3suvpg.com
-+.3tdx2r.com
 +.3tejia.com
 +.3togel.lat
 +.3togel.lol
@@ -94604,6 +95363,7 @@
 +.4-72.homes
 +.4-roda.com
 +.40.aaab.su
++.400-sy.com
 +.400000.com
 +.400092.com
 +.400260.com
@@ -96084,6 +96844,7 @@
 +.4rabet1.in
 +.4rabet4.in
 +.4rpets.com
++.4scart.com
 +.4shbab.net
 +.4shbet.com
 +.4siu88.com
@@ -96343,7 +97104,6 @@
 +.51solo.net
 +.51swan.com
 +.51tt88.com
-+.51vapp.com
 +.51wddy.com
 +.51xbet.com
 +.51yabo.com
@@ -96731,16 +97491,20 @@
 +.550716.com
 +.550955.com
 +.550fun.com
++.551000g.cc
 +.551001f.cc
++.551001g.cc
 +.551003f.cc
 +.551003g.cc
 +.551003i.cc
 +.551004f.cc
++.551004g.cc
 +.551005i.cc
 +.551006e.cc
 +.551006f.cc
 +.551006g.cc
 +.551007e.cc
++.551007f.cc
 +.551008f.cc
 +.551008g.cc
 +.551048.com
@@ -97305,7 +98069,6 @@
 +.569477.com
 +.56959a.com
 +.56988n.com
-+.5698tp.com
 +.5698x2.com
 +.569901.top
 +.569902.top
@@ -97367,6 +98130,7 @@
 +.57365h.net
 +.57365l.com
 +.57365l.net
++.57365ll.cc
 +.57365oo.cc
 +.57365pp.cc
 +.57365u.net
@@ -97878,6 +98642,7 @@
 +.5jobhk.com
 +.5krwin.com
 +.5kwww4.xyz
++.5level.net
 +.5mgrgsc.cn
 +.5mkfyb.com
 +.5mtoto.art
@@ -99096,6 +99861,7 @@
 +.66661s.com
 +.66661v.com
 +.66661y.com
++.666621.xyz
 +.66662s.com
 +.66662v.com
 +.66663p.com
@@ -99231,769 +99997,3 @@
 +.667505.com
 +.667506.com
 +.667507.com
-+.667509.com
-+.667510.com
-+.66751v.com
-+.667530.com
-+.66753v.com
-+.667560.com
-+.66763v.com
-+.66765e.com
-+.66765j.com
-+.66765o.com
-+.66765t.com
-+.66765y.com
-+.66768v.com
-+.66769v.com
-+.66771v.com
-+.667752.com
-+.667753.com
-+.66775v.com
-+.66777v.com
-+.66778v.com
-+.667791.com
-+.66779v.com
-+.66779x.com
-+.66781v.com
-+.667835.com
-+.66783v.com
-+.66786v.com
-+.667874.com
-+.66787v.com
-+.66788v.com
-+.66792v.com
-+.667937.com
-+.66793v.com
-+.667940.com
-+.667945.com
-+.66797v.com
-+.667bet.com
-+.667k66.com
-+.668053.com
-+.668066.vip
-+.668079.com
-+.668091.com
-+.668166.vip
-+.66821s.com
-+.66823v.com
-+.668257.bid
-+.66825s.com
-+.668266.vip
-+.66829v.com
-+.66831s.com
-+.668366.vip
-+.66838v.com
-+.668459.vip
-+.66855n.com
-+.668566.vip
-+.66857v.com
-+.66858v.com
-+.6686-8.bet
-+.6686.cloud
-+.6686.email
-+.6686.guide
-+.6686.money
-+.6686.poker
-+.6686.space
-+.6686.store
-+.6686.today
-+.668604.com
-+.668607.com
-+.668612.com
-+.668615.com
-+.66863v.com
-+.66865v.com
-+.668671.app
-+.66868v.com
-+.668692.com
-+.668694.com
-+.668698.com
-+.6686a1.app
-+.6686a1.com
-+.6686a2.app
-+.6686a2.com
-+.6686a3.app
-+.6686a4.app
-+.6686a5.app
-+.6686a5.com
-+.6686a6.app
-+.6686a6.com
-+.6686a7.app
-+.6686a8.app
-+.6686a9.app
-+.6686a9.com
-+.6686b1.app
-+.6686b1.com
-+.6686b2.app
-+.6686b2.com
-+.6686b3.app
-+.6686b3.com
-+.6686b4.app
-+.6686b4.com
-+.6686b5.app
-+.6686b5.com
-+.6686b6.app
-+.6686b6.com
-+.6686b7.app
-+.6686b7.com
-+.6686b8.com
-+.6686b9.com
-+.6686c1.app
-+.6686c1.com
-+.6686c2.app
-+.6686c2.com
-+.6686c3.app
-+.6686c3.com
-+.6686c4.app
-+.6686c5.app
-+.6686c5.com
-+.6686c6.app
-+.6686c6.com
-+.6686c7.app
-+.6686c7.com
-+.6686c8.app
-+.6686c8.com
-+.6686c9.app
-+.6686c9.com
-+.6686cp.com
-+.6686d3.com
-+.6686d8.com
-+.6686e1.app
-+.6686e1.com
-+.6686e2.app
-+.6686e2.com
-+.6686e3.app
-+.6686e3.com
-+.6686e4.app
-+.6686e4.com
-+.6686e5.app
-+.6686e6.com
-+.6686e7.com
-+.6686e9.com
-+.6686f0.com
-+.6686f1.com
-+.6686f2.com
-+.6686f3.com
-+.6686f4.com
-+.6686g1.app
-+.6686g2.app
-+.6686g4.app
-+.6686g7.com
-+.6686g8.com
-+.6686g9.com
-+.6686h1.app
-+.6686h1.com
-+.6686h2.com
-+.6686h3.com
-+.6686h4.com
-+.6686h5.com
-+.6686h6.com
-+.6686h7.com
-+.6686h8.com
-+.6686h9.com
-+.6686hg.net
-+.6686k1.com
-+.6686k2.com
-+.6686n1.com
-+.6686n2.com
-+.6686n4.com
-+.6686n6.com
-+.6686n8.com
-+.6686p1.com
-+.6686p2.com
-+.6686p3.com
-+.6686p4.com
-+.6686p5.com
-+.6686s1.com
-+.6686s2.com
-+.6686s3.com
-+.6686s4.com
-+.6686s5.com
-+.6686s6.com
-+.6686s7.com
-+.6686s8.com
-+.6686s9.com
-+.6686t1.app
-+.6686v1.app
-+.6686v1.com
-+.6686v2.app
-+.6686v3.app
-+.6686v3.com
-+.6686vn.app
-+.6686vn.bet
-+.6686vn.biz
-+.6686vn.ink
-+.6686vn.net
-+.6686vn.vip
-+.6686vn.win
-+.6686vn2.me
-+.6686vn2.tv
-+.6686w0.com
-+.6686w4.app
-+.6686x1.app
-+.6686x1.com
-+.6686x2.app
-+.6686x2.com
-+.6686x3.app
-+.6686x3.com
-+.6686x4.app
-+.6686x5.app
-+.6686x5.com
-+.6686x6.app
-+.6686x6.com
-+.6686x7.app
-+.6686x7.com
-+.6686x8.app
-+.6686x8.com
-+.6686x9.app
-+.6686z1.com
-+.6686z4.com
-+.6686z6.com
-+.66872v.com
-+.66873v.com
-+.668756.com
-+.668766.vip
-+.66876s.com
-+.668806.com
-+.668825.com
-+.668827.com
-+.66883n.com
-+.6688tp.com
-+.6688vn.com
-+.66893v.com
-+.668951.xyz
-+.66895v.com
-+.66896s.com
-+.66898v.com
-+.668bet.com
-+.668dl8.net
-+.668dyj.com
-+.668fun.com
-+.668js.club
-+.668k66.com
-+.669066.vip
-+.66912v.com
-+.669166.vip
-+.66917v.com
-+.66918v.com
-+.66919v.com
-+.669252.com
-+.66928v.com
-+.66929v.com
-+.66931s.com
-+.66935v.com
-+.66937v.com
-+.66951v.com
-+.66956v.com
-+.669580.com
-+.669598.com
-+.66962v.com
-+.66963k.com
-+.66965s.com
-+.66966v.com
-+.66967v.com
-+.669687.com
-+.66968v.com
-+.669745.xyz
-+.66979v.com
-+.66981v.com
-+.66986v.com
-+.66988k.com
-+.669912.com
-+.669913.com
-+.66991s.com
-+.66993a.com
-+.669969.com
-+.66996v.com
-+.6699ky.com
-+.6699uu.com
-+.6699vn.com
-+.669bet.com
-+.669k66.com
-+.669win.com
-+.66agks.com
-+.66bbmm.com
-+.66buzz.com
-+.66bydz.com
-+.66club.bet
-+.66club.biz
-+.66club.com
-+.66dl66.com
-+.66dmdm.com
-+.66ev88.com
-+.66fhfh.com
-+.66gbet.com
-+.66gbet.org
-+.66gbet.top
-+.66gbet.vip
-+.66gbet.xyz
-+.66hg55.com
-+.66hi88.com
-+.66hvip.com
-+.66hyhy.com
-+.66jjyy.com
-+.66joga.com
-+.66k365.com
-+.66kyty.com
-+.66liao.net
-+.66n666.com
-+.66nike.icu
-+.66nn55.com
-+.66pg20.com
-+.66pg44.com
-+.66pg66.com
-+.66pp73.com
-+.66pp74.com
-+.66pp88.com
-+.66pp91.com
-+.66pp99.com
-+.66q789.com
-+.66qh88.com
-+.66qh99.com
-+.66qxqx.com
-+.66ra89.com
-+.66ttll.com
-+.66uuaa.com
-+.66uugg.com
-+.66uurr.com
-+.66visa.net
-+.66vito.com
-+.66vvee.com
-+.66vvmm.com
-+.66vvrr.com
-+.66vvss.com
-+.66vvyy.com
-+.66win.game
-+.66wwcc.com
-+.66wwrr.com
-+.66wwzz.com
-+.66xhxh.com
-+.66xin88.cc
-+.66xjxj.com
-+.66xxaa.com
-+.66xxpp.com
-+.66yh13.com
-+.66zzpp.com
-+.670225.xyz
-+.670254.com
-+.670491.com
-+.670492.com
-+.670493.com
-+.670494.com
-+.670495.com
-+.670496.com
-+.670497.com
-+.670498.com
-+.670581.com
-+.670658.com
-+.670800.com
-+.670979.com
-+.670999.app
-+.670999.net
-+.670999.vip
-+.671129.xyz
-+.6712hh.com
-+.67133v.com
-+.671379.com
-+.671403.com
-+.671413.com
-+.671414.com
-+.671415.com
-+.671417.com
-+.671420.com
-+.671423.com
-+.671431.com
-+.671436.com
-+.671437.com
-+.671447.com
-+.671449.com
-+.671459.com
-+.671460.com
-+.67164a.com
-+.67164b.com
-+.67164c.com
-+.67164f.com
-+.67164j.com
-+.67164k.com
-+.67164z.com
-+.671679.com
-+.671772.vip
-+.671800.com
-+.67228k.com
-+.672493.icu
-+.672800.com
-+.672985.com
-+.673038.com
-+.673103.com
-+.673104.com
-+.673105.com
-+.673109.com
-+.673114.com
-+.673121.com
-+.673142.com
-+.673143.com
-+.673159.com
-+.673160.com
-+.673164.com
-+.673177.com
-+.673181.com
-+.673185.com
-+.673189.com
-+.67318a.com
-+.67318b.com
-+.67318c.com
-+.67318d.com
-+.67318g.com
-+.67318h.com
-+.67318j.com
-+.67318k.com
-+.67318m.com
-+.67318n.com
-+.67318p.com
-+.67318q.com
-+.67318s.com
-+.67318t.com
-+.67318u.com
-+.67318v.com
-+.67318w.com
-+.67318x.com
-+.67318y.com
-+.67318z.com
-+.673194.com
-+.673195.com
-+.6731yy.com
-+.673219.pet
-+.6732bb.com
-+.6732cc.com
-+.6732dd.com
-+.6732ee.com
-+.6732ff.com
-+.6732gg.com
-+.6732hh.com
-+.6732ii.com
-+.6732kk.com
-+.6732mm.com
-+.6732oo.com
-+.6732qq.com
-+.6732vv.com
-+.6732ww.com
-+.673800.com
-+.67388v.com
-+.673892.bid
-+.674093.com
-+.674340.xyz
-+.674445.com
-+.67453t.com
-+.674675.com
-+.67493k.com
-+.67493y.com
-+.675007.com
-+.675218.com
-+.675282.com
-+.675389.com
-+.675478.xyz
-+.67552v.com
-+.67553v.com
-+.67557s.com
-+.675645.biz
-+.67566v.com
-+.675899.com
-+.675978.com
-+.67599v.com
-+.676617.com
-+.67661v.com
-+.676621.com
-+.676646.com
-+.6766ah.com
-+.6766bj.com
-+.6766cq.com
-+.6766fj.com
-+.6766gd.com
-+.6766gs.com
-+.6766gx.com
-+.6766gz.com
-+.6766hb.com
-+.6766hn.com
-+.6766jl.com
-+.6766js.com
-+.6766jx.com
-+.6766ln.com
-+.6766nx.com
-+.6766qh.com
-+.6766sc.com
-+.6766sd.com
-+.6766sh.com
-+.6766sx.com
-+.6766tj.com
-+.6766tw.com
-+.6766xg.com
-+.6766xj.com
-+.6766xz.com
-+.6766yn.com
-+.6766zj.com
-+.676770.com
-+.6767vn.com
-+.676890.com
-+.677050.bid
-+.67722v.com
-+.67731v.com
-+.67733v.com
-+.67736v.com
-+.677555.com
-+.677565.com
-+.67759v.com
-+.677647.com
-+.67766v.com
-+.677701.com
-+.677709.com
-+.67771p.com
-+.67773p.com
-+.67775v.com
-+.67776n.com
-+.67791v.com
-+.677938.com
-+.67793v.com
-+.677940.com
-+.677986.com
-+.677bet.app
-+.677tab.com
-+.678013.com
-+.678023.com
-+.678036.com
-+.678052.com
-+.678053.com
-+.678056.com
-+.678057.com
-+.678085.com
-+.678096.com
-+.678103.com
-+.678111.com
-+.678113.com
-+.678133.com
-+.678160.com
-+.678190.com
-+.67820.buzz
-+.678209.com
-+.678237.com
-+.678238.com
-+.678239.com
-+.678260.com
-+.678270.com
-+.678301.com
-+.678306.com
-+.678308.com
-+.678326.com
-+.678368.com
-+.678370.com
-+.678372.com
-+.678376.com
-+.678396.com
-+.67843.loan
-+.678501.com
-+.678503.com
-+.678526.com
-+.678539.com
-+.67855v.com
-+.678622.com
-+.678628.com
-+.67866v.com
-+.678719.com
-+.678723.com
-+.678756.com
-+.678794.com
-+.678820.com
-+.678830.com
-+.67883v.com
-+.67887v.com
-+.67889n.com
-+.6788vn.com
-+.678bet.pro
-+.678bst.com
-+.678jogo.cc
-+.678jogo.co
-+.678kxm.com
-+.678luck.im
-+.678web7.cc
-+.679494.com
-+.679699.com
-+.67991v.com
-+.67996v.com
-+.67997v.com
-+.67hhgg.com
-+.67hi88.com
-+.67m2s3.com
-+.67yabo.com
-+.680128.com
-+.680166.com
-+.680248.com
-+.680360.com
-+.681024.com
-+.681234.org
-+.681285.com
-+.681338.com
-+.681661.com
-+.681706.com
-+.68186.wang
-+.682003.com
-+.682005.com
-+.682217.com
-+.68222v.com
-+.682296.com
-+.68229k.com
-+.682368.com
-+.682848.com
-+.682881.com
-+.68299n.com
-+.683126.com
-+.683131.com
-+.683259.xyz
-+.68335v.com
-+.683611.com
-+.68399n.com
-+.684004.com
-+.684124.com
-+.684127.com
-+.684131.com
-+.684132.com
-+.684137.com
-+.684140.com
-+.684141.com
-+.684142.com
-+.684143.com
-+.684568.com
-+.684685.com
-+.684784.com
-+.684818.com
-+.684823.com
-+.684833.com
-+.684844.com
-+.684865.com
-+.684986.com
-+.685386.com
-+.68551v.com
-+.68556v.com
-+.68557v.com
-+.685qp3.com
-+.685qp5.com
-+.685yh5.com
-+.685yh6.com
-+.685yh8.com
-+.686353.com
-+.68646f.xyz
-+.686545.com
-+.686550.com
-+.686639.com
-+.68669v.com
-+.686732.com
-+.6868365.cc
-+.686865.com
-+.6868sp.com
-+.686947.com
-+.686csj.com
-+.686yh3.com
-+.687301.com
-+.687474.com
-+.68755v.com
-+.68766v.com
-+.687734.com
-+.687756.com
-+.68775v.com
-+.687790.com
-+.687798.com
-+.687803.com
-+.687832.com
-+.687834.com
-+.687837.com
-+.687908.com
-+.687941.com
-+.687944.com
-+.687948.com
-+.687986.com
-+.687999.com
-+.68799v.com
-+.68815v.com
-+.68816s.com
-+.688198.com
-+.688248.com
-+.68826v.com
-+.688278.xyz
-+.688298.com
-+.68829v.com
-+.68832v.com
-+.68833n.com
-+.68833s.com
-+.68833v.com
-+.688382.com
-+.68838n.com
-+.688410.com
-+.688420.com
-+.688430.com
-+.688450.com
-+.688490.com
-+.688494.com
-+.688497.com
-+.68851v.com
-+.688534.com
-+.688539.com
-+.688540.com
-+.688541.com
-+.688564.com
-+.688588.icu
-+.68858n.com
-+.6885nn.com
-+.688629.com
-+.688635.com
-+.688637.com
-+.68865k.com
-+.68865n.com
-+.68866v.com
-+.688682.com
-+.6886vn.com
-+.68871k.com
-+.68872k.com
-+.68879s.com
-+.68881p.com
-+.68882p.com
-+.68882s.com
-+.68883p.com
-+.68883v.com
-+.68886.shop
-+.68886s.com
-+.688872.com
-+.68895n.com
-+.68899v.com
-+.688bet.xyz
-+.688csj.com
-+.688fun.com
-+.689158.bid
-+.689393.vet
-+.689777.com
-+.68977v.com
-+.689795.com
-+.689882.com
-+.68988v.com
-+.68997v.com
-+.689xpj.com
-+.68ball.com
-+.68bet.live
-+.68club.app
-+.68dl68.com
-+.68dl68.net
-+.68dl88.com
-+.68dl88.net
-+.68game.dev
-+.68gb.games
-+.68hi88.com
-+.68ky33.com
-+.68kykf.com
-+.68nova.net
-+.68tiyu.net
-+.68tiyu.vip
-+.68viva.net
-+.68yabo.com
-+.68yh95.com
-+.68yscw.com
-+.69-cash.cz
-+.69-cash.eu
-+.690203.com
-+.690513.com
