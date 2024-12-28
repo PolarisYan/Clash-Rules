@@ -12,37 +12,37 @@ const branchName = "main";
 const gitUserFilePath = path.join(__dirname, 'git_user.json');
 const mergeRulesFilePath = './ruleset/merge-rules.json';
 const classicalRules = [
-  { rule: "DOMAIN", reformatTo: "domain", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "DOMAIN-SUFFIX", reformatTo: "domain", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "DOMAIN-KEYWORD", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "DOMAIN-REGEX", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "GEOSITE", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "IP-CIDR", reformatTo: "ipcidr", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "IP-CIDR6", reformatTo: "ipcidr", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "IP-SUFFIX", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "IP-ASN", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "GEOIP", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "SRC-GEOIP", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "SRC-IP-ASN", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "SRC-IP-CIDR", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "SRC-IP-SUFFIX", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "DST-PORT", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "SRC-PORT", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "IN-PORT", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "IN-TYPE", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "IN-USER", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "IN-NAME", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "PROCESS-PATH", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "PROCESS-PATH-REGEX", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "PROCESS-NAME", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "PROCESS-NAME-REGEX", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "UID", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "NETWORK", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "DSCP", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "RULE-SET", reformatTo: "classical", stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "AND & OR & NOT", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "SUB-RULE", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
-  { rule: "MATCH", reformatTo: "classical", stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "DOMAIN", reformatTo: "domain", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "DOMAIN-SUFFIX", reformatTo: "domain", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "DOMAIN-KEYWORD", reformatTo: "classical", noResolve: false, stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "DOMAIN-REGEX", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "GEOSITE", reformatTo: "classical", noResolve: false, stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IP-CIDR", reformatTo: "ipcidr", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IP-CIDR6", reformatTo: "ipcidr", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IP-SUFFIX", reformatTo: "classical", noResolve: true, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IP-ASN", reformatTo: "classical", noResolve: true, stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "GEOIP", reformatTo: "classical", noResolve: true, stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "SRC-GEOIP", reformatTo: "classical", noResolve: true, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "SRC-IP-ASN", reformatTo: "classical", noResolve: true, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "SRC-IP-CIDR", reformatTo: "classical", noResolve: true, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "SRC-IP-SUFFIX", reformatTo: "classical", noResolve: true, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "DST-PORT", reformatTo: "classical", noResolve: false, stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "SRC-PORT", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IN-PORT", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IN-TYPE", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IN-USER", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "IN-NAME", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "PROCESS-PATH", reformatTo: "classical", noResolve: false, stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "PROCESS-PATH-REGEX", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "PROCESS-NAME", reformatTo: "classical", noResolve: false, stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "PROCESS-NAME-REGEX", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "UID", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "NETWORK", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "DSCP", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "RULE-SET", reformatTo: "classical", noResolve: false, stashClassical: true, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "AND & OR & NOT", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "SUB-RULE", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
+  { rule: "MATCH", reformatTo: "classical", noResolve: false, stashClassical: false, mergeFunc: null }, // TODO: mergeFunc
 ]
 
 async function ensureDirectoryExists(dirPath) {
@@ -231,9 +231,11 @@ function splitClassicalToDifferentContentTypes(content) {
         domainContentClash = domainContentClash.concat("+.".concat(lineToContent));
         domainContentStash = domainContentStash.concat(".".concat(lineToContent));
       } else {
-        classicalContentClash = classicalContentClash.concat(line).concat("\n");
+        classicalContentClash = classicalContentClash.concat(line)
+          .concat(matchedRule.noResolve && !line.endsWith(",no-resolve") ? ",no-resolve\n" : "\n");
         if (matchedRule.stashClassical) {
-          classicalContentStash = classicalContentStash.concat(line).concat("\n");
+          classicalContentStash = classicalContentStash.concat(line)
+            .concat(matchedRule.noResolve && !line.endsWith(",no-resolve") ? ",no-resolve\n" : "\n");
         }
       }
     })
