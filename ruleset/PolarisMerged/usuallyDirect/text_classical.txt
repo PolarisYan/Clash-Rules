@@ -11,7 +11,7 @@ DOMAIN-KEYWORD,qiyi
 DOMAIN-KEYWORD,stripe
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,weibo
-IP-ASN,132203
+IP-ASN,132203,no-resolve
 PROCESS-NAME,com.bilibili.app.blue
 PROCESS-NAME,com.bilibili.app.in
 PROCESS-NAME,com.bilibili.comic
