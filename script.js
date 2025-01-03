@@ -391,6 +391,8 @@ async function mergeRules() {
     console.log(`classicalTargetFile:`, classicalTargetFile);
     const sourceClassicalFiles = each?.sourceClassicalFiles;
     console.log(`sourceClassicalFiles:`, sourceClassicalFiles);
+    const exclude = each?.exclude;
+    console.log(`exclude:`, exclude);
 
     function defaultSort() {
       return (a, b) => a.length === b.length ? a.localeCompare(b) : a.length - b.length
@@ -402,7 +404,7 @@ async function mergeRules() {
       console.log(`sourceClassicalFiles:`, sourceClassicalFiles);
       console.log(`classicalTargetFile:`, classicalTargetFile);
       mergedClassical = await mergeFile([{ targetFile: classicalTargetFile }],
-        sourceClassicalFiles, mergeClassical, (a, b) => a.localeCompare(b));
+        sourceClassicalFiles, exclude, mergeClassical, (a, b) => a.localeCompare(b));
     }
     if (sourceDomainFiles && (clashPlusWildcardTargetFile || stashDotWildcardTargetFile)) {
       console.log();
@@ -411,7 +413,7 @@ async function mergeRules() {
       console.log(`stashDotWildcardTargetFile:`, stashDotWildcardTargetFile);
       await mergeFile([{ targetFile: clashPlusWildcardTargetFile, wildcard: "+." },
           { targetFile: stashDotWildcardTargetFile, wildcard: "." }],
-        sourceDomainFiles, mergeDomain, defaultSort(),
+        sourceDomainFiles, exclude, mergeDomain, defaultSort(),
         mergedClassical);
     }
     if (sourceIpcidrFiles && ipcidrTargetFile) {
@@ -419,13 +421,13 @@ async function mergeRules() {
       console.log(`sourceIpcidrFiles:`, sourceIpcidrFiles);
       console.log(`ipcidrTargetFile:`, ipcidrTargetFile);
       await mergeFile([{ targetFile: ipcidrTargetFile }],
-        sourceIpcidrFiles, mergeIpcidr, defaultSort(),
+        sourceIpcidrFiles, exclude, mergeIpcidr, defaultSort(),
         mergedClassical);
     }
   }
 }
 
-async function mergeFile(targetFiles, sourceFiles, mergeFunc, sortFunc, mergedClassical) {
+async function mergeFile(targetFiles, sourceFiles, exclude, mergeFunc, sortFunc, mergedClassical) {
   const mergedLines = [];
   for (let i in sourceFiles) {
     const eachSourceFile = sourceFiles[i];
@@ -445,7 +447,8 @@ async function mergeFile(targetFiles, sourceFiles, mergeFunc, sortFunc, mergedCl
       continue;
     }
     const lines = fileContent.split('\n')
-      .map(cleanLine);
+      .map(cleanLine)
+      .filter(line => !(exclude && exclude.includes(line)));
     console.log(`Start merge source:`, eachSourceFile);
     lines.forEach(line => {
       let needAdd = true;

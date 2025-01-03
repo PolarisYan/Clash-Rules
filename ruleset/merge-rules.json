@@ -15,6 +15,9 @@
       "./ruleset/HaGeZi_Gambling/stash/text_domain_dot_wildcard.txt",
       "./ruleset/OISD/stash/text_domain_dot_wildcard.txt",
       "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
+    ],
+    "exclude": [
+      "cn"
     ]
   },
   {
@@ -33,6 +36,9 @@
       "./ruleset/HaGeZi_Gambling_MEDIUM/stash/text_domain_dot_wildcard.txt",
       "./ruleset/OISD/stash/text_domain_dot_wildcard.txt",
       "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
+    ],
+    "exclude": [
+      "cn"
     ]
   },
   {
@@ -51,6 +57,9 @@
       "./ruleset/HaGeZi_Gambling_MINI/stash/text_domain_dot_wildcard.txt",
       "./ruleset/OISD/stash/text_domain_dot_wildcard.txt",
       "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
+    ],
+    "exclude": [
+      "cn"
     ]
   },
   {
@@ -69,6 +78,9 @@
       "./ruleset/HaGeZi_Gambling_MINI/stash/text_domain_dot_wildcard.txt",
       "./ruleset/OISD/stash/text_domain_dot_wildcard.txt",
       "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
+    ],
+    "exclude": [
+      "cn"
     ]
   },
   {
@@ -87,6 +99,9 @@
       "./ruleset/HaGeZi_Gambling_MINI/stash/text_domain_dot_wildcard.txt",
       "./ruleset/OISD/stash/text_domain_dot_wildcard.txt",
       "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
+    ],
+    "exclude": [
+      "cn"
     ]
   },
   {
@@ -105,6 +120,9 @@
       "./ruleset/HaGeZi_Gambling_MINI/stash/text_domain_dot_wildcard.txt",
       "./ruleset/OISD/stash/text_domain_dot_wildcard.txt",
       "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
+    ],
+    "exclude": [
+      "cn"
     ]
   },
   {
