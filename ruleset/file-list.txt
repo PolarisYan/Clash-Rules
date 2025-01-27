@@ -52,10 +52,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MicrosoftEdge/MicrosoftEdge.yaml,./ruleset/blackmatrix7_MicrosoftEdge/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.yaml,./ruleset/blackmatrix7_Bing/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml,./ruleset/blackmatrix7_GitHub/origin/classical.yml
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml,./ruleset/blackmatrix7_OpenAI/origin/classical.yml
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.yaml,./ruleset/blackmatrix7_Copilot/origin/classical.yml
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.yaml,./ruleset/blackmatrix7_Gemini/origin/classical.yml
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml,./ruleset/blackmatrix7_Claude/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Jsdelivr/Jsdelivr.yaml,./ruleset/blackmatrix7_Jsdelivr/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml,./ruleset/blackmatrix7_Apple/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleProxy/AppleProxy.yaml,./ruleset/blackmatrix7_AppleProxy/origin/classical.yml
@@ -69,3 +65,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml,./ruleset/blackmatrix7_Steam/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.yaml,./ruleset/blackmatrix7_SteamCN/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml,./ruleset/blackmatrix7_Telegram/origin/classical.yml
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/OpenAi.yaml,./ruleset/ACL4SSR_OpenAI/origin/classical.yml
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Gemini.yaml,./ruleset/ACL4SSR_Gemini/origin/classical.yml
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Claude.yaml,./ruleset/ACL4SSR_Claude/origin/classical.yml
