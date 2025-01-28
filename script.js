@@ -585,28 +585,28 @@ function mergeIpcidr(newLine, existingLine) {
   let abandon = false;
   let needReplace = false;
 
-  // function isSubnetOf(cidr1, cidr2) {
-  //   const cidr1Addr = ipaddr.parseCIDR(cidr1);
-  //   const cidr2Addr = ipaddr.parseCIDR(cidr2);
-  //
-  //   if (cidr1Addr[0].kind() !== cidr2Addr[0].kind()) {
-  //     return false;
-  //   }
-  //
-  //   if (cidr1Addr[1] <= cidr2Addr[1]) {
-  //     return false;
-  //   }
-  //
-  //   return cidr1Addr[0].match(cidr2Addr);
-  // }
-  //
-  // if (newLine === existingLine) {
-  //   abandon = true;
-  // } else if (isSubnetOf(newLine, existingLine)) {
-  //   abandon = true;
-  // } else if (isSubnetOf(existingLine, newLine)) {
-  //   needReplace = true;
-  // }
+  function isSubnetOf(cidr1, cidr2) {
+    const cidr1Addr = ipaddr.parseCIDR(cidr1);
+    const cidr2Addr = ipaddr.parseCIDR(cidr2);
+
+    if (cidr1Addr[0].kind() !== cidr2Addr[0].kind()) {
+      return false;
+    }
+
+    if (cidr1Addr[1] <= cidr2Addr[1]) {
+      return false;
+    }
+
+    return cidr1Addr[0].match(cidr2Addr);
+  }
+
+  if (newLine === existingLine) {
+    abandon = true;
+  } else if (isSubnetOf(newLine, existingLine)) {
+    abandon = true;
+  } else if (isSubnetOf(existingLine, newLine)) {
+    needReplace = true;
+  }
 
   return { abandon, needReplace };
 }
