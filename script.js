@@ -455,13 +455,13 @@ async function mergeFile(targetFiles, sourceFiles, exclude, mergeFunc, sortFunc,
       // TODO: Too slow
       for (let i = 0; i < mergedLines.length; i++) {
         const result = mergeFunc(line, mergedLines[i]);
-        needAdd = result.needAdd;
-        const needReplace = result.needReplace;
-        if (needReplace) {
-          mergedLines[i] = line;
-        }
-        if (!needAdd) {
+        if (result.abandon) {
+          needAdd = false;
           break;
+        }
+        if (result.needReplace) {
+          mergedLines[i] = line;
+          needAdd = false;
         }
       }
       if (needAdd) {
@@ -492,9 +492,9 @@ async function mergeFile(targetFiles, sourceFiles, exclude, mergeFunc, sortFunc,
 
 function mergeClassical(newLine, existingLine) {
   // TODO:
-  let needAdd = true;
+  let abandon = false;
   let needReplace = false;
-  return { needAdd, needReplace };
+  return { abandon, needReplace };
 }
 
 function includeInClassical(line, classicalLines) {
@@ -503,21 +503,20 @@ function includeInClassical(line, classicalLines) {
 }
 
 function mergeDomain(newLine, existingLine) {
-  let needAdd = true;
+  let abandon = false;
   let needReplace = false;
   if (newLine === existingLine) {
-    needAdd = false;
+    abandon = true;
   } else if (newLine.endsWith(".".concat(existingLine))) {
-    needAdd = false;
+    abandon = true;
   } else if (existingLine.endsWith(".".concat(newLine))) {
     needReplace = true;
-    needAdd = false;
   }
-  return { needAdd, needReplace };
+  return { abandon, needReplace };
 }
 
 function mergeIpcidr(newLine, existingLine) {
-  let needAdd = true;
+  let abandon = false;
   let needReplace = false;
 
   function isSubnetOf(cidr1, cidr2) {
@@ -531,14 +530,15 @@ function mergeIpcidr(newLine, existingLine) {
     return cidr1Addr[0].match(cidr2Addr);
   }
 
-  if (isSubnetOf(newLine, existingLine)) {
-    needAdd = false;
+  if (newLine === existingLine) {
+    abandon = true;
+  } if (isSubnetOf(newLine, existingLine)) {
+    abandon = true;
   } else if (isSubnetOf(existingLine, newLine)) {
     needReplace = true;
-    needAdd = false;
   }
 
-  return { needAdd, needReplace };
+  return { abandon, needReplace };
 }
 
 
