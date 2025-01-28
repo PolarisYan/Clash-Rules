@@ -428,7 +428,8 @@ async function mergeRules() {
 }
 
 async function mergeFile(targetFiles, sourceFiles, exclude, mergeFunc, sortFunc, mergedClassical) {
-  const mergedLines = [];
+  let mergedLines = [];
+  const domainTrie = new DomainTrie();
   for (let i in sourceFiles) {
     const eachSourceFile = sourceFiles[i];
     if (!eachSourceFile) {
@@ -448,29 +449,42 @@ async function mergeFile(targetFiles, sourceFiles, exclude, mergeFunc, sortFunc,
     }
     const lines = fileContent.split('\n')
       .map(cleanLine)
-      .filter(line => !(exclude && exclude.includes(line)));
+      .filter(line => !(exclude && exclude.includes(line)))
+      .sort(sortFunc);
     console.log(`Start merge source:`, eachSourceFile);
-    lines.forEach(line => {
-      let needAdd = true;
-      // TODO: Too slow
-      for (let i = 0; i < mergedLines.length; i++) {
-        const result = mergeFunc(line, mergedLines[i]);
-        if (result.abandon) {
-          needAdd = false;
-          break;
+
+
+    if (mergeFunc === mergeDomain) {
+      console.log(`Start merge Domain rules in DomainTrie with source:`, eachSourceFile);
+      lines.forEach(line => {
+        domainTrie.add(line.split(".").reverse());
+      })
+    } else {
+      lines.forEach(line => {
+        let needAdd = true;
+        // TODO: Too slow for large rules
+        for (let i = 0; i < mergedLines.length; i++) {
+          const result = mergeFunc(line, mergedLines[i]);
+          if (result.abandon) {
+            needAdd = false;
+            break;
+          }
+          if (result.needReplace) {
+            mergedLines[i] = line;
+            needAdd = false;
+          }
         }
-        if (result.needReplace) {
-          mergedLines[i] = line;
-          needAdd = false;
+        if (needAdd) {
+          mergedLines.push(line);
         }
-      }
-      if (needAdd) {
-        mergedLines.push(line);
-      }
-    });
+      });
+    }
     console.log(`Merge complete source:`, eachSourceFile);
   }
   console.log(`Merge complete all sources`);
+  if (mergeFunc === mergeDomain) {
+    mergedLines = domainTrie.getAllLeafNodes();
+  }
   const uniqueLinesSet = new Set(mergedLines);
   const uniqueLines = Array.from(uniqueLinesSet)
     .filter(line => line && !includeInClassical(line, mergedClassical))
@@ -502,6 +516,58 @@ function includeInClassical(line, classicalLines) {
   return false;
 }
 
+class DomainTrie {
+  constructor() {
+    this.root = new Map();
+  }
+
+  add(reversedDomain) {
+    let node = this.root;
+    for (const part of reversedDomain) {
+      if (!node.has(part)) {
+        node.set(part, new Map());
+      }
+      node = node.get(part);
+
+      if (node.has('*')) return false;
+    }
+
+    let hasChildren = node.size > 0;
+    node.clear();
+    node.set('*', true);
+    return hasChildren;
+  }
+
+  check(reversedDomain) {
+    let node = this.root;
+    for (const part of reversedDomain) {
+      if (!node.has(part)) return false;
+      node = node.get(part);
+      if (node.has('*')) return true;
+    }
+    return false;
+  }
+
+  getAllLeafNodes() {
+    const leaves = [];
+    const traverse = (node, path) => {
+      if (node.has('*')) {
+        leaves.push(path.reverse().join('.'));
+      }
+      for (const [key, child] of node.entries()) {
+        if (key !== '*') {
+          traverse(child, [...path, key]);
+        }
+      }
+    };
+    traverse(this.root, []);
+    return leaves;
+  }
+}
+
+/**
+ * Just a flag NOW, use {@link DomainTrie}
+ */
 function mergeDomain(newLine, existingLine) {
   let abandon = false;
   let needReplace = false;
@@ -519,24 +585,28 @@ function mergeIpcidr(newLine, existingLine) {
   let abandon = false;
   let needReplace = false;
 
-  function isSubnetOf(cidr1, cidr2) {
-    const cidr1Addr = ipaddr.parseCIDR(cidr1);
-    const cidr2Addr = ipaddr.parseCIDR(cidr2);
-
-    if (cidr1Addr[1] <= cidr2Addr[1]) {
-      return false;
-    }
-
-    return cidr1Addr[0].match(cidr2Addr);
-  }
-
-  if (newLine === existingLine) {
-    abandon = true;
-  } if (isSubnetOf(newLine, existingLine)) {
-    abandon = true;
-  } else if (isSubnetOf(existingLine, newLine)) {
-    needReplace = true;
-  }
+  // function isSubnetOf(cidr1, cidr2) {
+  //   const cidr1Addr = ipaddr.parseCIDR(cidr1);
+  //   const cidr2Addr = ipaddr.parseCIDR(cidr2);
+  //
+  //   if (cidr1Addr[0].kind() !== cidr2Addr[0].kind()) {
+  //     return false;
+  //   }
+  //
+  //   if (cidr1Addr[1] <= cidr2Addr[1]) {
+  //     return false;
+  //   }
+  //
+  //   return cidr1Addr[0].match(cidr2Addr);
+  // }
+  //
+  // if (newLine === existingLine) {
+  //   abandon = true;
+  // } else if (isSubnetOf(newLine, existingLine)) {
+  //   abandon = true;
+  // } else if (isSubnetOf(existingLine, newLine)) {
+  //   needReplace = true;
+  // }
 
   return { abandon, needReplace };
 }
