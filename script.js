@@ -421,7 +421,10 @@ async function mergeRules() {
       console.log(`sourceIpcidrFiles:`, sourceIpcidrFiles);
       console.log(`ipcidrTargetFile:`, ipcidrTargetFile);
       await mergeFile([{ targetFile: ipcidrTargetFile }],
-        sourceIpcidrFiles, exclude, mergeIpcidr, defaultSort(),
+        sourceIpcidrFiles, exclude, mergeIpcidr, (a, b) => {
+          let compare = parseInt(a.split("/")[1], 10) - parseInt(b.split("/")[1], 10)
+          return compare !== 0 ? compare : defaultSort()(a, b);
+        },
         mergedClassical);
     }
   }
@@ -430,6 +433,7 @@ async function mergeRules() {
 async function mergeFile(targetFiles, sourceFiles, exclude, mergeFunc, sortFunc, mergedClassical) {
   let mergedLines = [];
   const domainTrie = new DomainTrie();
+  const cidrTrie = new CIDRTrie();
   for (let i in sourceFiles) {
     const eachSourceFile = sourceFiles[i];
     if (!eachSourceFile) {
@@ -459,6 +463,11 @@ async function mergeFile(targetFiles, sourceFiles, exclude, mergeFunc, sortFunc,
       lines.forEach(line => {
         domainTrie.add(line.split(".").reverse());
       })
+    } else if (mergeFunc === mergeIpcidr) {
+      console.log(`Start merge IP-CIDR rules in CIDRTrie with source:`, eachSourceFile);
+      lines.forEach(line => {
+        cidrTrie.add(parseCIDR(line));
+      })
     } else {
       lines.forEach(line => {
         let needAdd = true;
@@ -484,6 +493,8 @@ async function mergeFile(targetFiles, sourceFiles, exclude, mergeFunc, sortFunc,
   console.log(`Merge complete all sources`);
   if (mergeFunc === mergeDomain) {
     mergedLines = domainTrie.getAllLeafNodes();
+  } else if (mergeFunc === mergeIpcidr) {
+    mergedLines = cidrTrie.getAllCIDRs();
   }
   const uniqueLinesSet = new Set(mergedLines);
   const uniqueLines = Array.from(uniqueLinesSet)
@@ -581,6 +592,81 @@ function mergeDomain(newLine, existingLine) {
   return { abandon, needReplace };
 }
 
+function parseCIDR(cidrStr) {
+  const [ipStr, prefix] = cidrStr.split('/');
+  const ip = ipaddr.parse(ipStr);
+  let type = ip.kind();
+  let bytes = ip.toByteArray();
+
+  return {
+    cidr: cidrStr,
+    type,
+    bytes: Buffer.from(bytes),
+    prefixLength: parseInt(prefix, 10)
+  };
+}
+
+class CIDRTrie {
+  constructor() {
+    this.root = new Map([
+      ["v4", new Map()],
+      ["v6", new Map()]
+    ]);
+  }
+
+  add(cidr) {
+    const isIPv6 = cidr.type === 'ipv6';
+    const bytes = cidr.bytes;
+    const prefixLen = cidr.prefixLength;
+    let modified = false;
+
+    let node = isIPv6 ? this.root.get("v6") : this.root.get("v4");
+    for (let i = 0; i < prefixLen; i++) {
+      const byteIndex = Math.floor(i / 8);
+      const bitIndex = 7 - (i % 8);
+      const bit = (bytes[byteIndex] >> bitIndex) & 1;
+
+      if (!node.has(bit)) {
+        node.set(bit, new Map());
+      }
+      node = node.get(bit);
+
+      if (node.get("isTerminal")) {
+        console.log(`abandon IP-CIDR ${cidr.cidr} cause find ${node.get("cidrStr")}`);
+        return false;
+      }
+    }
+
+    if (!node.get("isTerminal")) {
+      node.clear();
+      node.set("isTerminal", true);
+      node.set("cidrStr", cidr.cidr);
+      modified = true;
+    }
+
+    return modified;
+  }
+
+  getAllCIDRs() {
+    const leaves = [];
+    const traverse = (node, path) => {
+      if (node.get("isTerminal")) {
+        leaves.push(node.get("cidrStr"));
+      }
+      for (const [key, child] of node.entries()) {
+        if (key !== "isTerminal" && key !== "cidrStr") {
+          traverse(child, [...path, key]);
+        }
+      }
+    };
+    traverse(this.root, []);
+    return leaves;
+  }
+}
+
+/**
+ * Just a flag NOW, use {@link CIDRTrie}
+ */
 function mergeIpcidr(newLine, existingLine) {
   let abandon = false;
   let needReplace = false;
