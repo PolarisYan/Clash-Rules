@@ -36,7 +36,7 @@ https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml,./ruleset/blackmatrix7_ChinaMax/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.yaml,./ruleset/blackmatrix7_ChinaMedia/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Classical.yaml,./ruleset/blackmatrix7_Global/origin/classical.yml
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml,./ruleset/blackmatrix7_GlobalMedia/origin/classical.yml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml,./ruleset/blackmatrix7_GlobalMedia/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalScholar/GlobalScholar.yaml,./ruleset/blackmatrix7_GlobalScholar/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/CloudCN/CloudCN.yaml,./ruleset/blackmatrix7_CloudCN/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/CloudGlobal/CloudGlobal_Classical.yaml,./ruleset/blackmatrix7_CloudGlobal/origin/classical.yml
@@ -61,6 +61,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppStore/AppStore.yaml,./ruleset/blackmatrix7_AppleAppStore/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Siri/Siri.yaml,./ruleset/blackmatrix7_AppleSiri/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleID/AppleID.yaml,./ruleset/blackmatrix7_AppleAppleID/origin/classical.yml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml,./ruleset/blackmatrix7_GameDownloadCN/origin/classical.yml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownload/GameDownload.yaml,./ruleset/blackmatrix7_GameDownload/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml,./ruleset/blackmatrix7_Game/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml,./ruleset/blackmatrix7_Steam/origin/classical.yml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.yaml,./ruleset/blackmatrix7_SteamCN/origin/classical.yml
