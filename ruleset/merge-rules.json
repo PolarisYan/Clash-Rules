@@ -191,20 +191,60 @@
     },
     "sourceIpcidrFiles": [
       "./ruleset/blackmatrix7_GlobalMedia/ipcidr/text_ipcidr.txt",
-      "./ruleset/blackmatrix7_IPTVOther/ipcidr/text_ipcidr.txt",
-      "./ruleset/blackmatrix7_Telegram/ipcidr/text_ipcidr.txt",
-      "./ruleset/Loyalsoldier_telegramcidr/ipcidr/text_ipcidr.txt"
+      "./ruleset/blackmatrix7_IPTVOther/ipcidr/text_ipcidr.txt"
     ],
     "sourceDomainFiles": [
       "./ruleset/blackmatrix7_GlobalMedia/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/blackmatrix7_IPTVOther/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/blackmatrix7_Telegram/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/Loyalsoldier_telegramcidr/stash/text_domain_dot_wildcard.txt"
+      "./ruleset/blackmatrix7_IPTVOther/stash/text_domain_dot_wildcard.txt"
     ],
     "sourceClassicalFiles": [
       "./ruleset/blackmatrix7_GlobalMedia/clash/text_classical.txt",
-      "./ruleset/blackmatrix7_IPTVOther/clash/text_classical.txt",
-      "./ruleset/blackmatrix7_Telegram/clash/text_classical.txt"
+      "./ruleset/blackmatrix7_IPTVOther/clash/text_classical.txt"
+    ]
+  },
+  {
+    "targetFiles": {
+      "ipcidr": "/ruleset/PolarisMerged/globalSocial/text_ipcidr.txt",
+      "clashPlusWildcard": "/ruleset/PolarisMerged/globalSocial/text_domain_plus_wildcard.txt",
+      "stashDotWildcard": "/ruleset/PolarisMerged/globalSocial/text_domain_dot_wildcard.txt",
+      "classical": "/ruleset/PolarisMerged/globalSocial/text_classical.txt"
+    },
+    "sourceIpcidrFiles": [
+      "./ruleset/Loyalsoldier_telegramcidr/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_Telegram/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_Discord/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_Twitter/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_Facebook/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_Instagram/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_Reddit/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_Line/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_Whatsapp/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_Snap/ipcidr/text_ipcidr.txt",
+      "./ruleset/blackmatrix7_Patreon/ipcidr/text_ipcidr.txt"
+    ],
+    "sourceDomainFiles": [
+      "./ruleset/blackmatrix7_Telegram/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_Discord/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_Twitter/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_Facebook/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_Instagram/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_Reddit/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_Line/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_Whatsapp/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_Snap/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blackmatrix7_Patreon/stash/text_domain_dot_wildcard.txt"
+    ],
+    "sourceClassicalFiles": [
+      "./ruleset/blackmatrix7_Telegram/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_Discord/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_Twitter/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_Facebook/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_Instagram/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_Reddit/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_Line/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_Whatsapp/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_Snap/clash/text_classical.txt",
+      "./ruleset/blackmatrix7_Patreon/clash/text_classical.txt"
     ]
   }
 ]
