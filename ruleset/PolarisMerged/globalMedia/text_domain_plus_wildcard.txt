@@ -1,6 +1,4 @@
-+.t.me
 +.gg.gg
-+.tx.me
 +.yt.be
 +.att.tv
 +.bbc.co
@@ -17,7 +15,6 @@
 +.kfs.io
 +.my5.tv
 +.nbc.co
-+.tg.dev
 +.vhx.tv
 +.viu.tv
 +.z5.app
@@ -115,9 +112,7 @@
 +.joox.com
 +.kobuz.fr
 +.ktvu.com
-+.legra.ph
 +.litix.io
-+.mbrx.app
 +.my45.com
 +.myq2.com
 +.nbys1.tv
@@ -147,7 +142,6 @@
 +.qobuz.tv
 +.qobuz.us
 +.spoti.fi
-+.stel.com
 +.syfy.com
 +.tynt.com
 +.vidol.tv
@@ -220,7 +214,6 @@
 +.fssta.com
 +.fwmrm.net
 +.ggpht.com
-+.graph.org
 +.hbogo.com
 +.hinet.net
 +.hooloo.tv
@@ -377,9 +370,6 @@
 +.snssdk.com
 +.spacetv.in
 +.streaks.jp
-+.telega.one
-+.telegra.ph
-+.telesco.pe
 +.tiktok.com
 +.tv.city.bg
 +.tv.kgtv.vn
@@ -498,7 +488,6 @@
 +.cnnlabs.com
 +.cnnmoney.ch
 +.coninfo.net
-+.contest.com
 +.conviva.com
 +.cstatic.net
 +.darivoa.com
@@ -576,7 +565,6 @@
 +.skygo.co.nz
 +.spotify.com
 +.tbs.mov3.co
-+.telegram.me
 +.tiktokv.com
 +.tv.nrg91.gr
 +.tv.siete.us
@@ -602,7 +590,6 @@
 +.abema-tv.com
 +.adobedtm.com
 +.afpforum.com
-+.api.imem.app
 +.atttvnow.com
 +.babyzone.com
 +.biliintl.com
@@ -616,7 +603,6 @@
 +.cdn.setar.aw
 +.channel4.com
 +.channel5.com
-+.comments.app
 +.daumkakao.io
 +.dazn-api.com
 +.daznedge.net
@@ -722,9 +708,6 @@
 +.stream.dn.ua
 +.stv.janus.cl
 +.t2.tvmak.com
-+.tdesktop.com
-+.telegram.dog
-+.telegram.org
 +.theverge.com
 +.tv.apple.com
 +.tv.scwlqw.cn
@@ -743,8 +726,6 @@
 +.www.sonus.fm
 +.youtubego.id
 +.youtubego.in
-+.91.108.4.0/22
-+.91.108.8.0/21
 +.akamaized.net
 +.albportal.net
 +.amazonaws.com
@@ -909,11 +890,7 @@
 +.youtubego.com
 +.zbbf2.ahtv.cn
 +.100automoto.tv
-+.2a0a:f280::/32
 +.32.shqiptv.org
-+.91.108.16.0/21
-+.91.108.56.0/22
-+.95.161.64.0/20
 +.adtv.ercdn.net
 +.amazonvideo.cc
 +.ap02.iqplay.tv
@@ -1012,7 +989,6 @@
 +.primevideo.com
 +.primevideo.org
 +.pull.kktv8.com
-+.quiz.directory
 +.retc.educom.ru
 +.rt-arb.gcdn.co
 +.rt-esp.gcdn.co
@@ -1045,7 +1021,6 @@
 +.strm.yandex.ru
 +.szlive.grtn.cn
 +.teenchoice.com
-+.telegram.space
 +.thecwvideo.com
 +.tik-tokapi.com
 +.timestalks.com
@@ -1125,9 +1100,7 @@
 +.youtube.com.ve
 +.zeebioskop.com
 +.zhibo.hkstv.tv
-+.185.76.151.0/24
 +.443-1.autopo.st
-+.91.105.192.0/23
 +.abc-studios.com
 +.aboutamazon.com
 +.albuk.dyndns.tv
@@ -1293,7 +1266,6 @@
 +.tvbanywhere.com
 +.tvcdn01.oktv.kz
 +.tx.hls.huya.com
-+.usercontent.dev
 +.v3.mediacast.hk
 +.video.chaula.tv
 +.vimeostatus.com
@@ -1319,7 +1291,6 @@
 +.youtubego.co.id
 +.youtubego.co.in
 +.youtubekids.com
-+.149.154.160.0/20
 +.156zy.suyunbo.tv
 +.aaaaa.pejian.com
 +.aiv-delivery.net
@@ -1335,7 +1306,6 @@
 +.canalregional.md
 +.canbroadcast.com
 +.cdn-live1.qvc.jp
-+.cdn-telegram.org
 +.cdn.logicwebs.in
 +.cdn.yayin.com.tr
 +.cdn1.mobiletv.bg
@@ -1458,7 +1428,6 @@
 +.stream.ztv.zp.ua
 +.stream1.jlntv.cn
 +.stream4.jlntv.cn
-+.telegram-cdn.org
 +.thefoxnation.com
 +.tv.balkanweb.com
 +.tv.lanjingfm.com
@@ -1485,8 +1454,6 @@
 +.youboranqs01.com
 +.youtubego.com.br
 +.zeriamerikes.com
-+.2001:67c:4e8::/48
-+.api.swiftgram.app
 +.atv-ps.amazon.com
 +.audiotvserver.net
 +.brics.bonus-tv.ru
@@ -1670,8 +1637,6 @@
 +.www.dalitv.com.tw
 +.www.liveviptv.xyz
 +.youtubegaming.com
-+.2001:b28:f23c::/47
-+.2001:b28:f23f::/48
 +.5tv.lincoln.ne.gov
 +.abp-i.akamaihd.net
 +.akalmultimedia.net
@@ -2119,7 +2084,6 @@
 +.streamservers.atv.hu
 +.streamtv.cdn.dvmr.fr
 +.sv72.ecuaradiotv.net
-+.telegramdownload.com
 +.tv.artcom-venture.de
 +.tv.portalfoxmix.club
 +.tv.tvalphanet.com.br
