@@ -17,7 +17,9 @@
       "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
     ],
     "exclude": [
-      "cn"
+      "cn",
+      "t.co",
+      "click.discord.com"
     ]
   },
   {
@@ -38,7 +40,9 @@
       "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
     ],
     "exclude": [
-      "cn"
+      "cn",
+      "t.co",
+      "click.discord.com"
     ]
   },
   {
@@ -59,7 +63,9 @@
       "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
     ],
     "exclude": [
-      "cn"
+      "cn",
+      "t.co",
+      "click.discord.com"
     ]
   },
   {
@@ -80,7 +86,9 @@
       "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
     ],
     "exclude": [
-      "cn"
+      "cn",
+      "t.co",
+      "click.discord.com"
     ]
   },
   {
@@ -101,7 +109,9 @@
       "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
     ],
     "exclude": [
-      "cn"
+      "cn",
+      "t.co",
+      "click.discord.com"
     ]
   },
   {
@@ -122,7 +132,9 @@
       "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt"
     ],
     "exclude": [
-      "cn"
+      "cn",
+      "t.co",
+      "click.discord.com"
     ]
   },
   {
