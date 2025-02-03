@@ -10,6 +10,10 @@ https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/light-onlydo
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/multi-onlydomains.txt,./ruleset/HaGeZi_Multi_NORMAL/origin/domain.txt
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/pro-onlydomains.txt,./ruleset/HaGeZi_Multi_PRO/origin/domain.txt
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/pro.mini-onlydomains.txt,./ruleset/HaGeZi_Multi_PRO_MINI/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/pro.plus-onlydomains.txt,./ruleset/HaGeZi_Multi_PRO_PLUS/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/pro.plus.mini-onlydomains.txt,./ruleset/HaGeZi_Multi_PRO_PLUS_MINI/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/ultimate-onlydomains.txt,./ruleset/HaGeZi_Multi_ULTIMATE/origin/domain.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/ultimate.mini-onlydomains.txt,./ruleset/HaGeZi_Multi_ULTIMATE_MINI/origin/domain.txt
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/tif-onlydomains.txt,./ruleset/HaGeZi_Threat/origin/domain.txt
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/tif.medium-onlydomains.txt,./ruleset/HaGeZi_Threat_MEDIUM/origin/domain.txt
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/tif.mini-onlydomains.txt,./ruleset/HaGeZi_Threat_MINI/origin/domain.txt

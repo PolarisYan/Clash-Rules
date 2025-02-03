@@ -1,6 +1,54 @@
 [
   {
     "targetFiles": {
+      "clashPlusWildcard": "/ruleset/PolarisMerged/blacklist_ultimate/text_domain_plus_wildcard.txt",
+      "stashDotWildcard": "/ruleset/PolarisMerged/blacklist_ultimate/text_domain_dot_wildcard.txt"
+    },
+    "sourceDomainFiles": [
+      "./ruleset/anudeepND/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/AdAway/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/KADhosts/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Peter_Lowe/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/1Host_Lite/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Multi_ULTIMATE/origin/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Threat/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Gambling/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/OISD/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blacklist_manual_text_domain_dot_wildcard.txt"
+    ],
+    "exclude": [
+      "cn",
+      "t.co",
+      "click.discord.com"
+    ]
+  },
+  {
+    "targetFiles": {
+      "clashPlusWildcard": "/ruleset/PolarisMerged/blacklist_plus/text_domain_plus_wildcard.txt",
+      "stashDotWildcard": "/ruleset/PolarisMerged/blacklist_plus/text_domain_dot_wildcard.txt"
+    },
+    "sourceDomainFiles": [
+      "./ruleset/anudeepND/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/AdAway/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/KADhosts/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Peter_Lowe/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/1Host_Lite/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Multi_PRO_PLUS/origin/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Threat/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/HaGeZi_Gambling/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/OISD/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt",
+      "./ruleset/blacklist_manual_text_domain_dot_wildcard.txt"
+    ],
+    "exclude": [
+      "cn",
+      "t.co",
+      "click.discord.com"
+    ]
+  },
+  {
+    "targetFiles": {
       "clashPlusWildcard": "/ruleset/PolarisMerged/blacklist/text_domain_plus_wildcard.txt",
       "stashDotWildcard": "/ruleset/PolarisMerged/blacklist/text_domain_dot_wildcard.txt"
     },
