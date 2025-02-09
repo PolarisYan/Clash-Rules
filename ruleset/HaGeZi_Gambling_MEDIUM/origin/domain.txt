@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 08 Feb 2025 15:14 UTC
-# Version: 2025.0208.1514.02
+# Last modified: 09 Feb 2025 03:10 UTC
+# Version: 2025.0209.0310.31
 # Syntax: Domains (without subdomains)
-# Number of entries: 195073
+# Number of entries: 195075
 #
 0-bdmbet.com
 0-bet.com
@@ -102575,6 +102575,7 @@ csgolounge.com
 csgoluck.com
 csgolucky.com
 csgoluckywheel.com
+csgonet.net
 csgoparty.com
 csgopoker.com
 csgopositive.com
@@ -124551,6 +124552,7 @@ instantcasino-be.org
 instantcasino1.com
 instantcasino24.fr
 instantcasinobonus.com
+instantcasinoo.se
 instantcasinos.com
 instantcasinos.fr
 instantcasinos.online

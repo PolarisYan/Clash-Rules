@@ -19,6 +19,7 @@
     ],
     "exclude": [
       "cn",
+      "com.cn",
       "t.co",
       "click.discord.com"
     ]
@@ -43,6 +44,7 @@
     ],
     "exclude": [
       "cn",
+      "com.cn",
       "t.co",
       "click.discord.com"
     ]
@@ -67,6 +69,7 @@
     ],
     "exclude": [
       "cn",
+      "com.cn",
       "t.co",
       "click.discord.com"
     ]
@@ -91,6 +94,7 @@
     ],
     "exclude": [
       "cn",
+      "com.cn",
       "t.co",
       "click.discord.com"
     ]
@@ -115,6 +119,7 @@
     ],
     "exclude": [
       "cn",
+      "com.cn",
       "t.co",
       "click.discord.com"
     ]
@@ -139,6 +144,7 @@
     ],
     "exclude": [
       "cn",
+      "com.cn",
       "t.co",
       "click.discord.com"
     ]
@@ -163,6 +169,7 @@
     ],
     "exclude": [
       "cn",
+      "com.cn",
       "t.co",
       "click.discord.com"
     ]
@@ -187,6 +194,7 @@
     ],
     "exclude": [
       "cn",
+      "com.cn",
       "t.co",
       "click.discord.com"
     ]
