@@ -15,7 +15,8 @@
       "./ruleset/HaGeZi_Gambling/stash/text_domain_dot_wildcard.txt",
       "./ruleset/OISD/stash/text_domain_dot_wildcard.txt",
       "./ruleset/Loyalsoldier_reject/stash/text_domain_dot_wildcard.txt",
-      "./ruleset/blacklist_manual_text_domain_dot_wildcard.txt"
+      "./ruleset/blacklist_manual_text_domain_dot_wildcard.txt",
+      "./ruleset/blacklist_manual_text_domain_dot_wildcard_ultimate.txt"
     ],
     "exclude": [
       "cn",
