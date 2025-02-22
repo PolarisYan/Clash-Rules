@@ -39,8 +39,10 @@ DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
 DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
 DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
 DOMAIN-SUFFIX,firebase-settings.crashlytics.com
+DOMAIN-SUFFIX,fundingchoicesmessages.google.com
 DOMAIN-SUFFIX,googleads.g.doubleclick.net
 DOMAIN-SUFFIX,googleads.g.doubleclick-cn.net
+DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,gum.criteo.com
 DOMAIN-SUFFIX,i.l.inmobicdn.net
 DOMAIN-SUFFIX,i.l-dsp.inmobicdn.net
@@ -62,6 +64,7 @@ DOMAIN-SUFFIX,skadnetworks.fyber.com
 DOMAIN-SUFFIX,smaato.net
 DOMAIN-SUFFIX,ssp.api.tappx.com
 DOMAIN-SUFFIX,supply.inmobicdn.net
+DOMAIN-SUFFIX,taboola.com
 DOMAIN-SUFFIX,tappx.com
 DOMAIN-SUFFIX,tpc.googlesyndication-cn.com
 DOMAIN-SUFFIX,tr-asia.adsmoloco.com

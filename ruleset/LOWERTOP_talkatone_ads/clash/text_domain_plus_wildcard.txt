@@ -29,8 +29,10 @@
 +.firebaselogging-pa.googleapis.com
 +.firebaseremoteconfig.googleapis.com
 +.firebase-settings.crashlytics.com
++.fundingchoicesmessages.google.com
 +.googleads.g.doubleclick.net
 +.googleads.g.doubleclick-cn.net
++.googlesyndication.com
 +.gum.criteo.com
 +.i.l.inmobicdn.net
 +.i.l-dsp.inmobicdn.net
@@ -52,6 +54,7 @@
 +.smaato.net
 +.ssp.api.tappx.com
 +.supply.inmobicdn.net
++.taboola.com
 +.tappx.com
 +.tpc.googlesyndication-cn.com
 +.tr-asia.adsmoloco.com
