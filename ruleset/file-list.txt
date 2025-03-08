@@ -4,8 +4,8 @@ https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt,./rul
 https://raw.githubusercontent.com/FiltersHeroes/KADhosts/master/KADhosts.txt,./ruleset/KADhosts/origin/hosts.txt
 // domain
 https://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext&hostformat=plain,./ruleset/Peter_Lowe/origin/domain.txt
-https://cdn.jsdelivr.net/gh/badmojr/1Hosts@master/Lite/domains.wildcards,./ruleset/1Host_Lite/origin/domain.txt
-https://cdn.jsdelivr.net/gh/badmojr/1Hosts@master/mini/domains.wildcards,./ruleset/1Host_MINI/origin/domain.txt
+https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/domains.wildcards,./ruleset/1Host_Pro/origin/domain.txt
+https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/domains.wildcards,./ruleset/1Host_Lite/origin/domain.txt
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/light-onlydomains.txt,./ruleset/HaGeZi_Multi_LIGHT/origin/domain.txt
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/multi-onlydomains.txt,./ruleset/HaGeZi_Multi_NORMAL/origin/domain.txt
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/pro-onlydomains.txt,./ruleset/HaGeZi_Multi_PRO/origin/domain.txt
